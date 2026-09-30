@@ -1,0 +1,74 @@
+[
+  {
+    "id": "01",
+    "time": 42.012,
+    "title": "CAVERN / side-scroller",
+    "description": "Parallax bridge and ruins; painterly symbols",
+    "source": "D:\\Videos\\Help! I'm stuck in a LIE\\wip\\codex\\game_worlds_v2\\cavern\\KF06_HELP_cavern_game.png",
+    "file": "01_KF06_HELP_cavern_game.png"
+  },
+  {
+    "id": "02",
+    "time": 46.858,
+    "title": "CONTROL FLOW / tactics",
+    "description": "Inverted maze with playable if / else routes",
+    "source": "D:\\Videos\\Help! I'm stuck in a LIE\\wip\\codex\\game_worlds_v2\\tactical\\tactical_false_routes_46_858.png",
+    "file": "02_tactical_false_routes_46_858.png"
+  },
+  {
+    "id": "03",
+    "time": 48.3,
+    "title": "INDENT / HD-2D diorama",
+    "description": "Oblique code terraces with deep ASCII planes",
+    "source": "D:\\Videos\\Help! I'm stuck in a LIE\\wip\\codex\\game_worlds_v2\\diorama\\KF09_make-me-real_code-diorama.png",
+    "file": "03_KF09_make-me-real_code-diorama.png"
+  },
+  {
+    "id": "04",
+    "time": 50.533,
+    "title": "SYNTAX LOCK / boss puzzle",
+    "description": "Perspective gate made from code branches",
+    "source": "D:\\Videos\\Help! I'm stuck in a LIE\\wip\\codex\\game_worlds_v2\\syntax_lock\\KF10_real_this_time_syntax_lock.png",
+    "file": "04_KF10_real_this_time_syntax_lock.png"
+  },
+  {
+    "id": "05",
+    "time": 54.126,
+    "title": "HELP() / bullet hell",
+    "description": "Punctuation waves leave one safe path",
+    "source": "D:\\Videos\\Help! I'm stuck in a LIE\\wip\\codex\\game_worlds_v2\\arcade\\KF11_HELP_code_bullet_hell.png",
+    "file": "05_KF11_HELP_code_bullet_hell.png"
+  },
+  {
+    "id": "06",
+    "time": 55.148,
+    "title": "GRAVITY / folding puzzle",
+    "description": "ASCII paper rooms rotate through 90 degrees",
+    "source": "D:\\Videos\\Help! I'm stuck in a LIE\\wip\\codex\\game_worlds_v2\\paper\\KF_55p15_stuck_paper_gravity_ASCII.png",
+    "file": "06_KF_55p15_stuck_paper_gravity_ASCII.png"
+  },
+  {
+    "id": "07",
+    "time": 58.974,
+    "title": "HEART / painted chamber",
+    "description": "Mechanical space; the approved symbol heart",
+    "source": "D:\\Videos\\Help! I'm stuck in a LIE\\wip\\codex\\game_worlds_v2\\chamber\\KF12_HEART_painted_chamber.png",
+    "file": "07_KF12_HEART_painted_chamber.png"
+  },
+  {
+    "id": "08",
+    "time": 61.402,
+    "title": "MEMORY VAULT / text adventure",
+    "description": "Close heroine in an ASCII depth chamber",
+    "source": "D:\\Videos\\Help! I'm stuck in a LIE\\wip\\codex\\game_worlds_v2\\heart_close\\KF13_heart_inside_ascii_vault.png",
+    "file": "08_KF13_heart_inside_ascii_vault.png"
+  },
+  {
+    "id": "07B",
+    "time": 58.974,
+    "title": "HEART / ASCII chamber",
+    "description": "Same room rebuilt entirely from glyph values",
+    "source": "D:\\Videos\\Help! I'm stuck in a LIE\\wip\\codex\\game_worlds_v2\\chamber\\KF12_HEART_ascii_chamber.png",
+    "file": "07B_KF12_HEART_ascii_chamber.png"
+  }
+]

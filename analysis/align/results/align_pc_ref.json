@@ -1,0 +1,682 @@
+{
+"fshift": 0.040106951871657755,
+"greedy": "I HAD THE TRUTH I HEAR THE KEYS GO CLICK CLACK CLICK LIKE THEY ONE ANOTHER THEY WANT A BUT HA HELP I'M STUCK IN THE LINE STUCK IN THE LINE AND MAKE ME REEL THIS TIME REEL THIS TIME HE HU STUCK IN THE LIE STUCK IN THE LI STILL GOT A HAD INSIDE ON HIS SIDE",
+"words": [
+{
+"w": "I",
+"line": 0,
+"pieces": [
+"\u2581I"
+],
+"start": 35.906,
+"end": 35.947,
+"conf": -0.0,
+"onset": 35.857,
+"off": 36.111
+},
+{
+"w": "hear",
+"line": 0,
+"pieces": [
+"\u2581HE",
+"AR"
+],
+"start": 36.147,
+"end": 36.307,
+"conf": -0.0,
+"onset": 36.121,
+"off": 36.366
+},
+{
+"w": "the",
+"line": 0,
+"pieces": [
+"\u2581THE"
+],
+"start": 36.388,
+"end": 36.428,
+"conf": -0.0,
+"onset": 36.376,
+"off": 36.525
+},
+{
+"w": "keys",
+"line": 0,
+"pieces": [
+"\u2581",
+"KE",
+"Y",
+"S"
+],
+"start": 36.508,
+"end": 36.829,
+"conf": -4.51,
+"onset": 36.535,
+"off": 36.859
+},
+{
+"w": "go",
+"line": 0,
+"pieces": [
+"\u2581GO"
+],
+"start": 36.869,
+"end": 36.909,
+"conf": -0.11,
+"onset": 36.869,
+"off": 37.408
+},
+{
+"w": "click",
+"line": 0,
+"pieces": [
+"\u2581C",
+"LI",
+"CK"
+],
+"start": 37.35,
+"end": 37.591,
+"conf": -0.0,
+"onset": 37.418,
+"off": 37.723
+},
+{
+"w": "clack",
+"line": 0,
+"pieces": [
+"\u2581C",
+"LA",
+"CK"
+],
+"start": 37.711,
+"end": 37.952,
+"conf": -0.15,
+"onset": 37.733,
+"off": 37.957
+},
+{
+"w": "click",
+"line": 0,
+"pieces": [
+"\u2581C",
+"LI",
+"CK"
+],
+"start": 38.112,
+"end": 38.393,
+"conf": -0.0,
+"onset": 38.107,
+"off": 38.371
+},
+{
+"w": "clack",
+"line": 0,
+"pieces": [
+"\u2581C",
+"LA",
+"CK"
+],
+"start": 38.513,
+"end": 38.674,
+"conf": -1.68,
+"onset": 38.566,
+"off": 38.825
+},
+{
+"w": "They",
+"line": 1,
+"pieces": [
+"\u2581THEY"
+],
+"start": 38.794,
+"end": 38.834,
+"conf": -0.13,
+"onset": 38.835,
+"off": 38.905
+},
+{
+"w": "want",
+"line": 1,
+"pieces": [
+"\u2581WANT"
+],
+"start": 38.955,
+"end": 38.995,
+"conf": -1.74,
+"onset": 38.915,
+"off": 39.269
+},
+{
+"w": "another",
+"line": 1,
+"pieces": [
+"\u2581ANOTHER"
+],
+"start": 39.275,
+"end": 39.316,
+"conf": -0.0,
+"onset": 39.279,
+"off": 39.439
+},
+{
+"w": "hook",
+"line": 1,
+"pieces": [
+"\u2581",
+"H",
+"OOK"
+],
+"start": 39.516,
+"end": 39.676,
+"conf": -13.26,
+"onset": 39.449,
+"off": 39.743
+},
+{
+"w": "They",
+"line": 2,
+"pieces": [
+"\u2581THEY"
+],
+"start": 39.837,
+"end": 39.877,
+"conf": -0.0,
+"onset": 39.798,
+"off": 40.177
+},
+{
+"w": "want",
+"line": 2,
+"pieces": [
+"\u2581WANT"
+],
+"start": 40.158,
+"end": 40.198,
+"conf": -0.02,
+"onset": 40.187,
+"off": 40.401
+},
+{
+"w": "it",
+"line": 2,
+"pieces": [
+"\u2581IT"
+],
+"start": 40.439,
+"end": 40.479,
+"conf": -3.22,
+"onset": 40.411,
+"off": 40.641
+},
+{
+"w": "bad",
+"line": 2,
+"pieces": [
+"\u2581B",
+"AD"
+],
+"start": 40.639,
+"end": 40.92,
+"conf": -4.98,
+"onset": 40.651,
+"off": 41.963
+},
+{
+"w": "Help,",
+"line": 3,
+"pieces": [
+"\u2581HE",
+"L",
+"P"
+],
+"start": 41.963,
+"end": 42.243,
+"conf": -0.35,
+"onset": 41.973,
+"off": 42.562
+},
+{
+"w": "I'm",
+"line": 3,
+"pieces": [
+"\u2581I",
+"'",
+"M"
+],
+"start": 42.725,
+"end": 42.965,
+"conf": -0.01,
+"onset": 42.651,
+"off": 43.125
+},
+{
+"w": "stuck",
+"line": 3,
+"pieces": [
+"\u2581ST",
+"U",
+"CK"
+],
+"start": 43.126,
+"end": 43.406,
+"conf": -0.0,
+"onset": 43.135,
+"off": 43.694
+},
+{
+"w": "in",
+"line": 3,
+"pieces": [
+"\u2581IN"
+],
+"start": 43.727,
+"end": 43.767,
+"conf": -0.0,
+"onset": 43.704,
+"off": 44.008
+},
+{
+"w": "a",
+"line": 3,
+"pieces": [
+"\u2581A"
+],
+"start": 44.008,
+"end": 44.048,
+"conf": -8.4,
+"onset": 44.018,
+"off": 44.293
+},
+{
+"w": "lie",
+"line": 3,
+"pieces": [
+"\u2581LI",
+"E"
+],
+"start": 44.329,
+"end": 44.61,
+"conf": -0.49,
+"onset": 44.303,
+"off": 44.782
+},
+{
+"w": "Stuck",
+"line": 4,
+"pieces": [
+"\u2581ST",
+"U",
+"CK"
+],
+"start": 45.532,
+"end": 45.813,
+"conf": -0.11,
+"onset": 45.445,
+"off": 45.959
+},
+{
+"w": "in",
+"line": 4,
+"pieces": [
+"\u2581IN"
+],
+"start": 46.134,
+"end": 46.174,
+"conf": -0.01,
+"onset": 46.128,
+"off": 46.418
+},
+{
+"w": "a",
+"line": 4,
+"pieces": [
+"\u2581A"
+],
+"start": 46.414,
+"end": 46.455,
+"conf": -8.15,
+"onset": 46.428,
+"off": 46.767
+},
+{
+"w": "lie",
+"line": 4,
+"pieces": [
+"\u2581LI",
+"E"
+],
+"start": 46.775,
+"end": 47.016,
+"conf": -0.7,
+"onset": 46.777,
+"off": 47.415
+},
+{
+"w": "Make",
+"line": 5,
+"pieces": [
+"\u2581MAKE"
+],
+"start": 47.457,
+"end": 47.497,
+"conf": -0.01,
+"onset": 47.425,
+"off": 47.755
+},
+{
+"w": "me",
+"line": 5,
+"pieces": [
+"\u2581ME"
+],
+"start": 47.778,
+"end": 47.818,
+"conf": -0.0,
+"onset": 47.765,
+"off": 48.084
+},
+{
+"w": "real",
+"line": 5,
+"pieces": [
+"\u2581RE",
+"AL"
+],
+"start": 48.139,
+"end": 48.46,
+"conf": -0.83,
+"onset": 48.094,
+"off": 48.852
+},
+{
+"w": "this",
+"line": 5,
+"pieces": [
+"\u2581THIS"
+],
+"start": 48.861,
+"end": 48.901,
+"conf": -0.0,
+"onset": 48.862,
+"off": 49.152
+},
+{
+"w": "time",
+"line": 5,
+"pieces": [
+"\u2581TIME"
+],
+"start": 49.182,
+"end": 49.222,
+"conf": -0.0,
+"onset": 49.162,
+"off": 50.523
+},
+{
+"w": "Real",
+"line": 6,
+"pieces": [
+"\u2581RE",
+"AL"
+],
+"start": 50.545,
+"end": 50.786,
+"conf": -0.65,
+"onset": 50.533,
+"off": 51.107
+},
+{
+"w": "this",
+"line": 6,
+"pieces": [
+"\u2581THIS"
+],
+"start": 51.147,
+"end": 51.187,
+"conf": -0.0,
+"onset": 51.117,
+"off": 51.551
+},
+{
+"w": "time",
+"line": 6,
+"pieces": [
+"\u2581TIME"
+],
+"start": 51.548,
+"end": 51.588,
+"conf": -0.0,
+"onset": 51.561,
+"off": 51.995
+},
+{
+"w": "Help,",
+"line": 7,
+"pieces": [
+"\u2581HE",
+"L",
+"P"
+],
+"start": 52.029,
+"end": 52.27,
+"conf": -1.18,
+"onset": 52.005,
+"off": 52.474
+},
+{
+"w": "I'm",
+"line": 7,
+"pieces": [
+"\u2581I",
+"'",
+"M"
+],
+"start": 52.471,
+"end": 52.671,
+"conf": -3.26,
+"onset": 52.484,
+"off": 52.808
+},
+{
+"w": "stuck",
+"line": 7,
+"pieces": [
+"\u2581ST",
+"U",
+"CK"
+],
+"start": 52.832,
+"end": 53.072,
+"conf": -0.01,
+"onset": 52.818,
+"off": 53.387
+},
+{
+"w": "in",
+"line": 7,
+"pieces": [
+"\u2581IN"
+],
+"start": 53.433,
+"end": 53.473,
+"conf": -0.0,
+"onset": 53.397,
+"off": 53.671
+},
+{
+"w": "a",
+"line": 7,
+"pieces": [
+"\u2581A"
+],
+"start": 53.754,
+"end": 53.794,
+"conf": -7.65,
+"onset": 53.696,
+"off": 54.001
+},
+{
+"w": "lie",
+"line": 7,
+"pieces": [
+"\u2581LI",
+"E"
+],
+"start": 54.035,
+"end": 54.316,
+"conf": -0.19,
+"onset": 54.011,
+"off": 54.45
+},
+{
+"w": "Stuck",
+"line": 8,
+"pieces": [
+"\u2581ST",
+"U",
+"CK"
+],
+"start": 55.238,
+"end": 55.519,
+"conf": -0.02,
+"onset": 55.148,
+"off": 55.801
+},
+{
+"w": "in",
+"line": 8,
+"pieces": [
+"\u2581IN"
+],
+"start": 55.84,
+"end": 55.88,
+"conf": -0.16,
+"onset": 55.811,
+"off": 56.116
+},
+{
+"w": "a",
+"line": 8,
+"pieces": [
+"\u2581A"
+],
+"start": 56.16,
+"end": 56.201,
+"conf": -7.87,
+"onset": 56.126,
+"off": 56.41
+},
+{
+"w": "lie",
+"line": 8,
+"pieces": [
+"\u2581LI",
+"E"
+],
+"start": 56.441,
+"end": 56.682,
+"conf": -1.2,
+"onset": 56.42,
+"off": 56.669
+},
+{
+"w": "I",
+"line": 9,
+"pieces": [
+"\u2581I"
+],
+"start": 56.722,
+"end": 56.762,
+"conf": -4.13,
+"onset": 56.679,
+"off": 57.034
+},
+{
+"w": "still",
+"line": 9,
+"pieces": [
+"\u2581STILL"
+],
+"start": 56.963,
+"end": 57.003,
+"conf": -0.01,
+"onset": 57.044,
+"off": 57.303
+},
+{
+"w": "got",
+"line": 9,
+"pieces": [
+"\u2581G",
+"OT"
+],
+"start": 57.324,
+"end": 57.484,
+"conf": -7.85,
+"onset": 57.313,
+"off": 57.707
+},
+{
+"w": "a",
+"line": 9,
+"pieces": [
+"\u2581A"
+],
+"start": 57.644,
+"end": 57.684,
+"conf": -0.07,
+"onset": 57.717,
+"off": 57.787
+},
+{
+"w": "heart",
+"line": 9,
+"pieces": [
+"\u2581HEART"
+],
+"start": 57.965,
+"end": 58.005,
+"conf": -2.32,
+"onset": 57.797,
+"off": 58.655
+},
+{
+"w": "inside",
+"line": 9,
+"pieces": [
+"\u2581IN",
+"SIDE"
+],
+"start": 58.687,
+"end": 59.048,
+"conf": -0.0,
+"onset": 58.665,
+"off": 60.361
+},
+{
+"w": "Heart",
+"line": 10,
+"pieces": [
+"\u2581HEART"
+],
+"start": 60.452,
+"end": 60.492,
+"conf": -10.18,
+"onset": 60.371,
+"off": 60.915
+},
+{
+"w": "inside",
+"line": 10,
+"pieces": [
+"\u2581IN",
+"SIDE"
+],
+"start": 60.933,
+"end": 61.495,
+"conf": -4.19,
+"onset": 60.925,
+"off": 61.898
+}
+]
+}

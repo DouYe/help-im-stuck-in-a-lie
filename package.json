@@ -1,0 +1,14 @@
+{
+  "name": "help-im-stuck-in-a-lie",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Portable preview and capture tools for the six-world symbol music-video prototype",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "preview": "node tools/serve-motion.mjs",
+    "audit:motion": "node tools/capture-motion.mjs audit",
+    "render:motion": "node tools/capture-motion.mjs render"
+  },
+  "devDependencies": { "playwright-core": "1.62.1" }
+}

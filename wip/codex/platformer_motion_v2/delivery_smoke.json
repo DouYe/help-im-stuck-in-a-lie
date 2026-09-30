@@ -1,0 +1,10 @@
+{
+  "scene": "factory",
+  "mode": "manual",
+  "deaths": 2,
+  "respawns": 2,
+  "musicUrl": "http://127.0.0.1:5189/playable/preview_audio.mp3",
+  "ready": true,
+  "audioHttp": 200,
+  "errors": []
+}

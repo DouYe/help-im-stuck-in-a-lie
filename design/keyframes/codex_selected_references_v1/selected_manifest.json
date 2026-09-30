@@ -1,0 +1,47 @@
+{
+  "status": "selected visual references, not final animated shots",
+  "frames": [
+    {
+      "id": "02",
+      "file": "02_tactical_false_routes_46_858.png",
+      "title": "TACTICAL / FALSE ROUTES",
+      "sha256": "bb56d08adb365c77127152d7b249fa1ff49ed013ac567d06fb002cae2bf28ac2"
+    },
+    {
+      "id": "03",
+      "file": "03_KF09_make-me-real_code-diorama.png",
+      "title": "CODE DIORAMA / DEPTH",
+      "sha256": "6a4a07d02705b39764f152be86e1c3bc7f37a615edc9e05d14c03c94c9388d05"
+    },
+    {
+      "id": "04",
+      "file": "04_KF10_real_this_time_syntax_lock.png",
+      "title": "SYNTAX LOCK / BOSS",
+      "sha256": "a167b95f0a0928cdc8c283f0d33a3b8663cc4be8612d6db7774a7c6a95ad8bcf"
+    },
+    {
+      "id": "05",
+      "file": "05_KF11_HELP_code_bullet_hell.png",
+      "title": "CODE BULLET HELL",
+      "sha256": "b1cba29c19e3eed71b449c3d6438a8bbb50dc6892e50bb4c6b8f2d9cb907fa2a"
+    },
+    {
+      "id": "06",
+      "file": "06_KF_55p15_stuck_paper_gravity_ASCII.png",
+      "title": "PAPER GRAVITY / ASCII",
+      "sha256": "a34c03f70942044d1d413d8fae1d8ad9aaebe4b96e9001e197d3350763a45027"
+    },
+    {
+      "id": "07B",
+      "file": "07B_KF12_HEART_ascii_chamber.png",
+      "title": "ASCII HEART CHAMBER",
+      "sha256": "78f972497234a841877504a6b8474ea99eeddbdf13da83f632c0ddc4fe8c742a"
+    },
+    {
+      "id": "08",
+      "file": "08_KF13_heart_inside_ascii_vault.png",
+      "title": "MEMORY VAULT / CLOSE VIEW",
+      "sha256": "6812e9cac0a8f6071d4c1378ec8db9363fa0e20332fadb2bce0cb8e82e50ed6a"
+    }
+  ]
+}

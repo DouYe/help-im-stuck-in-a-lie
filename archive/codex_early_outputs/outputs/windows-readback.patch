@@ -1,0 +1,13 @@
+diff --git a/app/src/engine/engine.ts b/app/src/engine/engine.ts
+index daedf65..19e7e89 100644
+--- a/app/src/engine/engine.ts
++++ b/app/src/engine/engine.ts
+@@ -369,7 +369,7 @@ export class Engine {
+    */
+   async readPixelsAsync(buf?: Uint8Array) {
+     const out = buf ?? new Uint8Array(PW * PH * 4);
+-    await this.renderer.readRenderTargetPixelsAsync(this.finalRT, 0, 0, PW, PH, out);
++    this.renderer.readRenderTargetPixels(this.finalRT, 0, 0, PW, PH, out);
+     return out;
+   }
+ }

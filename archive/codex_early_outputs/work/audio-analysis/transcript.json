@@ -1,0 +1,283 @@
+[
+  {
+    "start": 40.0,
+    "end": 46.08,
+    "text": "I hear the gears go clack clack clack. They want another look, they want it back.",
+    "words": [
+      {
+        "start": 40.0,
+        "end": 41.2,
+        "word": " I"
+      },
+      {
+        "start": 41.2,
+        "end": 41.38,
+        "word": " hear"
+      },
+      {
+        "start": 41.38,
+        "end": 41.5,
+        "word": " the"
+      },
+      {
+        "start": 41.5,
+        "end": 41.74,
+        "word": " gears"
+      },
+      {
+        "start": 41.74,
+        "end": 42.04,
+        "word": " go"
+      },
+      {
+        "start": 42.04,
+        "end": 42.66,
+        "word": " clack"
+      },
+      {
+        "start": 42.66,
+        "end": 43.18,
+        "word": " clack"
+      },
+      {
+        "start": 43.18,
+        "end": 43.74,
+        "word": " clack."
+      },
+      {
+        "start": 43.78,
+        "end": 43.94,
+        "word": " They"
+      },
+      {
+        "start": 43.94,
+        "end": 44.14,
+        "word": " want"
+      },
+      {
+        "start": 44.14,
+        "end": 44.42,
+        "word": " another"
+      },
+      {
+        "start": 44.42,
+        "end": 44.82,
+        "word": " look,"
+      },
+      {
+        "start": 44.92,
+        "end": 45.04,
+        "word": " they"
+      },
+      {
+        "start": 45.04,
+        "end": 45.4,
+        "word": " want"
+      },
+      {
+        "start": 45.4,
+        "end": 45.6,
+        "word": " it"
+      },
+      {
+        "start": 45.6,
+        "end": 46.08,
+        "word": " back."
+      }
+    ]
+  },
+  {
+    "start": 46.98,
+    "end": 56.9,
+    "text": "Help, I'm stuck in the line. Stuck in the line. Make me real this time. Real this time.",
+    "words": [
+      {
+        "start": 46.98,
+        "end": 47.3,
+        "word": " Help,"
+      },
+      {
+        "start": 47.88,
+        "end": 48.12,
+        "word": " I'm"
+      },
+      {
+        "start": 48.12,
+        "end": 48.42,
+        "word": " stuck"
+      },
+      {
+        "start": 48.42,
+        "end": 49.02,
+        "word": " in"
+      },
+      {
+        "start": 49.02,
+        "end": 49.26,
+        "word": " the"
+      },
+      {
+        "start": 49.26,
+        "end": 49.76,
+        "word": " line."
+      },
+      {
+        "start": 50.66,
+        "end": 50.9,
+        "word": " Stuck"
+      },
+      {
+        "start": 50.9,
+        "end": 51.44,
+        "word": " in"
+      },
+      {
+        "start": 51.44,
+        "end": 51.66,
+        "word": " the"
+      },
+      {
+        "start": 51.66,
+        "end": 52.22,
+        "word": " line."
+      },
+      {
+        "start": 52.48,
+        "end": 52.7,
+        "word": " Make"
+      },
+      {
+        "start": 52.7,
+        "end": 52.96,
+        "word": " me"
+      },
+      {
+        "start": 52.96,
+        "end": 53.62,
+        "word": " real"
+      },
+      {
+        "start": 53.62,
+        "end": 54.14,
+        "word": " this"
+      },
+      {
+        "start": 54.14,
+        "end": 54.56,
+        "word": " time."
+      },
+      {
+        "start": 55.38,
+        "end": 55.9,
+        "word": " Real"
+      },
+      {
+        "start": 55.9,
+        "end": 56.5,
+        "word": " this"
+      },
+      {
+        "start": 56.5,
+        "end": 56.9,
+        "word": " time."
+      }
+    ]
+  },
+  {
+    "start": 57.14,
+    "end": 66.6,
+    "text": "Help, I'm stuck in the line. Stuck in the line. I still got a heart inside. Heart inside.",
+    "words": [
+      {
+        "start": 57.14,
+        "end": 57.3,
+        "word": " Help,"
+      },
+      {
+        "start": 57.56,
+        "end": 57.86,
+        "word": " I'm"
+      },
+      {
+        "start": 57.86,
+        "end": 58.18,
+        "word": " stuck"
+      },
+      {
+        "start": 58.18,
+        "end": 58.72,
+        "word": " in"
+      },
+      {
+        "start": 58.72,
+        "end": 58.96,
+        "word": " the"
+      },
+      {
+        "start": 58.96,
+        "end": 59.48,
+        "word": " line."
+      },
+      {
+        "start": 59.98,
+        "end": 60.64,
+        "word": " Stuck"
+      },
+      {
+        "start": 60.64,
+        "end": 61.16,
+        "word": " in"
+      },
+      {
+        "start": 61.16,
+        "end": 61.36,
+        "word": " the"
+      },
+      {
+        "start": 61.36,
+        "end": 61.86,
+        "word": " line."
+      },
+      {
+        "start": 62.14,
+        "end": 62.14,
+        "word": " I"
+      },
+      {
+        "start": 62.14,
+        "end": 62.4,
+        "word": " still"
+      },
+      {
+        "start": 62.4,
+        "end": 62.66,
+        "word": " got"
+      },
+      {
+        "start": 62.66,
+        "end": 62.88,
+        "word": " a"
+      },
+      {
+        "start": 62.88,
+        "end": 63.28,
+        "word": " heart"
+      },
+      {
+        "start": 63.28,
+        "end": 64.24,
+        "word": " inside."
+      },
+      {
+        "start": 65.16,
+        "end": 65.7,
+        "word": " Heart"
+      },
+      {
+        "start": 65.7,
+        "end": 66.6,
+        "word": " inside."
+      }
+    ]
+  }
+]

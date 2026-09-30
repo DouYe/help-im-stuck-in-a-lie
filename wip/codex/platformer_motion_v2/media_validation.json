@@ -1,0 +1,25 @@
+{
+  "video": "six_worlds_motion_v1.mp4",
+  "duration": 20,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 60,
+  "frames": 1200,
+  "videoCodec": "h264",
+  "audioCodec": "aac",
+  "audioDuration": 20,
+  "fullDecode": "passed",
+  "encodedExitFrame": "qa/encoded_exit.png",
+  "manualChecks": 32,
+  "browserErrors": 0,
+  "physicsHz": 120,
+  "hazards": 200,
+  "peakActiveShots": 29,
+  "audioMaster": "audio/final/song.mp3",
+  "sourceAudioRange": [
+    42.012,
+    62.012
+  ]
+}

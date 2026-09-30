@@ -1,0 +1,1264 @@
+[
+  {
+    "source": "outputs/assembly_line_heart_47-67s.mp4",
+    "target": "archive/codex_early_outputs/outputs/assembly_line_heart_47-67s.mp4",
+    "source_sha256": "796a7a1cee6743911210c103b3e9765c37c474f29ae393697944d6c73080fedc",
+    "target_sha256": "796a7a1cee6743911210c103b3e9765c37c474f29ae393697944d6c73080fedc",
+    "bytes": 10709919
+  },
+  {
+    "source": "outputs/assembly_line_heart_47-67s_v2.mp4",
+    "target": "archive/codex_early_outputs/outputs/assembly_line_heart_47-67s_v2.mp4",
+    "source_sha256": "2b24a5723279e422f75412798960e624539cf4d214db5b354b5e7e0f18a14880",
+    "target_sha256": "2b24a5723279e422f75412798960e624539cf4d214db5b354b5e7e0f18a14880",
+    "bytes": 23009492
+  },
+  {
+    "source": "outputs/assembly_line_heart_method.md",
+    "target": "archive/codex_early_outputs/outputs/assembly_line_heart_method.md",
+    "source_sha256": "c509f35bebc4e549d10f9874b46793c01d28447a529052fe78d5f4aa05ea4795",
+    "target_sha256": "c509f35bebc4e549d10f9874b46793c01d28447a529052fe78d5f4aa05ea4795",
+    "bytes": 1577
+  },
+  {
+    "source": "outputs/assembly_line_heart_method_v2.md",
+    "target": "archive/codex_early_outputs/outputs/assembly_line_heart_method_v2.md",
+    "source_sha256": "e3cb10a059cd8812155d5ce84c4b066f45105240e76ce3459664b8d38b0d0247",
+    "target_sha256": "e3cb10a059cd8812155d5ce84c4b066f45105240e76ce3459664b8d38b0d0247",
+    "bytes": 2028
+  },
+  {
+    "source": "outputs/assembly_line_heart_source.zip",
+    "target": "archive/codex_early_outputs/outputs/assembly_line_heart_source_without_audio.zip",
+    "source_sha256": "6fda20ca314f922e7b47a39e9172a62aaf9e5f38c99f6811ad9ad53bf1f0b1a1",
+    "retained_verified": [
+      {
+        "name": "fonts/Archivo.ttf",
+        "sha256": "df7f620345ceaf9307c4c021d486d567035c3c3af9e29b12a892f7e5d4d8be48"
+      },
+      {
+        "name": "fonts/PlexMono.ttf",
+        "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+      },
+      {
+        "name": "bun.lock",
+        "sha256": "fa162ce7ddd7f60383f9377adc1b561f903385cbee9626165edc1a8c66624d57"
+      },
+      {
+        "name": "index.html",
+        "sha256": "947ddb9eed68471c5a6906d5b8df4dc0098b861782e32adb19a4870cceada6d0"
+      },
+      {
+        "name": "package.json",
+        "sha256": "7f8452b8f40f48316561170d4669492c7644d5cacdd2a8e3bb273ce0b11efbe7"
+      },
+      {
+        "name": "README.md",
+        "sha256": "c509f35bebc4e549d10f9874b46793c01d28447a529052fe78d5f4aa05ea4795"
+      },
+      {
+        "name": "render.ts",
+        "sha256": "8ff92b77bcb818ba456dced03e61b641e245e9216f6209f19b3f924d41de099b"
+      },
+      {
+        "name": "scene.js",
+        "sha256": "b57c5a4379897365e685cb80fe6d81d96ef303f5c72dafe97d7858bf06a420c1"
+      },
+      {
+        "name": "timing.json",
+        "sha256": "8996888f97a55a1c2e078876111794e3cc4e2978bf4835f69cc0d5a1533520bb"
+      }
+    ],
+    "old_audio_removed": [
+      {
+        "name": "audio_47_67.flac",
+        "sha256": "3add44fc89a109fafa1f9f8d85382f2f486e923738b181ad41623a8834d2e17b"
+      }
+    ],
+    "target_sha256": "425d4be268e3a7be955801c664f2d5cba0fa4b3d58384e31e84dfab1ed011a36",
+    "bytes": 113833
+  },
+  {
+    "source": "outputs/assembly_line_heart_source_v2.zip",
+    "target": "archive/codex_early_outputs/outputs/assembly_line_heart_source_v2_without_audio.zip",
+    "source_sha256": "1509ca972ccace18228bdb6413e5920fee2b3ea56a027019e7148c1e09c4fd4b",
+    "retained_verified": [
+      {
+        "name": "fonts/Archivo.ttf",
+        "sha256": "df7f620345ceaf9307c4c021d486d567035c3c3af9e29b12a892f7e5d4d8be48"
+      },
+      {
+        "name": "fonts/PlexMono.ttf",
+        "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+      },
+      {
+        "name": "bun.lock",
+        "sha256": "fa162ce7ddd7f60383f9377adc1b561f903385cbee9626165edc1a8c66624d57"
+      },
+      {
+        "name": "index.html",
+        "sha256": "947ddb9eed68471c5a6906d5b8df4dc0098b861782e32adb19a4870cceada6d0"
+      },
+      {
+        "name": "package.json",
+        "sha256": "7f8452b8f40f48316561170d4669492c7644d5cacdd2a8e3bb273ce0b11efbe7"
+      },
+      {
+        "name": "README.md",
+        "sha256": "e3cb10a059cd8812155d5ce84c4b066f45105240e76ce3459664b8d38b0d0247"
+      },
+      {
+        "name": "render.ts",
+        "sha256": "bec2378f016e30e54a206dcb7764a01eff5a21e253bf32523b52947b935bda12"
+      },
+      {
+        "name": "scene.js",
+        "sha256": "8860e70e0f8938e4a447631e4a587f21223ba0fb2512894bc0d3e9badb135727"
+      },
+      {
+        "name": "timing.json",
+        "sha256": "8996888f97a55a1c2e078876111794e3cc4e2978bf4835f69cc0d5a1533520bb"
+      }
+    ],
+    "old_audio_removed": [
+      {
+        "name": "audio_47_67.flac",
+        "sha256": "3add44fc89a109fafa1f9f8d85382f2f486e923738b181ad41623a8834d2e17b"
+      }
+    ],
+    "target_sha256": "2ad9bdffa27e9dd2010d8595e696aea6e7525523d0edeabbf7e3192677fdfd03",
+    "bytes": 116255
+  },
+  {
+    "source": "outputs/help_stuck_lie_ai_factory_story_v1.zip",
+    "target": "archive/codex_early_outputs/outputs/help_stuck_lie_ai_factory_story_v1.zip",
+    "source_sha256": "9844c91e86b70c7a766e36f664fe5fb5981a76d5d6a10c70a728fbcfd8256c85",
+    "target_sha256": "9844c91e86b70c7a766e36f664fe5fb5981a76d5d6a10c70a728fbcfd8256c85",
+    "bytes": 906154
+  },
+  {
+    "source": "outputs/help_stuck_lie_ai_factory_story_v2.zip",
+    "target": "archive/codex_early_outputs/outputs/help_stuck_lie_ai_factory_story_v2.zip",
+    "source_sha256": "7ac8355ecb59c0ba0082b487c96307fdcb04edbaa70c8a72e41af19683e3903d",
+    "target_sha256": "7ac8355ecb59c0ba0082b487c96307fdcb04edbaa70c8a72e41af19683e3903d",
+    "bytes": 1649038
+  },
+  {
+    "source": "outputs/help_stuck_lie_selected_references_v1.zip",
+    "target": "archive/codex_early_outputs/outputs/help_stuck_lie_selected_references_v1.zip",
+    "source_sha256": "b52b6233e982a73e68163e004cacf49cdcf0e0327676e3930bb9115c55d90331",
+    "target_sha256": "b52b6233e982a73e68163e004cacf49cdcf0e0327676e3930bb9115c55d90331",
+    "bytes": 8053325
+  },
+  {
+    "source": "outputs/HOW_IT_WORKS.md",
+    "target": "archive/codex_early_outputs/outputs/HOW_IT_WORKS.md",
+    "source_sha256": "d56b7633fad8779fd0f0d10fd2ea0dde50e41db7d070d6e9843ff64a76b08204",
+    "target_sha256": "d56b7633fad8779fd0f0d10fd2ea0dde50e41db7d070d6e9843ff64a76b08204",
+    "bytes": 2757
+  },
+  {
+    "source": "outputs/windows-readback.patch",
+    "target": "archive/codex_early_outputs/outputs/windows-readback.patch",
+    "source_sha256": "bc4aca0bf8cdf21ea320d34755a8ecb47f6a2115a8ffb09fdd9242bb3d3c3c84",
+    "target_sha256": "bc4aca0bf8cdf21ea320d34755a8ecb47f6a2115a8ffb09fdd9242bb3d3c3c84",
+    "bytes": 492
+  },
+  {
+    "source": "outputs/codex_platformer_motion_v1/delivery_manifest.json",
+    "target": "archive/codex_early_outputs/outputs/codex_platformer_motion_v1/delivery_manifest.json",
+    "source_sha256": "d18de9e76b955ca0ed0bc4f3d2b36d7fea17fa8c4acfd5ec50af1eefef2d229a",
+    "target_sha256": "d18de9e76b955ca0ed0bc4f3d2b36d7fea17fa8c4acfd5ec50af1eefef2d229a",
+    "bytes": 641
+  },
+  {
+    "source": "outputs/codex_platformer_motion_v1/playable_engine.zip",
+    "target": "archive/codex_early_outputs/outputs/codex_platformer_motion_v1/playable_engine.zip",
+    "source_sha256": "da20b42a5ebd2a9f23820731d38b98d2b3013981987f8da3cf6236719b69d066",
+    "target_sha256": "da20b42a5ebd2a9f23820731d38b98d2b3013981987f8da3cf6236719b69d066",
+    "bytes": 20522
+  },
+  {
+    "source": "outputs/codex_platformer_motion_v1/README_zh.md",
+    "target": "archive/codex_early_outputs/outputs/codex_platformer_motion_v1/README_zh.md",
+    "source_sha256": "471f1daccca52232e038ea8cc2859d25aa10ba4a78a5d105092a264e1ab8795c",
+    "target_sha256": "471f1daccca52232e038ea8cc2859d25aa10ba4a78a5d105092a264e1ab8795c",
+    "bytes": 953
+  },
+  {
+    "source": "outputs/codex_six_worlds_motion_v1/playable_engine.zip",
+    "target": "archive/codex_early_outputs/outputs/codex_six_worlds_motion_v1/playable_engine_without_audio.zip",
+    "source_sha256": "df45a7ee34ff9f7ef4dd201103f8ec3ae106d535f4747dca69757f2daebb8863",
+    "retained_verified": [
+      {
+        "name": "capture.mjs",
+        "sha256": "ef2c81f87d0792ec45d8c3747f64e0ccfdb461c3c20618682a26e24a39752efa"
+      },
+      {
+        "name": "character-notes-v2.md",
+        "sha256": "45886a225efee06aebbff9a30b81b0d378ece83fedfd8a934bae5675e3b26887"
+      },
+      {
+        "name": "character.js",
+        "sha256": "c552f6f665892e9e161e5be5ff4d85fd5c9f7c7916ea7db5aea413ec9b4b5943"
+      },
+      {
+        "name": "control-qa-v2.json",
+        "sha256": "47c8df43b6b9c54d7b3e6d67cb1ca08f7f2d21e55b1ebea69d3aa93ee9ef1ea8"
+      },
+      {
+        "name": "control-qa-v2.mjs",
+        "sha256": "e21c6b210cd24766eeca1931e7740967d61e1c8b079edd1537a57fb4addda9e0"
+      },
+      {
+        "name": "game.js",
+        "sha256": "d8586f9ead8a6d08a58e76146f2b5f57fffae8f5ac45aca9487984f06ec4cd69"
+      },
+      {
+        "name": "index.html",
+        "sha256": "7128c1d988a8f51b3d8896c7e67f41e66bbbc873e4032bd37248ec110e7e726a"
+      },
+      {
+        "name": "motion_audit.json",
+        "sha256": "c624973c334628ae7b5826707ea643d960d6e00bc8990ff2da9a578e01ab24ab"
+      },
+      {
+        "name": "README.md",
+        "sha256": "03b039c881750e3e6bcf368108c872def3c9094287233d35bf9b9518024d89c6"
+      },
+      {
+        "name": "topdown-notes.md",
+        "sha256": "c8b3a8b6c38b9ab35a42b9132f91f5205b67681aabbf8e3defcc9fb1e192c919"
+      },
+      {
+        "name": "topdown.js",
+        "sha256": "d38b8032778d397eba4aad8a2058d8ff731e86dc8d56873092fb8fc2152bdc1a"
+      },
+      {
+        "name": "worlds-notes.md",
+        "sha256": "b7e392f00003a7a50bbaae22f3f3f88dc4917537b8ded039c7754e022cb88d29"
+      },
+      {
+        "name": "worlds.js",
+        "sha256": "349ea18f83b090e4903b9aeabe612214188ddf90266938da3d0d1cc178efd586"
+      },
+      {
+        "name": "media_validation.json",
+        "sha256": "24716de5d118da717b07d95e6d055bece4fb88b5690ac6ed2921068bf2f76ec1"
+      },
+      {
+        "name": "delivery_smoke.json",
+        "sha256": "7737e0bde5c69d0fe04c5066da87972fc84bde399c370ec7b943735543852a94"
+      }
+    ],
+    "old_audio_removed": [
+      {
+        "name": "preview_audio.mp3",
+        "sha256": "05eae0eaea63f9d3fa8a37a358ca06c05b0932133ea583b0914ecd225302e213"
+      }
+    ],
+    "target_sha256": "b9e499011991fa65d628e89eb3c50eaf0e94b2ae7c6ec114165fa51c0f0df520",
+    "bytes": 72475
+  },
+  {
+    "source": "work/minimal_patch_test.mp4",
+    "target": "archive/codex_early_outputs/work/minimal_patch_test.mp4",
+    "source_sha256": "ff71a7467c6620b5fd2a465e0a38a911f06fd5e7b7b32fd5fceab979a993f375",
+    "target_sha256": "ff71a7467c6620b5fd2a465e0a38a911f06fd5e7b7b32fd5fceab979a993f375",
+    "bytes": 10819
+  },
+  {
+    "source": "work/package_factory_v2_delivery.py",
+    "target": "archive/codex_early_outputs/work/package_factory_v2_delivery.py",
+    "source_sha256": "f5cd0ae1223ab6d492871ea145ade1386e3035768871922bb9aeba1c155d18be",
+    "target_sha256": "f5cd0ae1223ab6d492871ea145ade1386e3035768871922bb9aeba1c155d18be",
+    "bytes": 2080
+  },
+  {
+    "source": "work/package_platformer_motion.py",
+    "target": "archive/codex_early_outputs/work/package_platformer_motion.py",
+    "source_sha256": "3d66fb6c2b07e19dbd076982298eae694a613768934fc7b1051bc18344ce171d",
+    "target_sha256": "3d66fb6c2b07e19dbd076982298eae694a613768934fc7b1051bc18344ce171d",
+    "bytes": 2905
+  },
+  {
+    "source": "work/qa_strip.png",
+    "target": "archive/codex_early_outputs/work/qa_strip.png",
+    "source_sha256": "466a608f3b02a0f91e5889122eaafafae16890d3ae923285f4f85de07aaee1e7",
+    "target_sha256": "466a608f3b02a0f91e5889122eaafafae16890d3ae923285f4f85de07aaee1e7",
+    "bytes": 856388
+  },
+  {
+    "source": "work/test.mp4",
+    "target": "archive/codex_early_outputs/work/test.mp4",
+    "source_sha256": "ff71a7467c6620b5fd2a465e0a38a911f06fd5e7b7b32fd5fceab979a993f375",
+    "target_sha256": "ff71a7467c6620b5fd2a465e0a38a911f06fd5e7b7b32fd5fceab979a993f375",
+    "bytes": 10819
+  },
+  {
+    "source": "work/assembly-source/bun.lock",
+    "target": "archive/codex_early_outputs/work/assembly-source/bun.lock",
+    "source_sha256": "fa162ce7ddd7f60383f9377adc1b561f903385cbee9626165edc1a8c66624d57",
+    "target_sha256": "fa162ce7ddd7f60383f9377adc1b561f903385cbee9626165edc1a8c66624d57",
+    "bytes": 422
+  },
+  {
+    "source": "work/assembly-source/index.html",
+    "target": "archive/codex_early_outputs/work/assembly-source/index.html",
+    "source_sha256": "947ddb9eed68471c5a6906d5b8df4dc0098b861782e32adb19a4870cceada6d0",
+    "target_sha256": "947ddb9eed68471c5a6906d5b8df4dc0098b861782e32adb19a4870cceada6d0",
+    "bytes": 914
+  },
+  {
+    "source": "work/assembly-source/package.json",
+    "target": "archive/codex_early_outputs/work/assembly-source/package.json",
+    "source_sha256": "7f8452b8f40f48316561170d4669492c7644d5cacdd2a8e3bb273ce0b11efbe7",
+    "target_sha256": "7f8452b8f40f48316561170d4669492c7644d5cacdd2a8e3bb273ce0b11efbe7",
+    "bytes": 139
+  },
+  {
+    "source": "work/assembly-source/README.md",
+    "target": "archive/codex_early_outputs/work/assembly-source/README.md",
+    "source_sha256": "c509f35bebc4e549d10f9874b46793c01d28447a529052fe78d5f4aa05ea4795",
+    "target_sha256": "c509f35bebc4e549d10f9874b46793c01d28447a529052fe78d5f4aa05ea4795",
+    "bytes": 1577
+  },
+  {
+    "source": "work/assembly-source/render.ts",
+    "target": "archive/codex_early_outputs/work/assembly-source/render.ts",
+    "source_sha256": "8ff92b77bcb818ba456dced03e61b641e245e9216f6209f19b3f924d41de099b",
+    "target_sha256": "8ff92b77bcb818ba456dced03e61b641e245e9216f6209f19b3f924d41de099b",
+    "bytes": 5677
+  },
+  {
+    "source": "work/assembly-source/scene.js",
+    "target": "archive/codex_early_outputs/work/assembly-source/scene.js",
+    "source_sha256": "b57c5a4379897365e685cb80fe6d81d96ef303f5c72dafe97d7858bf06a420c1",
+    "target_sha256": "b57c5a4379897365e685cb80fe6d81d96ef303f5c72dafe97d7858bf06a420c1",
+    "bytes": 20419
+  },
+  {
+    "source": "work/assembly-source/timing.json",
+    "target": "archive/codex_early_outputs/work/assembly-source/timing.json",
+    "source_sha256": "8996888f97a55a1c2e078876111794e3cc4e2978bf4835f69cc0d5a1533520bb",
+    "target_sha256": "8996888f97a55a1c2e078876111794e3cc4e2978bf4835f69cc0d5a1533520bb",
+    "bytes": 8934
+  },
+  {
+    "source": "work/assembly-source-v2/bun.lock",
+    "target": "archive/codex_early_outputs/work/assembly-source-v2/bun.lock",
+    "source_sha256": "fa162ce7ddd7f60383f9377adc1b561f903385cbee9626165edc1a8c66624d57",
+    "target_sha256": "fa162ce7ddd7f60383f9377adc1b561f903385cbee9626165edc1a8c66624d57",
+    "bytes": 422
+  },
+  {
+    "source": "work/assembly-source-v2/index.html",
+    "target": "archive/codex_early_outputs/work/assembly-source-v2/index.html",
+    "source_sha256": "947ddb9eed68471c5a6906d5b8df4dc0098b861782e32adb19a4870cceada6d0",
+    "target_sha256": "947ddb9eed68471c5a6906d5b8df4dc0098b861782e32adb19a4870cceada6d0",
+    "bytes": 914
+  },
+  {
+    "source": "work/assembly-source-v2/package.json",
+    "target": "archive/codex_early_outputs/work/assembly-source-v2/package.json",
+    "source_sha256": "7f8452b8f40f48316561170d4669492c7644d5cacdd2a8e3bb273ce0b11efbe7",
+    "target_sha256": "7f8452b8f40f48316561170d4669492c7644d5cacdd2a8e3bb273ce0b11efbe7",
+    "bytes": 139
+  },
+  {
+    "source": "work/assembly-source-v2/README.md",
+    "target": "archive/codex_early_outputs/work/assembly-source-v2/README.md",
+    "source_sha256": "e3cb10a059cd8812155d5ce84c4b066f45105240e76ce3459664b8d38b0d0247",
+    "target_sha256": "e3cb10a059cd8812155d5ce84c4b066f45105240e76ce3459664b8d38b0d0247",
+    "bytes": 2028
+  },
+  {
+    "source": "work/assembly-source-v2/render.ts",
+    "target": "archive/codex_early_outputs/work/assembly-source-v2/render.ts",
+    "source_sha256": "bec2378f016e30e54a206dcb7764a01eff5a21e253bf32523b52947b935bda12",
+    "target_sha256": "bec2378f016e30e54a206dcb7764a01eff5a21e253bf32523b52947b935bda12",
+    "bytes": 6206
+  },
+  {
+    "source": "work/assembly-source-v2/scene.js",
+    "target": "archive/codex_early_outputs/work/assembly-source-v2/scene.js",
+    "source_sha256": "8860e70e0f8938e4a447631e4a587f21223ba0fb2512894bc0d3e9badb135727",
+    "target_sha256": "8860e70e0f8938e4a447631e4a587f21223ba0fb2512894bc0d3e9badb135727",
+    "bytes": 25959
+  },
+  {
+    "source": "work/assembly-source-v2/timing.json",
+    "target": "archive/codex_early_outputs/work/assembly-source-v2/timing.json",
+    "source_sha256": "8996888f97a55a1c2e078876111794e3cc4e2978bf4835f69cc0d5a1533520bb",
+    "target_sha256": "8996888f97a55a1c2e078876111794e3cc4e2978bf4835f69cc0d5a1533520bb",
+    "bytes": 8934
+  },
+  {
+    "source": "work/assembly-video/bun.lock",
+    "target": "archive/codex_early_outputs/work/assembly-video/bun.lock",
+    "source_sha256": "fa162ce7ddd7f60383f9377adc1b561f903385cbee9626165edc1a8c66624d57",
+    "target_sha256": "fa162ce7ddd7f60383f9377adc1b561f903385cbee9626165edc1a8c66624d57",
+    "bytes": 422
+  },
+  {
+    "source": "work/assembly-video/finalfix-7.3.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/finalfix-7.3.png",
+    "source_sha256": "f655fc26dfd62dbbe96bbedbcea0c23f045bb6d0f6f2d36ffbeca98d9a0ed910",
+    "target_sha256": "f655fc26dfd62dbbe96bbedbcea0c23f045bb6d0f6f2d36ffbeca98d9a0ed910",
+    "bytes": 421537
+  },
+  {
+    "source": "work/assembly-video/finalfix-9.6.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/finalfix-9.6.png",
+    "source_sha256": "22ca198e0b00c1fd97a26dc2af519616670efb73d8cdc443fdaceef619434568",
+    "target_sha256": "22ca198e0b00c1fd97a26dc2af519616670efb73d8cdc443fdaceef619434568",
+    "bytes": 492284
+  },
+  {
+    "source": "work/assembly-video/final_contact.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/final_contact.png",
+    "source_sha256": "3aa54f83512b82ad11c7f5da9af868b7267722d59caa9587c1c1dd417f455ba3",
+    "target_sha256": "3aa54f83512b82ad11c7f5da9af868b7267722d59caa9587c1c1dd417f455ba3",
+    "bytes": 537168
+  },
+  {
+    "source": "work/assembly-video/final_v2_contact.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/final_v2_contact.png",
+    "source_sha256": "869e23758ad6a4ed4c6605a4a9ca8f2e6b6fc75a4eaf9a2631531dc57496fab2",
+    "target_sha256": "869e23758ad6a4ed4c6605a4a9ca8f2e6b6fc75a4eaf9a2631531dc57496fab2",
+    "bytes": 1318887
+  },
+  {
+    "source": "work/assembly-video/fix-6.2.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/fix-6.2.png",
+    "source_sha256": "c65bdbf9ecdcd00698f632585b6a18f1579befce8fb277c6e20652315e69fd2f",
+    "target_sha256": "c65bdbf9ecdcd00698f632585b6a18f1579befce8fb277c6e20652315e69fd2f",
+    "bytes": 457290
+  },
+  {
+    "source": "work/assembly-video/fix-7.3.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/fix-7.3.png",
+    "source_sha256": "b5b6db0ef0ba3f9dfa519b0b6dd3e8928b3775e8e829ba09273776bbdd6c0671",
+    "target_sha256": "b5b6db0ef0ba3f9dfa519b0b6dd3e8928b3775e8e829ba09273776bbdd6c0671",
+    "bytes": 432857
+  },
+  {
+    "source": "work/assembly-video/fix-9.6.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/fix-9.6.png",
+    "source_sha256": "26b22de498548d054ce982011944cbabaaa851951ca5e828c9ea27ffe78ec141",
+    "target_sha256": "26b22de498548d054ce982011944cbabaaa851951ca5e828c9ea27ffe78ec141",
+    "bytes": 510511
+  },
+  {
+    "source": "work/assembly-video/index.html",
+    "target": "archive/codex_early_outputs/work/assembly-video/index.html",
+    "source_sha256": "947ddb9eed68471c5a6906d5b8df4dc0098b861782e32adb19a4870cceada6d0",
+    "target_sha256": "947ddb9eed68471c5a6906d5b8df4dc0098b861782e32adb19a4870cceada6d0",
+    "bytes": 914
+  },
+  {
+    "source": "work/assembly-video/package.json",
+    "target": "archive/codex_early_outputs/work/assembly-video/package.json",
+    "source_sha256": "7f8452b8f40f48316561170d4669492c7644d5cacdd2a8e3bb273ce0b11efbe7",
+    "target_sha256": "7f8452b8f40f48316561170d4669492c7644d5cacdd2a8e3bb273ce0b11efbe7",
+    "bytes": 139
+  },
+  {
+    "source": "work/assembly-video/preview-2.3.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/preview-2.3.png",
+    "source_sha256": "b741f0857aab0fe161923bd2b3941f629c4fb22a3df933c43e808641240444c1",
+    "target_sha256": "b741f0857aab0fe161923bd2b3941f629c4fb22a3df933c43e808641240444c1",
+    "bytes": 388948
+  },
+  {
+    "source": "work/assembly-video/qa-0.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa-0.png",
+    "source_sha256": "57db747fc5b2d1ab3638477e904fda23a9f09376909aa4394900ae88fb22dde7",
+    "target_sha256": "57db747fc5b2d1ab3638477e904fda23a9f09376909aa4394900ae88fb22dde7",
+    "bytes": 361739
+  },
+  {
+    "source": "work/assembly-video/qa-10.13.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa-10.13.png",
+    "source_sha256": "f926cf4afec157a8cf8f1c7e65e9d8bfc937afcecc5288c0de535c184be52476",
+    "target_sha256": "f926cf4afec157a8cf8f1c7e65e9d8bfc937afcecc5288c0de535c184be52476",
+    "bytes": 288397
+  },
+  {
+    "source": "work/assembly-video/qa-10.42.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa-10.42.png",
+    "source_sha256": "9cfa29e8bbecc20f6fba81e4758facea11ea703f745b1245147604c3f985293e",
+    "target_sha256": "9cfa29e8bbecc20f6fba81e4758facea11ea703f745b1245147604c3f985293e",
+    "bytes": 557849
+  },
+  {
+    "source": "work/assembly-video/qa-15.07.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa-15.07.png",
+    "source_sha256": "036ddf1147243f39e66bdbb8d0092cf43f783044fc68aaebb468c43bad94c2fc",
+    "target_sha256": "036ddf1147243f39e66bdbb8d0092cf43f783044fc68aaebb468c43bad94c2fc",
+    "bytes": 554054
+  },
+  {
+    "source": "work/assembly-video/qa-15.28.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa-15.28.png",
+    "source_sha256": "9b2acd35e0223ea6458360b192493d59be2eac7b05d9dacf507c7bea2474eeb2",
+    "target_sha256": "9b2acd35e0223ea6458360b192493d59be2eac7b05d9dacf507c7bea2474eeb2",
+    "bytes": 417950
+  },
+  {
+    "source": "work/assembly-video/qa-19.98.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa-19.98.png",
+    "source_sha256": "6aaf425cd38f4a7b5488bfbfbe619c2bda424daadf0a72fe3075cef62107a889",
+    "target_sha256": "6aaf425cd38f4a7b5488bfbfbe619c2bda424daadf0a72fe3075cef62107a889",
+    "bytes": 626492
+  },
+  {
+    "source": "work/assembly-video/qa-5.47.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa-5.47.png",
+    "source_sha256": "c9fe72227f2ec9fe4fcc39c0662b239bed3f4371861dd3b8e78e5c7b0b16c613",
+    "target_sha256": "c9fe72227f2ec9fe4fcc39c0662b239bed3f4371861dd3b8e78e5c7b0b16c613",
+    "bytes": 351926
+  },
+  {
+    "source": "work/assembly-video/qa-5.56.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa-5.56.png",
+    "source_sha256": "a46a5808f58f61a82adece0b139709c800bd1ae5ae1f15cff07ff096f01e496d",
+    "target_sha256": "a46a5808f58f61a82adece0b139709c800bd1ae5ae1f15cff07ff096f01e496d",
+    "bytes": 281204
+  },
+  {
+    "source": "work/assembly-video/qa_v2_contact.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_contact.png",
+    "source_sha256": "b4e62d93da64565cbac23f84084a18a98b2a89e19ce7fb0ed073fe6edff16f8e",
+    "target_sha256": "b4e62d93da64565cbac23f84084a18a98b2a89e19ce7fb0ed073fe6edff16f8e",
+    "bytes": 1489569
+  },
+  {
+    "source": "work/assembly-video/qa_v2_heart_strip.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_heart_strip.png",
+    "source_sha256": "64f9698dc05db0db2ca4b12f4705c7e9e129bc34c9fcbff15add47d41c65727b",
+    "target_sha256": "64f9698dc05db0db2ca4b12f4705c7e9e129bc34c9fcbff15add47d41c65727b",
+    "bytes": 857197
+  },
+  {
+    "source": "work/assembly-video/qa_v2_press_strip.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_press_strip.png",
+    "source_sha256": "945335884abeb7f9a7dee0b0843a39b89fd4f18b2e0dec6a3cc73366dba08704",
+    "target_sha256": "945335884abeb7f9a7dee0b0843a39b89fd4f18b2e0dec6a3cc73366dba08704",
+    "bytes": 378855
+  },
+  {
+    "source": "work/assembly-video/README.md",
+    "target": "archive/codex_early_outputs/work/assembly-video/README.md",
+    "source_sha256": "e3cb10a059cd8812155d5ce84c4b066f45105240e76ce3459664b8d38b0d0247",
+    "target_sha256": "e3cb10a059cd8812155d5ce84c4b066f45105240e76ce3459664b8d38b0d0247",
+    "bytes": 2028
+  },
+  {
+    "source": "work/assembly-video/render.ts",
+    "target": "archive/codex_early_outputs/work/assembly-video/render.ts",
+    "source_sha256": "bec2378f016e30e54a206dcb7764a01eff5a21e253bf32523b52947b935bda12",
+    "target_sha256": "bec2378f016e30e54a206dcb7764a01eff5a21e253bf32523b52947b935bda12",
+    "bytes": 6206
+  },
+  {
+    "source": "work/assembly-video/scene.js",
+    "target": "archive/codex_early_outputs/work/assembly-video/scene.js",
+    "source_sha256": "8860e70e0f8938e4a447631e4a587f21223ba0fb2512894bc0d3e9badb135727",
+    "target_sha256": "8860e70e0f8938e4a447631e4a587f21223ba0fb2512894bc0d3e9badb135727",
+    "bytes": 25959
+  },
+  {
+    "source": "work/assembly-video/shot-1.2.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/shot-1.2.png",
+    "source_sha256": "4875424bb62dab72a19d090269df2ae58831a2e4a33cb0ece684cf6dadef502e",
+    "target_sha256": "4875424bb62dab72a19d090269df2ae58831a2e4a33cb0ece684cf6dadef502e",
+    "bytes": 558857
+  },
+  {
+    "source": "work/assembly-video/shot-16.1.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/shot-16.1.png",
+    "source_sha256": "9f9b5968443619ae34c870c41082ed98f0a920bbb64022b4981dad502ddfab98",
+    "target_sha256": "9f9b5968443619ae34c870c41082ed98f0a920bbb64022b4981dad502ddfab98",
+    "bytes": 1128553
+  },
+  {
+    "source": "work/assembly-video/shot-6.2.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/shot-6.2.png",
+    "source_sha256": "74423d78c0b9ca2b7c9daa3f26b8ec23a75ca03434f65f5b920b2d3b986ea05c",
+    "target_sha256": "74423d78c0b9ca2b7c9daa3f26b8ec23a75ca03434f65f5b920b2d3b986ea05c",
+    "bytes": 469382
+  },
+  {
+    "source": "work/assembly-video/still_1.5.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/still_1.5.png",
+    "source_sha256": "7f36044d3f8ff5b83a045f5e8ba3deac34bf56ba0ed65dcf884106c57059d5a1",
+    "target_sha256": "7f36044d3f8ff5b83a045f5e8ba3deac34bf56ba0ed65dcf884106c57059d5a1",
+    "bytes": 368413
+  },
+  {
+    "source": "work/assembly-video/still_11.3.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/still_11.3.png",
+    "source_sha256": "9a38c091a50e3beb4d1c3171aa0b9f2cba9f4469dffd9c51312a984bc746886b",
+    "target_sha256": "9a38c091a50e3beb4d1c3171aa0b9f2cba9f4469dffd9c51312a984bc746886b",
+    "bytes": 555350
+  },
+  {
+    "source": "work/assembly-video/still_16.7.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/still_16.7.png",
+    "source_sha256": "78b2cfbbbb4a419dda2c4daff701c99e275e29707ec6d8237991670bdc8a0717",
+    "target_sha256": "78b2cfbbbb4a419dda2c4daff701c99e275e29707ec6d8237991670bdc8a0717",
+    "bytes": 639571
+  },
+  {
+    "source": "work/assembly-video/still_18.8.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/still_18.8.png",
+    "source_sha256": "2ef9518e6472ea9d1de8389ca1d3c408f276f6c06fa05cd49df93068d3704092",
+    "target_sha256": "2ef9518e6472ea9d1de8389ca1d3c408f276f6c06fa05cd49df93068d3704092",
+    "bytes": 630175
+  },
+  {
+    "source": "work/assembly-video/still_6.4.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/still_6.4.png",
+    "source_sha256": "dc500f069f95a57eed933724ec7db30619e08f09dc83c62ef1c690a2c771ea58",
+    "target_sha256": "dc500f069f95a57eed933724ec7db30619e08f09dc83c62ef1c690a2c771ea58",
+    "bytes": 292751
+  },
+  {
+    "source": "work/assembly-video/test_half_second.mp4",
+    "target": "archive/codex_early_outputs/work/assembly-video/test_half_second.mp4",
+    "source_sha256": "757d6ab359f83e529c060dd7f11078bf042d3bd472eb04515d26bf5988ad9307",
+    "target_sha256": "757d6ab359f83e529c060dd7f11078bf042d3bd472eb04515d26bf5988ad9307",
+    "bytes": 382064
+  },
+  {
+    "source": "work/assembly-video/timing.json",
+    "target": "archive/codex_early_outputs/work/assembly-video/timing.json",
+    "source_sha256": "8996888f97a55a1c2e078876111794e3cc4e2978bf4835f69cc0d5a1533520bb",
+    "target_sha256": "8996888f97a55a1c2e078876111794e3cc4e2978bf4835f69cc0d5a1533520bb",
+    "bytes": 8934
+  },
+  {
+    "source": "work/assembly-video/qa_v2_fixed/frame_11.100.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_fixed/frame_11.100.png",
+    "source_sha256": "d14b0285efd397b7e245592460237fe728070f2eb23c3c9f920368198f036c50",
+    "target_sha256": "d14b0285efd397b7e245592460237fe728070f2eb23c3c9f920368198f036c50",
+    "bytes": 696780
+  },
+  {
+    "source": "work/assembly-video/qa_v2_fixed/frame_13.200.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_fixed/frame_13.200.png",
+    "source_sha256": "7eb3d8b4879da30ef3f8fd9bf9cf2da8f952db8c12ca1a0a2f04602525926cd2",
+    "target_sha256": "7eb3d8b4879da30ef3f8fd9bf9cf2da8f952db8c12ca1a0a2f04602525926cd2",
+    "bytes": 684031
+  },
+  {
+    "source": "work/assembly-video/qa_v2_fixed/frame_16.800.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_fixed/frame_16.800.png",
+    "source_sha256": "31a31efaaf9c650b3c8c3aa16995cf72a9993cbf19c595c04c1d97dd93ef45ca",
+    "target_sha256": "31a31efaaf9c650b3c8c3aa16995cf72a9993cbf19c595c04c1d97dd93ef45ca",
+    "bytes": 937860
+  },
+  {
+    "source": "work/assembly-video/qa_v2_fixed/frame_18.900.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_fixed/frame_18.900.png",
+    "source_sha256": "117bcdadc3c51c4c0ec57dbf2166f72b1a1f7a19f3bbbc86accdc2bfad85431c",
+    "target_sha256": "117bcdadc3c51c4c0ec57dbf2166f72b1a1f7a19f3bbbc86accdc2bfad85431c",
+    "bytes": 945558
+  },
+  {
+    "source": "work/assembly-video/qa_v2_fixed/frame_6.200.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_fixed/frame_6.200.png",
+    "source_sha256": "bc7af68b8b4f281014d06a7fffe012dcc6cd29041ade234373aaec265892e138",
+    "target_sha256": "bc7af68b8b4f281014d06a7fffe012dcc6cd29041ade234373aaec265892e138",
+    "bytes": 451609
+  },
+  {
+    "source": "work/assembly-video/qa_v2_fixed/frame_7.300.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_fixed/frame_7.300.png",
+    "source_sha256": "793a13081a31f12f7ba744ce61de04a41300367e2182faf75ebd18111ffb3f0d",
+    "target_sha256": "793a13081a31f12f7ba744ce61de04a41300367e2182faf75ebd18111ffb3f0d",
+    "bytes": 421529
+  },
+  {
+    "source": "work/assembly-video/qa_v2_fixed/frame_9.600.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_fixed/frame_9.600.png",
+    "source_sha256": "94ba0db7eded39d222112f9b9479d53349667c27b78b1323e976a8c6732d0e33",
+    "target_sha256": "94ba0db7eded39d222112f9b9479d53349667c27b78b1323e976a8c6732d0e33",
+    "bytes": 492275
+  },
+  {
+    "source": "work/assembly-video/qa_v2_motion/frame_15.860.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_motion/frame_15.860.png",
+    "source_sha256": "0735443ac89fe0f06b5a94dc30a1570b82ea0c8aaf2b39fdf05d61335fe6ac0c",
+    "target_sha256": "0735443ac89fe0f06b5a94dc30a1570b82ea0c8aaf2b39fdf05d61335fe6ac0c",
+    "bytes": 771210
+  },
+  {
+    "source": "work/assembly-video/qa_v2_motion/frame_15.890.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_motion/frame_15.890.png",
+    "source_sha256": "e78a942a00cdbb587b27e0ba0a290e4aa353443a6f9a4d515fae77870f29dad0",
+    "target_sha256": "e78a942a00cdbb587b27e0ba0a290e4aa353443a6f9a4d515fae77870f29dad0",
+    "bytes": 1299635
+  },
+  {
+    "source": "work/assembly-video/qa_v2_motion/frame_15.920.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_motion/frame_15.920.png",
+    "source_sha256": "8ea668dac474cf003fd40dfe744e9d52c34d056b12a6bec939c5cf8154158390",
+    "target_sha256": "8ea668dac474cf003fd40dfe744e9d52c34d056b12a6bec939c5cf8154158390",
+    "bytes": 1221601
+  },
+  {
+    "source": "work/assembly-video/qa_v2_motion/frame_15.960.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_motion/frame_15.960.png",
+    "source_sha256": "d1a2a4eabc2b8209ac22f5af39203bddeb3af7b302d9474cd5e249deafd92a3a",
+    "target_sha256": "d1a2a4eabc2b8209ac22f5af39203bddeb3af7b302d9474cd5e249deafd92a3a",
+    "bytes": 1189926
+  },
+  {
+    "source": "work/assembly-video/qa_v2_motion/frame_16.000.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_motion/frame_16.000.png",
+    "source_sha256": "8311483438bee5c3a1f7ef9faffe49443142f975ee19c54967d3943b5cb8459d",
+    "target_sha256": "8311483438bee5c3a1f7ef9faffe49443142f975ee19c54967d3943b5cb8459d",
+    "bytes": 1180200
+  },
+  {
+    "source": "work/assembly-video/qa_v2_motion/frame_16.040.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_motion/frame_16.040.png",
+    "source_sha256": "ac68512907310a9d362ae2412eceda1953ff5492f48f555e8eec11546fb85555",
+    "target_sha256": "ac68512907310a9d362ae2412eceda1953ff5492f48f555e8eec11546fb85555",
+    "bytes": 1176695
+  },
+  {
+    "source": "work/assembly-video/qa_v2_motion/frame_16.100.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_motion/frame_16.100.png",
+    "source_sha256": "f5bf10de48ddeefdccc70e5c42e19d09e59a22f89469019de98ec28e5488b77a",
+    "target_sha256": "f5bf10de48ddeefdccc70e5c42e19d09e59a22f89469019de98ec28e5488b77a",
+    "bytes": 1128585
+  },
+  {
+    "source": "work/assembly-video/qa_v2_motion/frame_16.180.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_motion/frame_16.180.png",
+    "source_sha256": "9b5300e45aecc611895613d782a8c0095eace1fce9337c008083e55d2098d9bd",
+    "target_sha256": "9b5300e45aecc611895613d782a8c0095eace1fce9337c008083e55d2098d9bd",
+    "bytes": 1151596
+  },
+  {
+    "source": "work/assembly-video/qa_v2_motion/frame_5.940.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_motion/frame_5.940.png",
+    "source_sha256": "f5756bde0a51a0b955de0f2f6339f4c101b5fe91b579120f91245a2a22a2ff2d",
+    "target_sha256": "f5756bde0a51a0b955de0f2f6339f4c101b5fe91b579120f91245a2a22a2ff2d",
+    "bytes": 373059
+  },
+  {
+    "source": "work/assembly-video/qa_v2_motion/frame_5.970.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_motion/frame_5.970.png",
+    "source_sha256": "860a7a17f6b119113d0c2a9751ba6d3405349f13866ed54c3d18fc028fcd3a1c",
+    "target_sha256": "860a7a17f6b119113d0c2a9751ba6d3405349f13866ed54c3d18fc028fcd3a1c",
+    "bytes": 420911
+  },
+  {
+    "source": "work/assembly-video/qa_v2_motion/frame_6.000.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_motion/frame_6.000.png",
+    "source_sha256": "7050e7c87feab23462cfc4848fe6170ab736cd5f10d114ab6bffef890439f623",
+    "target_sha256": "7050e7c87feab23462cfc4848fe6170ab736cd5f10d114ab6bffef890439f623",
+    "bytes": 436117
+  },
+  {
+    "source": "work/assembly-video/qa_v2_motion/frame_6.040.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_motion/frame_6.040.png",
+    "source_sha256": "4fabdf0bbb092e78df1cfc58861ba5a3bd9ecd8548b5c2041e72814c698e977c",
+    "target_sha256": "4fabdf0bbb092e78df1cfc58861ba5a3bd9ecd8548b5c2041e72814c698e977c",
+    "bytes": 447835
+  },
+  {
+    "source": "work/assembly-video/qa_v2_motion/frame_6.080.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_motion/frame_6.080.png",
+    "source_sha256": "d3080ed51c217abd70b1a57eb47543bae7780bf3cf72fa6418e74750273e7bcc",
+    "target_sha256": "d3080ed51c217abd70b1a57eb47543bae7780bf3cf72fa6418e74750273e7bcc",
+    "bytes": 455993
+  },
+  {
+    "source": "work/assembly-video/qa_v2_motion/frame_6.120.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_motion/frame_6.120.png",
+    "source_sha256": "445c3adfa8cf48b19b6635c479ac3f6ed470e51d7ce51c4d215a68b93d0ede8e",
+    "target_sha256": "445c3adfa8cf48b19b6635c479ac3f6ed470e51d7ce51c4d215a68b93d0ede8e",
+    "bytes": 453288
+  },
+  {
+    "source": "work/assembly-video/qa_v2_motion/frame_6.180.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_motion/frame_6.180.png",
+    "source_sha256": "331f4aaadd5d20d9aea1ad5b09756049b73d96c7a564be3ff29c6a2488a8abf7",
+    "target_sha256": "331f4aaadd5d20d9aea1ad5b09756049b73d96c7a564be3ff29c6a2488a8abf7",
+    "bytes": 457489
+  },
+  {
+    "source": "work/assembly-video/qa_v2_motion/frame_6.260.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_motion/frame_6.260.png",
+    "source_sha256": "b9b7eb51a937712c94dfe465e2d34263baaff0d22f2ec5ffad15114a1a51b0ba",
+    "target_sha256": "b9b7eb51a937712c94dfe465e2d34263baaff0d22f2ec5ffad15114a1a51b0ba",
+    "bytes": 459370
+  },
+  {
+    "source": "work/assembly-video/qa_v2_motion_heart/frame_000.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_motion_heart/frame_000.png",
+    "source_sha256": "0735443ac89fe0f06b5a94dc30a1570b82ea0c8aaf2b39fdf05d61335fe6ac0c",
+    "target_sha256": "0735443ac89fe0f06b5a94dc30a1570b82ea0c8aaf2b39fdf05d61335fe6ac0c",
+    "bytes": 771210
+  },
+  {
+    "source": "work/assembly-video/qa_v2_motion_heart/frame_001.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_motion_heart/frame_001.png",
+    "source_sha256": "e78a942a00cdbb587b27e0ba0a290e4aa353443a6f9a4d515fae77870f29dad0",
+    "target_sha256": "e78a942a00cdbb587b27e0ba0a290e4aa353443a6f9a4d515fae77870f29dad0",
+    "bytes": 1299635
+  },
+  {
+    "source": "work/assembly-video/qa_v2_motion_heart/frame_002.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_motion_heart/frame_002.png",
+    "source_sha256": "8ea668dac474cf003fd40dfe744e9d52c34d056b12a6bec939c5cf8154158390",
+    "target_sha256": "8ea668dac474cf003fd40dfe744e9d52c34d056b12a6bec939c5cf8154158390",
+    "bytes": 1221601
+  },
+  {
+    "source": "work/assembly-video/qa_v2_motion_heart/frame_003.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_motion_heart/frame_003.png",
+    "source_sha256": "d1a2a4eabc2b8209ac22f5af39203bddeb3af7b302d9474cd5e249deafd92a3a",
+    "target_sha256": "d1a2a4eabc2b8209ac22f5af39203bddeb3af7b302d9474cd5e249deafd92a3a",
+    "bytes": 1189926
+  },
+  {
+    "source": "work/assembly-video/qa_v2_motion_heart/frame_004.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_motion_heart/frame_004.png",
+    "source_sha256": "8311483438bee5c3a1f7ef9faffe49443142f975ee19c54967d3943b5cb8459d",
+    "target_sha256": "8311483438bee5c3a1f7ef9faffe49443142f975ee19c54967d3943b5cb8459d",
+    "bytes": 1180200
+  },
+  {
+    "source": "work/assembly-video/qa_v2_motion_heart/frame_005.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_motion_heart/frame_005.png",
+    "source_sha256": "ac68512907310a9d362ae2412eceda1953ff5492f48f555e8eec11546fb85555",
+    "target_sha256": "ac68512907310a9d362ae2412eceda1953ff5492f48f555e8eec11546fb85555",
+    "bytes": 1176695
+  },
+  {
+    "source": "work/assembly-video/qa_v2_motion_heart/frame_006.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_motion_heart/frame_006.png",
+    "source_sha256": "f5bf10de48ddeefdccc70e5c42e19d09e59a22f89469019de98ec28e5488b77a",
+    "target_sha256": "f5bf10de48ddeefdccc70e5c42e19d09e59a22f89469019de98ec28e5488b77a",
+    "bytes": 1128585
+  },
+  {
+    "source": "work/assembly-video/qa_v2_motion_heart/frame_007.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_motion_heart/frame_007.png",
+    "source_sha256": "9b5300e45aecc611895613d782a8c0095eace1fce9337c008083e55d2098d9bd",
+    "target_sha256": "9b5300e45aecc611895613d782a8c0095eace1fce9337c008083e55d2098d9bd",
+    "bytes": 1151596
+  },
+  {
+    "source": "work/assembly-video/qa_v2_motion_press/frame_000.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_motion_press/frame_000.png",
+    "source_sha256": "f5756bde0a51a0b955de0f2f6339f4c101b5fe91b579120f91245a2a22a2ff2d",
+    "target_sha256": "f5756bde0a51a0b955de0f2f6339f4c101b5fe91b579120f91245a2a22a2ff2d",
+    "bytes": 373059
+  },
+  {
+    "source": "work/assembly-video/qa_v2_motion_press/frame_001.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_motion_press/frame_001.png",
+    "source_sha256": "860a7a17f6b119113d0c2a9751ba6d3405349f13866ed54c3d18fc028fcd3a1c",
+    "target_sha256": "860a7a17f6b119113d0c2a9751ba6d3405349f13866ed54c3d18fc028fcd3a1c",
+    "bytes": 420911
+  },
+  {
+    "source": "work/assembly-video/qa_v2_motion_press/frame_002.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_motion_press/frame_002.png",
+    "source_sha256": "7050e7c87feab23462cfc4848fe6170ab736cd5f10d114ab6bffef890439f623",
+    "target_sha256": "7050e7c87feab23462cfc4848fe6170ab736cd5f10d114ab6bffef890439f623",
+    "bytes": 436117
+  },
+  {
+    "source": "work/assembly-video/qa_v2_motion_press/frame_003.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_motion_press/frame_003.png",
+    "source_sha256": "4fabdf0bbb092e78df1cfc58861ba5a3bd9ecd8548b5c2041e72814c698e977c",
+    "target_sha256": "4fabdf0bbb092e78df1cfc58861ba5a3bd9ecd8548b5c2041e72814c698e977c",
+    "bytes": 447835
+  },
+  {
+    "source": "work/assembly-video/qa_v2_motion_press/frame_004.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_motion_press/frame_004.png",
+    "source_sha256": "d3080ed51c217abd70b1a57eb47543bae7780bf3cf72fa6418e74750273e7bcc",
+    "target_sha256": "d3080ed51c217abd70b1a57eb47543bae7780bf3cf72fa6418e74750273e7bcc",
+    "bytes": 455993
+  },
+  {
+    "source": "work/assembly-video/qa_v2_motion_press/frame_005.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_motion_press/frame_005.png",
+    "source_sha256": "445c3adfa8cf48b19b6635c479ac3f6ed470e51d7ce51c4d215a68b93d0ede8e",
+    "target_sha256": "445c3adfa8cf48b19b6635c479ac3f6ed470e51d7ce51c4d215a68b93d0ede8e",
+    "bytes": 453288
+  },
+  {
+    "source": "work/assembly-video/qa_v2_motion_press/frame_006.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_motion_press/frame_006.png",
+    "source_sha256": "331f4aaadd5d20d9aea1ad5b09756049b73d96c7a564be3ff29c6a2488a8abf7",
+    "target_sha256": "331f4aaadd5d20d9aea1ad5b09756049b73d96c7a564be3ff29c6a2488a8abf7",
+    "bytes": 457489
+  },
+  {
+    "source": "work/assembly-video/qa_v2_motion_press/frame_007.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_motion_press/frame_007.png",
+    "source_sha256": "b9b7eb51a937712c94dfe465e2d34263baaff0d22f2ec5ffad15114a1a51b0ba",
+    "target_sha256": "b9b7eb51a937712c94dfe465e2d34263baaff0d22f2ec5ffad15114a1a51b0ba",
+    "bytes": 459370
+  },
+  {
+    "source": "work/assembly-video/qa_v2_ordered/frame_000.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_ordered/frame_000.png",
+    "source_sha256": "b42e0e827d5d5806d66b41b1e3902c6effc29d5a66f667cc456f0110a7f30b0e",
+    "target_sha256": "b42e0e827d5d5806d66b41b1e3902c6effc29d5a66f667cc456f0110a7f30b0e",
+    "bytes": 491063
+  },
+  {
+    "source": "work/assembly-video/qa_v2_ordered/frame_001.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_ordered/frame_001.png",
+    "source_sha256": "8e7fc814c83796f20a53d386bf72e0d22fc2fd26e1b8901084556fac56326ec9",
+    "target_sha256": "8e7fc814c83796f20a53d386bf72e0d22fc2fd26e1b8901084556fac56326ec9",
+    "bytes": 558646
+  },
+  {
+    "source": "work/assembly-video/qa_v2_ordered/frame_002.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_ordered/frame_002.png",
+    "source_sha256": "2f9163bd8834dd27f404bbebea3646bbd72014c93b6b395e2e5ab21ca80a18fd",
+    "target_sha256": "2f9163bd8834dd27f404bbebea3646bbd72014c93b6b395e2e5ab21ca80a18fd",
+    "bytes": 553176
+  },
+  {
+    "source": "work/assembly-video/qa_v2_ordered/frame_003.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_ordered/frame_003.png",
+    "source_sha256": "77f0ea105612b32410a10d16f2ad88b778f4802f703944c87b341bed3aabf612",
+    "target_sha256": "77f0ea105612b32410a10d16f2ad88b778f4802f703944c87b341bed3aabf612",
+    "bytes": 544028
+  },
+  {
+    "source": "work/assembly-video/qa_v2_ordered/frame_004.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_ordered/frame_004.png",
+    "source_sha256": "f2370503530ac070aed6f8f45d91186445d36459616debfa36fe11610dfedbf6",
+    "target_sha256": "f2370503530ac070aed6f8f45d91186445d36459616debfa36fe11610dfedbf6",
+    "bytes": 533257
+  },
+  {
+    "source": "work/assembly-video/qa_v2_ordered/frame_005.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_ordered/frame_005.png",
+    "source_sha256": "993c7bb8d3f9078977ca4443aaf0a6952fdfe7ef8bc57f49e118211a1c95c4aa",
+    "target_sha256": "993c7bb8d3f9078977ca4443aaf0a6952fdfe7ef8bc57f49e118211a1c95c4aa",
+    "bytes": 361843
+  },
+  {
+    "source": "work/assembly-video/qa_v2_ordered/frame_006.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_ordered/frame_006.png",
+    "source_sha256": "784bfe6de8bfd23e5f98a08eb108eaa07f60f1167b2b9b1dc62cf075c9f08ff8",
+    "target_sha256": "784bfe6de8bfd23e5f98a08eb108eaa07f60f1167b2b9b1dc62cf075c9f08ff8",
+    "bytes": 469409
+  },
+  {
+    "source": "work/assembly-video/qa_v2_ordered/frame_007.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_ordered/frame_007.png",
+    "source_sha256": "b5a24f2a4ffe89674602b5d7ae0bf32145fe0214df944d012cd5f6d9bcf01bc8",
+    "target_sha256": "b5a24f2a4ffe89674602b5d7ae0bf32145fe0214df944d012cd5f6d9bcf01bc8",
+    "bytes": 417254
+  },
+  {
+    "source": "work/assembly-video/qa_v2_ordered/frame_008.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_ordered/frame_008.png",
+    "source_sha256": "28663ddbc6229c6addd3fec7840a3c6f73def98575a2c892ac213dbc20658b3f",
+    "target_sha256": "28663ddbc6229c6addd3fec7840a3c6f73def98575a2c892ac213dbc20658b3f",
+    "bytes": 448001
+  },
+  {
+    "source": "work/assembly-video/qa_v2_ordered/frame_009.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_ordered/frame_009.png",
+    "source_sha256": "1d8bc573a7d34162e9beec1c52039817ebdbd34ce0e89ddd5d62a12a5c71bd3a",
+    "target_sha256": "1d8bc573a7d34162e9beec1c52039817ebdbd34ce0e89ddd5d62a12a5c71bd3a",
+    "bytes": 494438
+  },
+  {
+    "source": "work/assembly-video/qa_v2_ordered/frame_010.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_ordered/frame_010.png",
+    "source_sha256": "0ca4465b1a69ad7e65a353da7705c259781452146f2e6100bc2702cb542c6d6b",
+    "target_sha256": "0ca4465b1a69ad7e65a353da7705c259781452146f2e6100bc2702cb542c6d6b",
+    "bytes": 620247
+  },
+  {
+    "source": "work/assembly-video/qa_v2_ordered/frame_011.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_ordered/frame_011.png",
+    "source_sha256": "6d8af9ffd8fbe8435eb1aea7527c8f91f1ece87383a1f2206813ab745094b417",
+    "target_sha256": "6d8af9ffd8fbe8435eb1aea7527c8f91f1ece87383a1f2206813ab745094b417",
+    "bytes": 696807
+  },
+  {
+    "source": "work/assembly-video/qa_v2_ordered/frame_012.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_ordered/frame_012.png",
+    "source_sha256": "1ee8b1c8cc12246625cd88c15347a6ff53d3cd64c07b613e8d099bb49c4dd733",
+    "target_sha256": "1ee8b1c8cc12246625cd88c15347a6ff53d3cd64c07b613e8d099bb49c4dd733",
+    "bytes": 684108
+  },
+  {
+    "source": "work/assembly-video/qa_v2_ordered/frame_013.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_ordered/frame_013.png",
+    "source_sha256": "7b01ae8370e77dcfd2d5d8fdeec482375b2e6d8b03aaca3820ddb75950de33bb",
+    "target_sha256": "7b01ae8370e77dcfd2d5d8fdeec482375b2e6d8b03aaca3820ddb75950de33bb",
+    "bytes": 684030
+  },
+  {
+    "source": "work/assembly-video/qa_v2_ordered/frame_014.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_ordered/frame_014.png",
+    "source_sha256": "8b81dcdee7582c4b2daac6023f093cceeceb5bcbf8f3861a1f87a833d15c2aa3",
+    "target_sha256": "8b81dcdee7582c4b2daac6023f093cceeceb5bcbf8f3861a1f87a833d15c2aa3",
+    "bytes": 569118
+  },
+  {
+    "source": "work/assembly-video/qa_v2_ordered/frame_015.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_ordered/frame_015.png",
+    "source_sha256": "b1df753a86dba6fffc9850e6f49747bdb2b6d667a2d2fe2f95032a79f22a3690",
+    "target_sha256": "b1df753a86dba6fffc9850e6f49747bdb2b6d667a2d2fe2f95032a79f22a3690",
+    "bytes": 547888
+  },
+  {
+    "source": "work/assembly-video/qa_v2_ordered/frame_016.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_ordered/frame_016.png",
+    "source_sha256": "e51de48297be252124714d13ff5e4a1abca7c5e253f7d46352906e1cc80a8d2b",
+    "target_sha256": "e51de48297be252124714d13ff5e4a1abca7c5e253f7d46352906e1cc80a8d2b",
+    "bytes": 1128584
+  },
+  {
+    "source": "work/assembly-video/qa_v2_ordered/frame_017.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_ordered/frame_017.png",
+    "source_sha256": "31a31efaaf9c650b3c8c3aa16995cf72a9993cbf19c595c04c1d97dd93ef45ca",
+    "target_sha256": "31a31efaaf9c650b3c8c3aa16995cf72a9993cbf19c595c04c1d97dd93ef45ca",
+    "bytes": 937860
+  },
+  {
+    "source": "work/assembly-video/qa_v2_ordered/frame_018.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_ordered/frame_018.png",
+    "source_sha256": "589533f1279d6d44257fda874be940194b5dfd4eb650bb124a2cd5d6832e5a58",
+    "target_sha256": "589533f1279d6d44257fda874be940194b5dfd4eb650bb124a2cd5d6832e5a58",
+    "bytes": 795034
+  },
+  {
+    "source": "work/assembly-video/qa_v2_ordered/frame_019.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_ordered/frame_019.png",
+    "source_sha256": "08c1c2d3fd6ca5e7372ca1bf947e651ca105cf4173a61e9ac10df28262ced41c",
+    "target_sha256": "08c1c2d3fd6ca5e7372ca1bf947e651ca105cf4173a61e9ac10df28262ced41c",
+    "bytes": 945503
+  },
+  {
+    "source": "work/assembly-video/qa_v2_stills/frame_0.200.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_stills/frame_0.200.png",
+    "source_sha256": "b42e0e827d5d5806d66b41b1e3902c6effc29d5a66f667cc456f0110a7f30b0e",
+    "target_sha256": "b42e0e827d5d5806d66b41b1e3902c6effc29d5a66f667cc456f0110a7f30b0e",
+    "bytes": 491063
+  },
+  {
+    "source": "work/assembly-video/qa_v2_stills/frame_1.300.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_stills/frame_1.300.png",
+    "source_sha256": "8e7fc814c83796f20a53d386bf72e0d22fc2fd26e1b8901084556fac56326ec9",
+    "target_sha256": "8e7fc814c83796f20a53d386bf72e0d22fc2fd26e1b8901084556fac56326ec9",
+    "bytes": 558646
+  },
+  {
+    "source": "work/assembly-video/qa_v2_stills/frame_10.300.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_stills/frame_10.300.png",
+    "source_sha256": "0ca4465b1a69ad7e65a353da7705c259781452146f2e6100bc2702cb542c6d6b",
+    "target_sha256": "0ca4465b1a69ad7e65a353da7705c259781452146f2e6100bc2702cb542c6d6b",
+    "bytes": 620247
+  },
+  {
+    "source": "work/assembly-video/qa_v2_stills/frame_11.100.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_stills/frame_11.100.png",
+    "source_sha256": "6d8af9ffd8fbe8435eb1aea7527c8f91f1ece87383a1f2206813ab745094b417",
+    "target_sha256": "6d8af9ffd8fbe8435eb1aea7527c8f91f1ece87383a1f2206813ab745094b417",
+    "bytes": 696807
+  },
+  {
+    "source": "work/assembly-video/qa_v2_stills/frame_12.200.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_stills/frame_12.200.png",
+    "source_sha256": "1ee8b1c8cc12246625cd88c15347a6ff53d3cd64c07b613e8d099bb49c4dd733",
+    "target_sha256": "1ee8b1c8cc12246625cd88c15347a6ff53d3cd64c07b613e8d099bb49c4dd733",
+    "bytes": 684108
+  },
+  {
+    "source": "work/assembly-video/qa_v2_stills/frame_13.200.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_stills/frame_13.200.png",
+    "source_sha256": "7b01ae8370e77dcfd2d5d8fdeec482375b2e6d8b03aaca3820ddb75950de33bb",
+    "target_sha256": "7b01ae8370e77dcfd2d5d8fdeec482375b2e6d8b03aaca3820ddb75950de33bb",
+    "bytes": 684030
+  },
+  {
+    "source": "work/assembly-video/qa_v2_stills/frame_14.500.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_stills/frame_14.500.png",
+    "source_sha256": "8b81dcdee7582c4b2daac6023f093cceeceb5bcbf8f3861a1f87a833d15c2aa3",
+    "target_sha256": "8b81dcdee7582c4b2daac6023f093cceeceb5bcbf8f3861a1f87a833d15c2aa3",
+    "bytes": 569118
+  },
+  {
+    "source": "work/assembly-video/qa_v2_stills/frame_15.200.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_stills/frame_15.200.png",
+    "source_sha256": "b1df753a86dba6fffc9850e6f49747bdb2b6d667a2d2fe2f95032a79f22a3690",
+    "target_sha256": "b1df753a86dba6fffc9850e6f49747bdb2b6d667a2d2fe2f95032a79f22a3690",
+    "bytes": 547888
+  },
+  {
+    "source": "work/assembly-video/qa_v2_stills/frame_16.100.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_stills/frame_16.100.png",
+    "source_sha256": "e51de48297be252124714d13ff5e4a1abca7c5e253f7d46352906e1cc80a8d2b",
+    "target_sha256": "e51de48297be252124714d13ff5e4a1abca7c5e253f7d46352906e1cc80a8d2b",
+    "bytes": 1128584
+  },
+  {
+    "source": "work/assembly-video/qa_v2_stills/frame_16.800.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_stills/frame_16.800.png",
+    "source_sha256": "31a31efaaf9c650b3c8c3aa16995cf72a9993cbf19c595c04c1d97dd93ef45ca",
+    "target_sha256": "31a31efaaf9c650b3c8c3aa16995cf72a9993cbf19c595c04c1d97dd93ef45ca",
+    "bytes": 937860
+  },
+  {
+    "source": "work/assembly-video/qa_v2_stills/frame_18.200.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_stills/frame_18.200.png",
+    "source_sha256": "589533f1279d6d44257fda874be940194b5dfd4eb650bb124a2cd5d6832e5a58",
+    "target_sha256": "589533f1279d6d44257fda874be940194b5dfd4eb650bb124a2cd5d6832e5a58",
+    "bytes": 795034
+  },
+  {
+    "source": "work/assembly-video/qa_v2_stills/frame_18.900.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_stills/frame_18.900.png",
+    "source_sha256": "08c1c2d3fd6ca5e7372ca1bf947e651ca105cf4173a61e9ac10df28262ced41c",
+    "target_sha256": "08c1c2d3fd6ca5e7372ca1bf947e651ca105cf4173a61e9ac10df28262ced41c",
+    "bytes": 945503
+  },
+  {
+    "source": "work/assembly-video/qa_v2_stills/frame_2.400.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_stills/frame_2.400.png",
+    "source_sha256": "2f9163bd8834dd27f404bbebea3646bbd72014c93b6b395e2e5ab21ca80a18fd",
+    "target_sha256": "2f9163bd8834dd27f404bbebea3646bbd72014c93b6b395e2e5ab21ca80a18fd",
+    "bytes": 553176
+  },
+  {
+    "source": "work/assembly-video/qa_v2_stills/frame_3.800.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_stills/frame_3.800.png",
+    "source_sha256": "77f0ea105612b32410a10d16f2ad88b778f4802f703944c87b341bed3aabf612",
+    "target_sha256": "77f0ea105612b32410a10d16f2ad88b778f4802f703944c87b341bed3aabf612",
+    "bytes": 544028
+  },
+  {
+    "source": "work/assembly-video/qa_v2_stills/frame_4.800.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_stills/frame_4.800.png",
+    "source_sha256": "f2370503530ac070aed6f8f45d91186445d36459616debfa36fe11610dfedbf6",
+    "target_sha256": "f2370503530ac070aed6f8f45d91186445d36459616debfa36fe11610dfedbf6",
+    "bytes": 533257
+  },
+  {
+    "source": "work/assembly-video/qa_v2_stills/frame_5.600.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_stills/frame_5.600.png",
+    "source_sha256": "993c7bb8d3f9078977ca4443aaf0a6952fdfe7ef8bc57f49e118211a1c95c4aa",
+    "target_sha256": "993c7bb8d3f9078977ca4443aaf0a6952fdfe7ef8bc57f49e118211a1c95c4aa",
+    "bytes": 361843
+  },
+  {
+    "source": "work/assembly-video/qa_v2_stills/frame_6.200.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_stills/frame_6.200.png",
+    "source_sha256": "784bfe6de8bfd23e5f98a08eb108eaa07f60f1167b2b9b1dc62cf075c9f08ff8",
+    "target_sha256": "784bfe6de8bfd23e5f98a08eb108eaa07f60f1167b2b9b1dc62cf075c9f08ff8",
+    "bytes": 469409
+  },
+  {
+    "source": "work/assembly-video/qa_v2_stills/frame_7.300.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_stills/frame_7.300.png",
+    "source_sha256": "b5a24f2a4ffe89674602b5d7ae0bf32145fe0214df944d012cd5f6d9bcf01bc8",
+    "target_sha256": "b5a24f2a4ffe89674602b5d7ae0bf32145fe0214df944d012cd5f6d9bcf01bc8",
+    "bytes": 417254
+  },
+  {
+    "source": "work/assembly-video/qa_v2_stills/frame_8.600.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_stills/frame_8.600.png",
+    "source_sha256": "28663ddbc6229c6addd3fec7840a3c6f73def98575a2c892ac213dbc20658b3f",
+    "target_sha256": "28663ddbc6229c6addd3fec7840a3c6f73def98575a2c892ac213dbc20658b3f",
+    "bytes": 448001
+  },
+  {
+    "source": "work/assembly-video/qa_v2_stills/frame_9.600.png",
+    "target": "archive/codex_early_outputs/work/assembly-video/qa_v2_stills/frame_9.600.png",
+    "source_sha256": "1d8bc573a7d34162e9beec1c52039817ebdbd34ce0e89ddd5d62a12a5c71bd3a",
+    "target_sha256": "1d8bc573a7d34162e9beec1c52039817ebdbd34ce0e89ddd5d62a12a5c71bd3a",
+    "bytes": 494438
+  },
+  {
+    "source": "work/audio-analysis/analyze.py",
+    "target": "archive/codex_early_outputs/work/audio-analysis/analyze.py",
+    "source_sha256": "97da32e71ae618d065d4696b26826fcfb59e16b3078f4e70cceaf03331ad2101",
+    "target_sha256": "97da32e71ae618d065d4696b26826fcfb59e16b3078f4e70cceaf03331ad2101",
+    "bytes": 1928
+  },
+  {
+    "source": "work/audio-analysis/build_render_timing.py",
+    "target": "archive/codex_early_outputs/work/audio-analysis/build_render_timing.py",
+    "source_sha256": "df4e4c17199bf3dd2d8edaede6423411432fc460929997e2bfcfa1fe2a8721d4",
+    "target_sha256": "df4e4c17199bf3dd2d8edaede6423411432fc460929997e2bfcfa1fe2a8721d4",
+    "bytes": 2845
+  },
+  {
+    "source": "work/audio-analysis/make_timing.py",
+    "target": "archive/codex_early_outputs/work/audio-analysis/make_timing.py",
+    "source_sha256": "8c5790b3e84bc21e7b3729163091fbaa576d1af15c71c6d13b55488ab9324d03",
+    "target_sha256": "8c5790b3e84bc21e7b3729163091fbaa576d1af15c71c6d13b55488ab9324d03",
+    "bytes": 1748
+  },
+  {
+    "source": "work/audio-analysis/rhythm.json",
+    "target": "archive/codex_early_outputs/work/audio-analysis/rhythm.json",
+    "source_sha256": "a3ed3f2cd74ac7891149fd7852657d703faf11628344a26512f5e32c2772a99e",
+    "target_sha256": "a3ed3f2cd74ac7891149fd7852657d703faf11628344a26512f5e32c2772a99e",
+    "bytes": 16013
+  },
+  {
+    "source": "work/audio-analysis/transcribe.py",
+    "target": "archive/codex_early_outputs/work/audio-analysis/transcribe.py",
+    "source_sha256": "d068e4bbc90b54f12e5e1166c91830c734f4dd10fdc46fcffb70b2e9aa6daaf0",
+    "target_sha256": "d068e4bbc90b54f12e5e1166c91830c734f4dd10fdc46fcffb70b2e9aa6daaf0",
+    "bytes": 1109
+  },
+  {
+    "source": "work/audio-analysis/transcript.json",
+    "target": "archive/codex_early_outputs/work/audio-analysis/transcript.json",
+    "source_sha256": "794cc551e2f6a936430819988bf4e6f409fd8f67dae9bb9653d48caa32cedbbb",
+    "target_sha256": "794cc551e2f6a936430819988bf4e6f409fd8f67dae9bb9653d48caa32cedbbb",
+    "bytes": 5286
+  },
+  {
+    "source": "work/visual_audit/Help-Im-stuck-in-a-LIE_first15s-sheet.jpg",
+    "target": "archive/codex_early_outputs/work/visual_audit/Help-Im-stuck-in-a-LIE_first15s-sheet.jpg",
+    "source_sha256": "d88ed9f6ee6d0cfff883ccf27e8957215316f8a6015a095afbe627539f566174",
+    "target_sha256": "d88ed9f6ee6d0cfff883ccf27e8957215316f8a6015a095afbe627539f566174",
+    "bytes": 58767
+  },
+  {
+    "source": "work/visual_audit/Stuck-in-a-Lie_chorus1_chaos-sheet.jpg",
+    "target": "archive/codex_early_outputs/work/visual_audit/Stuck-in-a-Lie_chorus1_chaos-sheet.jpg",
+    "source_sha256": "b3af135e112b3efdf60235c7760d4e3969dd1f42d74e7fcfc42bd00caebefbe4",
+    "target_sha256": "b3af135e112b3efdf60235c7760d4e3969dd1f42d74e7fcfc42bd00caebefbe4",
+    "bytes": 164212
+  },
+  {
+    "source": "work/visual_audit/Stuck-in-a-Lie_chorus1_heroine-sheet.jpg",
+    "target": "archive/codex_early_outputs/work/visual_audit/Stuck-in-a-Lie_chorus1_heroine-sheet.jpg",
+    "source_sha256": "0eda3c21be76eceab23ef332b6dd192fefd764bd35d63f16ceba252eb3c535ad",
+    "target_sha256": "0eda3c21be76eceab23ef332b6dd192fefd764bd35d63f16ceba252eb3c535ad",
+    "bytes": 169614
+  },
+  {
+    "source": "work/visual_audit/Stuck-in-a-Lie_chorus1_seven-sheet.jpg",
+    "target": "archive/codex_early_outputs/work/visual_audit/Stuck-in-a-Lie_chorus1_seven-sheet.jpg",
+    "source_sha256": "4459771cb0d81390c73645437caa20c6823568728ac38136a2d4b32bf223498d",
+    "target_sha256": "4459771cb0d81390c73645437caa20c6823568728ac38136a2d4b32bf223498d",
+    "bytes": 124638
+  }
+]

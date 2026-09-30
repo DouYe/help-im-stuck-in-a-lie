@@ -1,0 +1,329 @@
+{
+ "lines": [
+  {
+   "text": "They want it bad",
+   "start": 38.8583,
+   "end": 39.5754,
+   "words": [
+    {
+     "w": "They",
+     "start": 38.8583,
+     "end": 39.0104,
+     "beat": -1.2
+    },
+    {
+     "w": "want",
+     "start": 39.0225,
+     "end": 39.2109,
+     "beat": -0.93
+    },
+    {
+     "w": "it",
+     "start": 39.223,
+     "end": 39.3628,
+     "beat": -0.6
+    },
+    {
+     "w": "bad",
+     "start": 39.3749,
+     "end": 39.5754,
+     "beat": -0.35
+    }
+   ]
+  },
+  {
+   "text": "Help, I'm stuck in a lie",
+   "start": 39.5876,
+   "end": 41.4654,
+   "words": [
+    {
+     "w": "Help,",
+     "start": 39.5876,
+     "end": 39.8594,
+     "beat": 0.0
+    },
+    {
+     "w": "I'm",
+     "start": 39.8895,
+     "end": 40.1613,
+     "beat": 0.5
+    },
+    {
+     "w": "stuck",
+     "start": 40.1915,
+     "end": 40.4652,
+     "beat": 1.0
+    },
+    {
+     "w": "in",
+     "start": 40.4956,
+     "end": 40.6294,
+     "beat": 1.5
+    },
+    {
+     "w": "a",
+     "start": 40.6476,
+     "end": 40.7815,
+     "beat": 1.75
+    },
+    {
+     "w": "lie",
+     "start": 40.7997,
+     "end": 41.4654,
+     "beat": 2.0
+    }
+   ]
+  },
+  {
+   "text": "Stuck in a lie",
+   "start": 42.6168,
+   "end": 43.949,
+   "words": [
+    {
+     "w": "Stuck",
+     "start": 42.6168,
+     "end": 42.8895,
+     "beat": 5.0
+    },
+    {
+     "w": "in",
+     "start": 42.9198,
+     "end": 43.0532,
+     "beat": 5.5
+    },
+    {
+     "w": "a",
+     "start": 43.0714,
+     "end": 43.2047,
+     "beat": 5.75
+    },
+    {
+     "w": "lie",
+     "start": 43.2229,
+     "end": 43.949,
+     "beat": 6.0
+    }
+   ]
+  },
+  {
+   "text": "Make me real this time",
+   "start": 45.0408,
+   "end": 46.8579,
+   "words": [
+    {
+     "w": "Make",
+     "start": 45.0408,
+     "end": 45.3131,
+     "beat": 9.0
+    },
+    {
+     "w": "me",
+     "start": 45.3434,
+     "end": 45.6157,
+     "beat": 9.5
+    },
+    {
+     "w": "real",
+     "start": 45.646,
+     "end": 45.9792,
+     "beat": 10.0
+    },
+    {
+     "w": "this",
+     "start": 46.0095,
+     "end": 46.2821,
+     "beat": 10.6
+    },
+    {
+     "w": "time",
+     "start": 46.3124,
+     "end": 46.8579,
+     "beat": 11.1
+    }
+   ]
+  },
+  {
+   "text": "Real this time",
+   "start": 47.342,
+   "end": 48.9468,
+   "words": [
+    {
+     "w": "Real",
+     "start": 47.342,
+     "end": 47.766,
+     "beat": 12.8
+    },
+    {
+     "w": "this",
+     "start": 47.7964,
+     "end": 48.0994,
+     "beat": 13.55
+    },
+    {
+     "w": "time",
+     "start": 48.1296,
+     "end": 48.9468,
+     "beat": 14.1
+    }
+   ]
+  },
+  {
+   "text": "Help, I'm stuck in a lie",
+   "start": 49.2801,
+   "end": 51.1575,
+   "words": [
+    {
+     "w": "Help,",
+     "start": 49.2801,
+     "end": 49.5528,
+     "beat": 16.0
+    },
+    {
+     "w": "I'm",
+     "start": 49.5831,
+     "end": 49.8558,
+     "beat": 16.5
+    },
+    {
+     "w": "stuck",
+     "start": 49.8861,
+     "end": 50.1585,
+     "beat": 17.0
+    },
+    {
+     "w": "in",
+     "start": 50.1888,
+     "end": 50.322,
+     "beat": 17.5
+    },
+    {
+     "w": "a",
+     "start": 50.3402,
+     "end": 50.4733,
+     "beat": 17.75
+    },
+    {
+     "w": "lie",
+     "start": 50.4915,
+     "end": 51.1575,
+     "beat": 18.0
+    }
+   ]
+  },
+  {
+   "text": "Stuck in a lie",
+   "start": 52.3084,
+   "end": 53.6406,
+   "words": [
+    {
+     "w": "Stuck",
+     "start": 52.3084,
+     "end": 52.5809,
+     "beat": 21.0
+    },
+    {
+     "w": "in",
+     "start": 52.6112,
+     "end": 52.7445,
+     "beat": 21.5
+    },
+    {
+     "w": "a",
+     "start": 52.7626,
+     "end": 52.8959,
+     "beat": 21.75
+    },
+    {
+     "w": "lie",
+     "start": 52.9141,
+     "end": 53.6406,
+     "beat": 22.0
+    }
+   ]
+  },
+  {
+   "text": "I still got a heart inside",
+   "start": 54.5798,
+   "end": 57.0036,
+   "words": [
+    {
+     "w": "I",
+     "start": 54.5798,
+     "end": 54.7129,
+     "beat": 24.75
+    },
+    {
+     "w": "still",
+     "start": 54.731,
+     "end": 55.0033,
+     "beat": 25.0
+    },
+    {
+     "w": "got",
+     "start": 55.0336,
+     "end": 55.1667,
+     "beat": 25.5
+    },
+    {
+     "w": "a",
+     "start": 55.1848,
+     "end": 55.3179,
+     "beat": 25.75
+    },
+    {
+     "w": "heart",
+     "start": 55.3361,
+     "end": 55.6693,
+     "beat": 26.0
+    },
+    {
+     "w": "inside",
+     "start": 55.6996,
+     "end": 57.0036,
+     "beat": 26.6,
+     "syl": [
+      [
+       55.6996,
+       56.0632
+      ],
+      [
+       56.0935,
+       57.0036
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Heart inside",
+   "start": 57.0946,
+   "end": 58.4291,
+   "words": [
+    {
+     "w": "Heart",
+     "start": 57.0946,
+     "end": 57.4289,
+     "beat": 28.9
+    },
+    {
+     "w": "inside",
+     "start": 57.4593,
+     "end": 58.4291,
+     "beat": 29.5,
+     "syl": [
+      [
+       57.4593,
+       57.7633
+      ],
+      [
+       57.7936,
+       58.4291
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "extras": [],
+ "notes": "Chorus 1 (+ last pre-chorus line) only. Estimated without a separated vocal: syllables snapped to 16ths from centre-channel pitch/energy; see analysis/finalize_real.py."
+}

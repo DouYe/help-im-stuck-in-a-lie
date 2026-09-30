@@ -1,0 +1,7077 @@
+{
+  "checks": [
+    {
+      "name": "One-step instant horizontal start",
+      "passed": true,
+      "detail": {
+        "vx": 1320,
+        "displacement": 11
+      }
+    },
+    {
+      "name": "One-step instant reversal",
+      "passed": true,
+      "detail": {
+        "vx": -1320,
+        "x": 360
+      }
+    },
+    {
+      "name": "One-step instant stop",
+      "passed": true,
+      "detail": {
+        "vx": 0,
+        "displacement": 0
+      }
+    },
+    {
+      "name": "First jump launch",
+      "passed": true,
+      "detail": {
+        "jumps": 1,
+        "vy": -1456.6666666666667
+      }
+    },
+    {
+      "name": "Second jump launches in air",
+      "passed": true,
+      "detail": {
+        "jumps": 2,
+        "vy": -1336.6666666666667,
+        "events": [
+          {
+            "kind": "cut",
+            "t": 0,
+            "scene": "factory"
+          },
+          {
+            "kind": "jump",
+            "t": 0.008333333333333333,
+            "scene": "factory",
+            "x": 360,
+            "y": 850
+          },
+          {
+            "kind": "fire",
+            "t": 0.008333333333333333,
+            "scene": "factory",
+            "id": 0,
+            "type": "word"
+          },
+          {
+            "kind": "double-jump",
+            "t": 0.025,
+            "scene": "factory",
+            "x": 360,
+            "y": 831.5458333333333
+          }
+        ]
+      }
+    },
+    {
+      "name": "Third jump blocked",
+      "passed": true,
+      "detail": {
+        "jumps": 2,
+        "events": [
+          {
+            "kind": "cut",
+            "t": 0,
+            "scene": "factory"
+          },
+          {
+            "kind": "jump",
+            "t": 0.008333333333333333,
+            "scene": "factory",
+            "x": 360,
+            "y": 850
+          },
+          {
+            "kind": "fire",
+            "t": 0.008333333333333333,
+            "scene": "factory",
+            "id": 0,
+            "type": "word"
+          },
+          {
+            "kind": "double-jump",
+            "t": 0.025,
+            "scene": "factory",
+            "x": 360,
+            "y": 831.5458333333333
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dash launches at 2850 px/s",
+      "passed": true,
+      "detail": {
+        "vx": 2850,
+        "vy": 0,
+        "dashTime": 0.10666666666666667
+      }
+    },
+    {
+      "name": "No repeated air dash during cooldown",
+      "passed": true,
+      "detail": {
+        "events": [
+          {
+            "kind": "cut",
+            "t": 0,
+            "scene": "factory"
+          },
+          {
+            "kind": "jump",
+            "t": 0.008333333333333333,
+            "scene": "factory",
+            "x": 360,
+            "y": 850
+          },
+          {
+            "kind": "fire",
+            "t": 0.008333333333333333,
+            "scene": "factory",
+            "id": 0,
+            "type": "word"
+          },
+          {
+            "kind": "dash",
+            "t": 0.016666666666666666,
+            "scene": "factory",
+            "dx": 1,
+            "dy": 0
+          },
+          {
+            "kind": "fire",
+            "t": 0.09999999999999999,
+            "scene": "factory",
+            "id": 1,
+            "type": "note"
+          },
+          {
+            "kind": "death",
+            "t": 0.15833333333333333,
+            "scene": "factory",
+            "cause": "HELP"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dash returns to normal motion",
+      "passed": true,
+      "detail": {
+        "dashTime": -0.001666666666666641,
+        "vx": 0,
+        "vy": 173.33333333333334
+      }
+    },
+    {
+      "name": "underwater ArrowRight: one-step four-axis movement",
+      "passed": true,
+      "detail": {
+        "vx": 1120,
+        "vy": 0
+      }
+    },
+    {
+      "name": "underwater ArrowRight: instant stop",
+      "passed": true,
+      "detail": {
+        "vx": 0,
+        "vy": 0
+      }
+    },
+    {
+      "name": "underwater ArrowLeft: one-step four-axis movement",
+      "passed": true,
+      "detail": {
+        "vx": -1120,
+        "vy": 0
+      }
+    },
+    {
+      "name": "underwater ArrowLeft: instant stop",
+      "passed": true,
+      "detail": {
+        "vx": 0,
+        "vy": 0
+      }
+    },
+    {
+      "name": "underwater ArrowUp: one-step four-axis movement",
+      "passed": true,
+      "detail": {
+        "vx": 0,
+        "vy": -1120
+      }
+    },
+    {
+      "name": "underwater ArrowUp: instant stop",
+      "passed": true,
+      "detail": {
+        "vx": 0,
+        "vy": 0
+      }
+    },
+    {
+      "name": "underwater ArrowDown: one-step four-axis movement",
+      "passed": true,
+      "detail": {
+        "vx": 0,
+        "vy": 1120
+      }
+    },
+    {
+      "name": "underwater ArrowDown: instant stop",
+      "passed": true,
+      "detail": {
+        "vx": 0,
+        "vy": 0
+      }
+    },
+    {
+      "name": "underwater: normalized diagonal speed",
+      "passed": true,
+      "detail": {
+        "vx": 791.9595949289331,
+        "vy": -791.9595949289331,
+        "magnitude": 1120
+      }
+    },
+    {
+      "name": "underwater: four-axis dash",
+      "passed": true,
+      "detail": {
+        "vx": 2015.2543263816603,
+        "vy": -2015.2543263816603
+      }
+    },
+    {
+      "name": "topdown ArrowRight: one-step four-axis movement",
+      "passed": true,
+      "detail": {
+        "vx": 1220,
+        "vy": 0
+      }
+    },
+    {
+      "name": "topdown ArrowRight: instant stop",
+      "passed": true,
+      "detail": {
+        "vx": 0,
+        "vy": 0
+      }
+    },
+    {
+      "name": "topdown ArrowLeft: one-step four-axis movement",
+      "passed": true,
+      "detail": {
+        "vx": -1220,
+        "vy": 0
+      }
+    },
+    {
+      "name": "topdown ArrowLeft: instant stop",
+      "passed": true,
+      "detail": {
+        "vx": 0,
+        "vy": 0
+      }
+    },
+    {
+      "name": "topdown ArrowUp: one-step four-axis movement",
+      "passed": true,
+      "detail": {
+        "vx": 0,
+        "vy": -1220
+      }
+    },
+    {
+      "name": "topdown ArrowUp: instant stop",
+      "passed": true,
+      "detail": {
+        "vx": 0,
+        "vy": 0
+      }
+    },
+    {
+      "name": "topdown ArrowDown: one-step four-axis movement",
+      "passed": true,
+      "detail": {
+        "vx": 0,
+        "vy": 1220
+      }
+    },
+    {
+      "name": "topdown ArrowDown: instant stop",
+      "passed": true,
+      "detail": {
+        "vx": 0,
+        "vy": 0
+      }
+    },
+    {
+      "name": "topdown: normalized diagonal speed",
+      "passed": true,
+      "detail": {
+        "vx": 862.6702730475879,
+        "vy": -862.6702730475879,
+        "magnitude": 1220
+      }
+    },
+    {
+      "name": "topdown: four-axis dash",
+      "passed": true,
+      "detail": {
+        "vx": 2015.2543263816603,
+        "vy": -2015.2543263816603
+      }
+    },
+    {
+      "name": "Topdown jump elevation and double jump",
+      "passed": true,
+      "detail": {
+        "firstZ": 6.319444444444445,
+        "secondZ": 18.77777777777778,
+        "jumps": 2
+      }
+    },
+    {
+      "name": "All six direct-cut worlds visited",
+      "passed": true,
+      "detail": {
+        "scenes": [
+          "factory",
+          "shaft",
+          "underwater",
+          "topdown",
+          "sky",
+          "final"
+        ]
+      }
+    },
+    {
+      "name": "Alive heroine kept in film frame",
+      "passed": true,
+      "detail": {
+        "offscreen": []
+      }
+    }
+  ],
+  "samples": [
+    {
+      "label": "factory snap start",
+      "scene": "factory",
+      "time": 0.008333333333333333,
+      "p": {
+        "x": 371,
+        "y": 850,
+        "vx": 1320,
+        "vy": 0,
+        "width": 110,
+        "maxSpeed": 1320,
+        "facing": 1,
+        "grounded": true,
+        "duck": 0,
+        "landing": 0,
+        "runPhase": 0.24166666666666667,
+        "hair": {
+          "hx": -0.0011534160968578535,
+          "lift": 0,
+          "hxv": -0.013771690882201662,
+          "liftv": 0,
+          "prevVx": 0,
+          "prevVy": 0,
+          "initialized": true
+        },
+        "jumps": 0,
+        "dashAvailable": 1,
+        "dashing": 0,
+        "dashTime": 0,
+        "dashCooldown": 0,
+        "grace": 0.085,
+        "jumpBuffer": 0,
+        "airAge": 0,
+        "z": 0,
+        "zv": 0,
+        "dead": false,
+        "lastGroundY": 850,
+        "topDown": false,
+        "swim": false,
+        "wideGap": false
+      },
+      "shots": 1
+    },
+    {
+      "label": "factory snap reversal",
+      "scene": "factory",
+      "time": 0.016666666666666666,
+      "p": {
+        "x": 360,
+        "y": 850,
+        "vx": -1320,
+        "vy": 0,
+        "width": 110,
+        "maxSpeed": 1320,
+        "facing": -1,
+        "grounded": true,
+        "duck": 0,
+        "landing": 0,
+        "runPhase": 0.48333333333333334,
+        "hair": {
+          "hx": -0.0011534160968578535,
+          "lift": 0,
+          "hxv": -0.013771690882201662,
+          "liftv": 0,
+          "prevVx": 0,
+          "prevVy": 0,
+          "initialized": true
+        },
+        "jumps": 0,
+        "dashAvailable": 1,
+        "dashing": 0,
+        "dashTime": 0,
+        "dashCooldown": 0,
+        "grace": 0.085,
+        "jumpBuffer": 0,
+        "airAge": 0,
+        "z": 0,
+        "zv": 0,
+        "dead": false,
+        "lastGroundY": 850,
+        "topDown": false,
+        "swim": false,
+        "wideGap": false
+      },
+      "shots": 1
+    },
+    {
+      "label": "factory snap stop",
+      "scene": "factory",
+      "time": 0.025,
+      "p": {
+        "x": 360,
+        "y": 850,
+        "vx": 0,
+        "vy": 0,
+        "width": 110,
+        "maxSpeed": 1320,
+        "facing": -1,
+        "grounded": true,
+        "duck": 0,
+        "landing": 0,
+        "runPhase": 0.48333333333333334,
+        "hair": {
+          "hx": -0.0011534160968578535,
+          "lift": 0,
+          "hxv": -0.013771690882201662,
+          "liftv": 0,
+          "prevVx": 0,
+          "prevVy": 0,
+          "initialized": true
+        },
+        "jumps": 0,
+        "dashAvailable": 1,
+        "dashing": 0,
+        "dashTime": 0,
+        "dashCooldown": 0,
+        "grace": 0.085,
+        "jumpBuffer": 0,
+        "airAge": 0,
+        "z": 0,
+        "zv": 0,
+        "dead": false,
+        "lastGroundY": 850,
+        "topDown": false,
+        "swim": false,
+        "wideGap": false
+      },
+      "shots": 1
+    },
+    {
+      "label": "first jump",
+      "scene": "factory",
+      "time": 0.008333333333333333,
+      "p": {
+        "x": 360,
+        "y": 837.8611111111111,
+        "vx": 0,
+        "vy": -1456.6666666666667,
+        "width": 110,
+        "maxSpeed": 1320,
+        "facing": 1,
+        "grounded": false,
+        "duck": 0,
+        "landing": 0,
+        "runPhase": 0.24166666666666667,
+        "hair": {
+          "hx": 0,
+          "lift": -0.006920836941800859,
+          "hxv": 0,
+          "liftv": -0.26188330437880064,
+          "prevVx": 0,
+          "prevVy": -648.5,
+          "initialized": true
+        },
+        "jumps": 1,
+        "dashAvailable": 1,
+        "dashing": 0,
+        "dashTime": 0,
+        "dashCooldown": 0,
+        "grace": 0,
+        "jumpBuffer": 0,
+        "airAge": 0,
+        "z": 0,
+        "zv": 0,
+        "dead": false,
+        "lastGroundY": 850,
+        "topDown": false,
+        "swim": false
+      },
+      "shots": 1
+    },
+    {
+      "label": "second jump",
+      "scene": "factory",
+      "time": 0.025,
+      "p": {
+        "x": 360,
+        "y": 820.4069444444444,
+        "vx": 0,
+        "vy": -1336.6666666666667,
+        "width": 110,
+        "maxSpeed": 1320,
+        "facing": 1,
+        "grounded": false,
+        "duck": 0,
+        "landing": 0,
+        "runPhase": 0.725,
+        "hair": {
+          "hx": 0,
+          "lift": -0.006920836941800859,
+          "hxv": 0,
+          "liftv": -0.26188330437880064,
+          "prevVx": 0,
+          "prevVy": -648.5,
+          "initialized": true
+        },
+        "jumps": 2,
+        "dashAvailable": 1,
+        "dashing": 0,
+        "dashTime": 0,
+        "dashCooldown": 0,
+        "grace": 0,
+        "jumpBuffer": 0,
+        "airAge": 0,
+        "z": 0,
+        "zv": 0,
+        "dead": false,
+        "lastGroundY": 850,
+        "topDown": false,
+        "swim": false
+      },
+      "shots": 1
+    },
+    {
+      "label": "blocked third jump",
+      "scene": "factory",
+      "time": 0.041666666666666664,
+      "p": {
+        "x": 360,
+        "y": 809.2375,
+        "vx": 0,
+        "vy": -648.5,
+        "width": 110,
+        "maxSpeed": 1320,
+        "facing": 1,
+        "grounded": false,
+        "duck": 0,
+        "landing": 0,
+        "runPhase": 1.2083333333333333,
+        "hair": {
+          "hx": 0,
+          "lift": -0.006920836941800859,
+          "hxv": 0,
+          "liftv": -0.26188330437880064,
+          "prevVx": 0,
+          "prevVy": -648.5,
+          "initialized": true
+        },
+        "jumps": 2,
+        "dashAvailable": 1,
+        "dashing": 0,
+        "dashTime": 0,
+        "dashCooldown": 0,
+        "grace": 0,
+        "jumpBuffer": 0.1,
+        "airAge": 0.016666666666666666,
+        "z": 0,
+        "zv": 0,
+        "dead": false,
+        "lastGroundY": 850,
+        "topDown": false,
+        "swim": false
+      },
+      "shots": 1
+    },
+    {
+      "label": "air dash",
+      "scene": "factory",
+      "time": 0.016666666666666666,
+      "p": {
+        "x": 394.75,
+        "y": 837.8611111111111,
+        "vx": 2850,
+        "vy": 0,
+        "width": 110,
+        "maxSpeed": 1320,
+        "facing": 1,
+        "grounded": false,
+        "duck": 0,
+        "landing": 0,
+        "runPhase": 0.48333333333333334,
+        "hair": {
+          "hx": -0.15745956403921238,
+          "lift": 0.005706615158523998,
+          "hxv": -0.8206947605345829,
+          "liftv": 0.19854065713344052,
+          "prevVx": 0,
+          "prevVy": 173.33333333333334,
+          "initialized": true
+        },
+        "jumps": 1,
+        "dashAvailable": 0,
+        "dashing": 1,
+        "dashTime": 0.10666666666666667,
+        "dashCooldown": 0.24,
+        "grace": 0,
+        "jumpBuffer": 0,
+        "airAge": 0.008333333333333333,
+        "z": 0,
+        "zv": 0,
+        "dead": false,
+        "lastGroundY": 850,
+        "topDown": false,
+        "swim": false,
+        "dashX": 1,
+        "dashY": 0
+      },
+      "shots": 1
+    },
+    {
+      "label": "dash released",
+      "scene": "factory",
+      "time": 0.16666666666666666,
+      "p": {
+        "x": 703.5,
+        "y": 841.4722222222222,
+        "vx": 0,
+        "vy": 173.33333333333334,
+        "width": 110,
+        "maxSpeed": 1320,
+        "facing": 1,
+        "grounded": false,
+        "duck": 0,
+        "landing": 0,
+        "runPhase": 3.787066287685187,
+        "hair": {
+          "hx": -0.15745956403921238,
+          "lift": 0.005706615158523998,
+          "hxv": -0.8206947605345829,
+          "liftv": 0.19854065713344052,
+          "prevVx": 0,
+          "prevVy": 173.33333333333334,
+          "initialized": true
+        },
+        "jumps": 1,
+        "dashAvailable": 0,
+        "dashing": 0.5000000000000001,
+        "dashTime": -0.001666666666666641,
+        "dashCooldown": 0.09833333333333336,
+        "grace": 0,
+        "jumpBuffer": 0,
+        "airAge": 0.15,
+        "z": 0,
+        "zv": 0,
+        "dead": true,
+        "lastGroundY": 850,
+        "topDown": false,
+        "swim": false,
+        "dashX": 1,
+        "dashY": 0
+      },
+      "shots": 2
+    },
+    {
+      "label": "water ArrowRight",
+      "scene": "underwater",
+      "time": 0.008333333333333333,
+      "p": {
+        "x": 359.3333333333333,
+        "y": 1100,
+        "vx": 1120,
+        "vy": 0,
+        "width": 110,
+        "maxSpeed": 1120,
+        "facing": 1,
+        "grounded": false,
+        "duck": 0,
+        "landing": 0,
+        "runPhase": 0.24166666666666667,
+        "hair": {
+          "hx": -0.0010385000000000001,
+          "lift": 0,
+          "hxv": -0.05262000000000001,
+          "liftv": 0,
+          "prevVx": 0,
+          "prevVy": 0,
+          "initialized": true
+        },
+        "jumps": 0,
+        "dashAvailable": 1,
+        "dashing": 0,
+        "dashTime": 0,
+        "dashCooldown": 0,
+        "grace": 0.07166666666666667,
+        "jumpBuffer": 0,
+        "airAge": 0.008333333333333333,
+        "z": 0,
+        "zv": 0,
+        "dead": false,
+        "lastGroundY": 1100,
+        "topDown": false,
+        "swim": true
+      },
+      "shots": 1
+    },
+    {
+      "label": "water ArrowLeft",
+      "scene": "underwater",
+      "time": 0.008333333333333333,
+      "p": {
+        "x": 340.6666666666667,
+        "y": 1100,
+        "vx": -1120,
+        "vy": 0,
+        "width": 110,
+        "maxSpeed": 1120,
+        "facing": -1,
+        "grounded": false,
+        "duck": 0,
+        "landing": 0,
+        "runPhase": 0.24166666666666667,
+        "hair": {
+          "hx": 0.0010385000000000001,
+          "lift": 0,
+          "hxv": 0.05262000000000001,
+          "liftv": 0,
+          "prevVx": 0,
+          "prevVy": 0,
+          "initialized": true
+        },
+        "jumps": 0,
+        "dashAvailable": 1,
+        "dashing": 0,
+        "dashTime": 0,
+        "dashCooldown": 0,
+        "grace": 0.07166666666666667,
+        "jumpBuffer": 0,
+        "airAge": 0.008333333333333333,
+        "z": 0,
+        "zv": 0,
+        "dead": false,
+        "lastGroundY": 1100,
+        "topDown": false,
+        "swim": true
+      },
+      "shots": 1
+    },
+    {
+      "label": "water ArrowUp",
+      "scene": "underwater",
+      "time": 0.008333333333333333,
+      "p": {
+        "x": 350,
+        "y": 1090.6666666666667,
+        "vx": 0,
+        "vy": -1120,
+        "width": 110,
+        "maxSpeed": 1120,
+        "facing": 1,
+        "grounded": false,
+        "duck": 0,
+        "landing": 0,
+        "runPhase": 0.24166666666666667,
+        "hair": {
+          "hx": 0,
+          "lift": -0.00020178776041666658,
+          "hxv": 0,
+          "liftv": 0.005035468750000008,
+          "prevVx": 0,
+          "prevVy": 0,
+          "initialized": true
+        },
+        "jumps": 0,
+        "dashAvailable": 1,
+        "dashing": 0,
+        "dashTime": 0,
+        "dashCooldown": 0,
+        "grace": 0.07166666666666667,
+        "jumpBuffer": 0,
+        "airAge": 0.008333333333333333,
+        "z": 0,
+        "zv": 0,
+        "dead": false,
+        "lastGroundY": 1100,
+        "topDown": false,
+        "swim": true
+      },
+      "shots": 1
+    },
+    {
+      "label": "water ArrowDown",
+      "scene": "underwater",
+      "time": 0.008333333333333333,
+      "p": {
+        "x": 350,
+        "y": 1109.3333333333333,
+        "vx": 0,
+        "vy": 1120,
+        "width": 110,
+        "maxSpeed": 1120,
+        "facing": 1,
+        "grounded": false,
+        "duck": 0.16666666666666666,
+        "landing": 0,
+        "runPhase": 0.24166666666666667,
+        "hair": {
+          "hx": 0,
+          "lift": 0.0009115460069444443,
+          "hxv": 0,
+          "liftv": 0.037885520833333325,
+          "prevVx": 0,
+          "prevVy": 0,
+          "initialized": true
+        },
+        "jumps": 0,
+        "dashAvailable": 1,
+        "dashing": 0,
+        "dashTime": 0,
+        "dashCooldown": 0,
+        "grace": 0.07166666666666667,
+        "jumpBuffer": 0,
+        "airAge": 0.008333333333333333,
+        "z": 0,
+        "zv": 0,
+        "dead": false,
+        "lastGroundY": 1100,
+        "topDown": false,
+        "swim": true
+      },
+      "shots": 1
+    },
+    {
+      "label": "water diagonal",
+      "scene": "underwater",
+      "time": 0.008333333333333333,
+      "p": {
+        "x": 356.5996632910744,
+        "y": 1093.4003367089256,
+        "vx": 791.9595949289331,
+        "vy": -791.9595949289331,
+        "width": 110,
+        "maxSpeed": 1120,
+        "facing": 1,
+        "grounded": false,
+        "duck": 0,
+        "landing": 0,
+        "runPhase": 0.24166666666666667,
+        "hair": {
+          "hx": -0.0018687148357625174,
+          "lift": -0.0007163710937499999,
+          "hxv": -0.16894069376386886,
+          "liftv": -0.05671453124999999,
+          "prevVx": 2015.2543263816603,
+          "prevVy": -2015.2543263816603,
+          "initialized": true
+        },
+        "jumps": 0,
+        "dashAvailable": 1,
+        "dashing": 0,
+        "dashTime": 0,
+        "dashCooldown": 0,
+        "grace": 0.07166666666666667,
+        "jumpBuffer": 0,
+        "airAge": 0.008333333333333333,
+        "z": 0,
+        "zv": 0,
+        "dead": false,
+        "lastGroundY": 1100,
+        "topDown": false,
+        "swim": true
+      },
+      "shots": 1
+    },
+    {
+      "label": "underwater diagonal dash",
+      "scene": "underwater",
+      "time": 0.016666666666666666,
+      "p": {
+        "x": 373.3934493442549,
+        "y": 1076.606550655745,
+        "vx": 2015.2543263816603,
+        "vy": -2015.2543263816603,
+        "width": 110,
+        "maxSpeed": 1120,
+        "facing": 1,
+        "grounded": false,
+        "duck": 0,
+        "landing": 0,
+        "runPhase": 0.48333333333333334,
+        "hair": {
+          "hx": -0.0018687148357625174,
+          "lift": -0.0007163710937499999,
+          "hxv": -0.16894069376386886,
+          "liftv": -0.05671453124999999,
+          "prevVx": 2015.2543263816603,
+          "prevVy": -2015.2543263816603,
+          "initialized": true
+        },
+        "jumps": 0,
+        "dashAvailable": 1,
+        "dashing": 1,
+        "dashTime": 0.10666666666666667,
+        "dashCooldown": 0.24,
+        "grace": 0.06333333333333334,
+        "jumpBuffer": 0,
+        "airAge": 0.016666666666666666,
+        "z": 0,
+        "zv": 0,
+        "dead": false,
+        "lastGroundY": 1100,
+        "topDown": false,
+        "swim": true,
+        "dashX": 0.7071067811865475,
+        "dashY": -0.7071067811865475
+      },
+      "shots": 1
+    },
+    {
+      "label": "topdown ArrowRight",
+      "scene": "topdown",
+      "time": 0.008333333333333333,
+      "p": {
+        "x": 490.1666666666667,
+        "y": 1700,
+        "vx": 1220,
+        "vy": 0,
+        "width": 110,
+        "maxSpeed": 1220,
+        "facing": 1,
+        "grounded": false,
+        "duck": 0,
+        "landing": 0,
+        "runPhase": 0.24166666666666667,
+        "hair": {
+          "hx": -0.0019650408950617287,
+          "lift": 0,
+          "hxv": -0.1004715740740741,
+          "liftv": 0,
+          "prevVx": 0,
+          "prevVy": 0,
+          "initialized": true
+        },
+        "jumps": 0,
+        "dashAvailable": 1,
+        "dashing": 0,
+        "dashTime": 0,
+        "dashCooldown": 0,
+        "grace": 0.07166666666666667,
+        "jumpBuffer": 0,
+        "airAge": 0.008333333333333333,
+        "z": 0,
+        "zv": 0,
+        "dead": false,
+        "lastGroundY": 1700,
+        "topDown": true,
+        "swim": false
+      },
+      "shots": 1
+    },
+    {
+      "label": "topdown ArrowLeft",
+      "scene": "topdown",
+      "time": 0.008333333333333333,
+      "p": {
+        "x": 469.8333333333333,
+        "y": 1700,
+        "vx": -1220,
+        "vy": 0,
+        "width": 110,
+        "maxSpeed": 1220,
+        "facing": -1,
+        "grounded": false,
+        "duck": 0,
+        "landing": 0,
+        "runPhase": 0.24166666666666667,
+        "hair": {
+          "hx": 0.0019650408950617287,
+          "lift": 0,
+          "hxv": 0.1004715740740741,
+          "liftv": 0,
+          "prevVx": 0,
+          "prevVy": 0,
+          "initialized": true
+        },
+        "jumps": 0,
+        "dashAvailable": 1,
+        "dashing": 0,
+        "dashTime": 0,
+        "dashCooldown": 0,
+        "grace": 0.07166666666666667,
+        "jumpBuffer": 0,
+        "airAge": 0.008333333333333333,
+        "z": 0,
+        "zv": 0,
+        "dead": false,
+        "lastGroundY": 1700,
+        "topDown": true,
+        "swim": false
+      },
+      "shots": 1
+    },
+    {
+      "label": "topdown ArrowUp",
+      "scene": "topdown",
+      "time": 0.008333333333333333,
+      "p": {
+        "x": 480,
+        "y": 1689.8333333333333,
+        "vx": 0,
+        "vy": -1220,
+        "width": 110,
+        "maxSpeed": 1220,
+        "facing": 1,
+        "grounded": false,
+        "duck": 0,
+        "landing": 0,
+        "runPhase": 0.24166666666666667,
+        "hair": {
+          "hx": 0,
+          "lift": 0,
+          "hxv": 0,
+          "liftv": 0,
+          "prevVx": 0,
+          "prevVy": 0,
+          "initialized": true
+        },
+        "jumps": 0,
+        "dashAvailable": 1,
+        "dashing": 0,
+        "dashTime": 0,
+        "dashCooldown": 0,
+        "grace": 0.07166666666666667,
+        "jumpBuffer": 0,
+        "airAge": 0.008333333333333333,
+        "z": 0,
+        "zv": 0,
+        "dead": false,
+        "lastGroundY": 1700,
+        "topDown": true,
+        "swim": false
+      },
+      "shots": 1
+    },
+    {
+      "label": "topdown ArrowDown",
+      "scene": "topdown",
+      "time": 0.008333333333333333,
+      "p": {
+        "x": 480,
+        "y": 1710.1666666666667,
+        "vx": 0,
+        "vy": 1220,
+        "width": 110,
+        "maxSpeed": 1220,
+        "facing": 1,
+        "grounded": false,
+        "duck": 0.16666666666666666,
+        "landing": 0,
+        "runPhase": 0.24166666666666667,
+        "hair": {
+          "hx": 0,
+          "lift": 0,
+          "hxv": 0,
+          "liftv": 0,
+          "prevVx": 0,
+          "prevVy": 0,
+          "initialized": true
+        },
+        "jumps": 0,
+        "dashAvailable": 1,
+        "dashing": 0,
+        "dashTime": 0,
+        "dashCooldown": 0,
+        "grace": 0.07166666666666667,
+        "jumpBuffer": 0,
+        "airAge": 0.008333333333333333,
+        "z": 0,
+        "zv": 0,
+        "dead": false,
+        "lastGroundY": 1700,
+        "topDown": true,
+        "swim": false
+      },
+      "shots": 1
+    },
+    {
+      "label": "topdown diagonal",
+      "scene": "topdown",
+      "time": 0.008333333333333333,
+      "p": {
+        "x": 487.18891894206325,
+        "y": 1692.8110810579367,
+        "vx": 862.6702730475879,
+        "vy": -862.6702730475879,
+        "width": 110,
+        "maxSpeed": 1220,
+        "facing": 1,
+        "grounded": false,
+        "duck": 0,
+        "landing": 0,
+        "runPhase": 0.24166666666666667,
+        "hair": {
+          "hx": -0.0032160399160926483,
+          "lift": 0,
+          "hxv": -0.2831514194225466,
+          "liftv": 0,
+          "prevVx": 2015.2543263816603,
+          "prevVy": -2015.2543263816603,
+          "initialized": true
+        },
+        "jumps": 0,
+        "dashAvailable": 1,
+        "dashing": 0,
+        "dashTime": 0,
+        "dashCooldown": 0,
+        "grace": 0.07166666666666667,
+        "jumpBuffer": 0,
+        "airAge": 0.008333333333333333,
+        "z": 0,
+        "zv": 0,
+        "dead": false,
+        "lastGroundY": 1700,
+        "topDown": true,
+        "swim": false
+      },
+      "shots": 1
+    },
+    {
+      "label": "topdown diagonal dash",
+      "scene": "topdown",
+      "time": 0.016666666666666666,
+      "p": {
+        "x": 503.98270499524375,
+        "y": 1676.017295004756,
+        "vx": 2015.2543263816603,
+        "vy": -2015.2543263816603,
+        "width": 110,
+        "maxSpeed": 1220,
+        "facing": 1,
+        "grounded": false,
+        "duck": 0,
+        "landing": 0,
+        "runPhase": 0.48333333333333334,
+        "hair": {
+          "hx": -0.0032160399160926483,
+          "lift": 0,
+          "hxv": -0.2831514194225466,
+          "liftv": 0,
+          "prevVx": 2015.2543263816603,
+          "prevVy": -2015.2543263816603,
+          "initialized": true
+        },
+        "jumps": 0,
+        "dashAvailable": 1,
+        "dashing": 1,
+        "dashTime": 0.10666666666666667,
+        "dashCooldown": 0.24,
+        "grace": 0.06333333333333334,
+        "jumpBuffer": 0,
+        "airAge": 0.016666666666666666,
+        "z": 0,
+        "zv": 0,
+        "dead": false,
+        "lastGroundY": 1700,
+        "topDown": true,
+        "swim": false,
+        "dashX": 0.7071067811865475,
+        "dashY": -0.7071067811865475
+      },
+      "shots": 1
+    },
+    {
+      "label": "topdown first jump",
+      "scene": "topdown",
+      "time": 0.008333333333333333,
+      "p": {
+        "x": 480,
+        "y": 1700,
+        "vx": 0,
+        "vy": 0,
+        "width": 110,
+        "maxSpeed": 1220,
+        "facing": 1,
+        "grounded": false,
+        "duck": 0,
+        "landing": 0,
+        "runPhase": 0,
+        "hair": {
+          "hx": 0,
+          "lift": 0,
+          "hxv": 0,
+          "liftv": 0,
+          "prevVx": 0,
+          "prevVy": 0,
+          "initialized": true
+        },
+        "jumps": 1,
+        "dashAvailable": 1,
+        "dashing": 0,
+        "dashTime": 0,
+        "dashCooldown": 0,
+        "grace": 0.07166666666666667,
+        "jumpBuffer": 0.1,
+        "airAge": 0.008333333333333333,
+        "z": 6.319444444444445,
+        "zv": 758.3333333333334,
+        "dead": false,
+        "lastGroundY": 1700,
+        "topDown": true,
+        "swim": false
+      },
+      "shots": 1
+    },
+    {
+      "label": "topdown second jump",
+      "scene": "topdown",
+      "time": 0.025,
+      "p": {
+        "x": 480,
+        "y": 1700,
+        "vx": 0,
+        "vy": 0,
+        "width": 110,
+        "maxSpeed": 1220,
+        "facing": 1,
+        "grounded": false,
+        "duck": 0,
+        "landing": 0,
+        "runPhase": 0,
+        "hair": {
+          "hx": 0,
+          "lift": 0,
+          "hxv": 0,
+          "liftv": 0,
+          "prevVx": 0,
+          "prevVy": 0,
+          "initialized": true
+        },
+        "jumps": 2,
+        "dashAvailable": 1,
+        "dashing": 0,
+        "dashTime": 0,
+        "dashCooldown": 0,
+        "grace": 0.05500000000000001,
+        "jumpBuffer": 0.1,
+        "airAge": 0.025,
+        "z": 18.77777777777778,
+        "zv": 758.3333333333334,
+        "dead": false,
+        "lastGroundY": 1700,
+        "topDown": true,
+        "swim": false
+      },
+      "shots": 1
+    }
+  ],
+  "film": [
+    {
+      "time": 0,
+      "scene": "factory",
+      "localTime": 0,
+      "x": 360,
+      "y": 850,
+      "vx": 0,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 0,
+      "projectedX": 900,
+      "projectedY": 760
+    },
+    {
+      "time": 0.08333333333333333,
+      "scene": "factory",
+      "localTime": 0.08333333333333333,
+      "x": 470,
+      "y": 850,
+      "vx": 1320,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 1,
+      "projectedX": 940.8661875194595,
+      "projectedY": 760
+    },
+    {
+      "time": 0.16666666666666666,
+      "scene": "factory",
+      "localTime": 0.16666666666666666,
+      "x": 580,
+      "y": 850,
+      "vx": 1320,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 2,
+      "projectedX": 945.7332733569701,
+      "projectedY": 760
+    },
+    {
+      "time": 0.24999999999999997,
+      "scene": "factory",
+      "localTime": 0.24999999999999997,
+      "x": 690,
+      "y": 803.6111111111111,
+      "vx": 1320,
+      "vy": -1326.666666666667,
+      "dead": false,
+      "dashing": 0,
+      "shots": 3,
+      "projectedX": 946.3129340982227,
+      "projectedY": 717.5172349266118
+    },
+    {
+      "time": 0.33333333333333354,
+      "scene": "factory",
+      "localTime": 0.33333333333333354,
+      "x": 800,
+      "y": 712.9166666666666,
+      "vx": 1320,
+      "vy": -893.3333333333339,
+      "dead": false,
+      "dashing": 0,
+      "shots": 4,
+      "projectedX": 946.3819705989476,
+      "projectedY": 648.621760001256
+    },
+    {
+      "time": 0.41666666666666713,
+      "scene": "factory",
+      "localTime": 0.41666666666666713,
+      "x": 910,
+      "y": 658.3333333333333,
+      "vx": 1320,
+      "vy": -460.00000000000034,
+      "dead": false,
+      "dashing": 0,
+      "shots": 5,
+      "projectedX": 946.3901927159433,
+      "projectedY": 615.6345549868919
+    },
+    {
+      "time": 0.5000000000000007,
+      "scene": "factory",
+      "localTime": 0.5000000000000007,
+      "x": 1020,
+      "y": 592.4999999999999,
+      "vx": 1320,
+      "vy": -1163.3333333333337,
+      "dead": false,
+      "dashing": 0,
+      "shots": 6,
+      "projectedX": 946.3911719545661,
+      "projectedY": 567.6735658070265
+    },
+    {
+      "time": 0.5833333333333337,
+      "scene": "factory",
+      "localTime": 0.5833333333333337,
+      "x": 1130,
+      "y": 515.4166666666665,
+      "vx": 1320,
+      "vy": -730.0000000000003,
+      "dead": false,
+      "dashing": 0,
+      "shots": 6,
+      "projectedX": 946.3912885800387,
+      "projectedY": 514.8469922025325
+    },
+    {
+      "time": 0.6666666666666667,
+      "scene": "factory",
+      "localTime": 0.6666666666666667,
+      "x": 1240,
+      "y": 474.4444444444443,
+      "vx": 1320,
+      "vy": -296.6666666666669,
+      "dead": false,
+      "dashing": 0,
+      "shots": 7,
+      "projectedX": 946.3913024699125,
+      "projectedY": 493.0859796922554
+    },
+    {
+      "time": 0.7499999999999998,
+      "scene": "factory",
+      "localTime": 0.7499999999999998,
+      "x": 1350,
+      "y": 469.5833333333332,
+      "vx": 1320,
+      "vy": 136.6666666666665,
+      "dead": false,
+      "dashing": 0,
+      "shots": 8,
+      "projectedX": 946.3913041241701,
+      "projectedY": 497.7634240156336
+    },
+    {
+      "time": 0.8333333333333328,
+      "scene": "factory",
+      "localTime": 0.8333333333333328,
+      "x": 1460,
+      "y": 500.8333333333332,
+      "vx": 1320,
+      "vy": 569.9999999999998,
+      "dead": false,
+      "dashing": 0,
+      "shots": 9,
+      "projectedX": 946.3913043211892,
+      "projectedY": 527.54101901081
+    },
+    {
+      "time": 0.9166666666666659,
+      "scene": "factory",
+      "localTime": 0.9166666666666659,
+      "x": 1570,
+      "y": 568.1944444444443,
+      "vx": 1320,
+      "vy": 1003.3333333333335,
+      "dead": false,
+      "dashing": 0,
+      "shots": 10,
+      "projectedX": 946.3913043446535,
+      "projectedY": 582.0316838423411
+    },
+    {
+      "time": 0.9999999999999989,
+      "scene": "factory",
+      "localTime": 0.9999999999999989,
+      "x": 1680,
+      "y": 671.6666666666665,
+      "vx": 1320,
+      "vy": 1436.666666666666,
+      "dead": false,
+      "dashing": 0,
+      "shots": 11,
+      "projectedX": 946.3913043474481,
+      "projectedY": 661.1234623843131
+    },
+    {
+      "time": 1.083333333333332,
+      "scene": "factory",
+      "localTime": 1.083333333333332,
+      "x": 1790,
+      "y": 777.8611111111111,
+      "vx": 1320,
+      "vy": -1456.6666666666667,
+      "dead": false,
+      "dashing": 0,
+      "shots": 11,
+      "projectedX": 946.391304347781,
+      "projectedY": 741.7931437239594
+    },
+    {
+      "time": 1.166666666666665,
+      "scene": "factory",
+      "localTime": 1.166666666666665,
+      "x": 1900,
+      "y": 676.3333333333333,
+      "vx": 1320,
+      "vy": -1023.333333333334,
+      "dead": false,
+      "dashing": 0,
+      "shots": 12,
+      "projectedX": 946.3913043478208,
+      "projectedY": 662.9646525812341
+    },
+    {
+      "time": 1.249999999999998,
+      "scene": "factory",
+      "localTime": 1.249999999999998,
+      "x": 1922,
+      "y": 610.9166666666666,
+      "vx": -1320,
+      "vy": -590.0000000000003,
+      "dead": false,
+      "dashing": 0,
+      "shots": 13,
+      "projectedX": 893.2208563250631,
+      "projectedY": 621.8685107407739
+    },
+    {
+      "time": 1.333333333333331,
+      "scene": "factory",
+      "localTime": 1.333333333333331,
+      "x": 1812,
+      "y": 562.6666666666665,
+      "vx": -1320,
+      "vy": -1293.3333333333335,
+      "dead": false,
+      "dashing": 0,
+      "shots": 14,
+      "projectedX": 858.3264292580409,
+      "projectedY": 591.2142612159153
+    },
+    {
+      "time": 1.416666666666664,
+      "scene": "factory",
+      "localTime": 1.416666666666664,
+      "x": 1856,
+      "y": 474.74999999999983,
+      "vx": 1320,
+      "vy": -860.0000000000005,
+      "dead": false,
+      "dashing": 0,
+      "shots": 15,
+      "projectedX": 926.0313317342814,
+      "projectedY": 527.003671528501
+    },
+    {
+      "time": 1.4999999999999971,
+      "scene": "factory",
+      "localTime": 1.4999999999999971,
+      "x": 1966,
+      "y": 422.9444444444443,
+      "vx": 1320,
+      "vy": -426.66666666666686,
+      "dead": false,
+      "dashing": 0,
+      "shots": 16,
+      "projectedX": 943.9664700196347,
+      "projectedY": 496.7140467425228
+    },
+    {
+      "time": 1.5833333333333302,
+      "scene": "factory",
+      "localTime": 1.5833333333333302,
+      "x": 2076,
+      "y": 407.24999999999983,
+      "vx": 1320,
+      "vy": 6.6666666666664725,
+      "dead": false,
+      "dashing": 0,
+      "shots": 16,
+      "projectedX": 946.1025111539066,
+      "projectedY": 493.6887526617618
+    },
+    {
+      "time": 1.6666666666666632,
+      "scene": "factory",
+      "localTime": 1.6666666666666632,
+      "x": 2186,
+      "y": 427.6666666666665,
+      "vx": 1320,
+      "vy": 439.9999999999998,
+      "dead": false,
+      "dashing": 0,
+      "shots": 17,
+      "projectedX": 946.3569096232527,
+      "projectedY": 516.0024783227374
+    },
+    {
+      "time": 1.7499999999999962,
+      "scene": "factory",
+      "localTime": 1.7499999999999962,
+      "x": 2296,
+      "y": 484.1944444444443,
+      "vx": 1320,
+      "vy": 873.3333333333334,
+      "dead": false,
+      "dashing": 0,
+      "shots": 18,
+      "projectedX": 946.3872080010169,
+      "projectedY": 563.0983623752793
+    },
+    {
+      "time": 1.8333333333333293,
+      "scene": "factory",
+      "localTime": 1.8333333333333293,
+      "x": 2406,
+      "y": 576.8333333333333,
+      "vx": 1320,
+      "vy": 1306.6666666666663,
+      "dead": false,
+      "dashing": 0,
+      "shots": 19,
+      "projectedX": 946.3908164806489,
+      "projectedY": 634.8153427524302
+    },
+    {
+      "time": 1.9166666666666623,
+      "scene": "factory",
+      "localTime": 1.9166666666666623,
+      "x": 2516,
+      "y": 680,
+      "vx": 1320,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 20,
+      "projectedX": 946.3912462437656,
+      "projectedY": 723.2793388700729
+    },
+    {
+      "time": 1.9999999999999953,
+      "scene": "factory",
+      "localTime": 1.9999999999999953,
+      "x": 2626,
+      "y": 680,
+      "vx": 1320,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 21,
+      "projectedX": 946.3912974277418,
+      "projectedY": 749.3792133718491
+    },
+    {
+      "time": 2.0833333333333286,
+      "scene": "factory",
+      "localTime": 2.0833333333333286,
+      "x": 2736,
+      "y": 680,
+      "vx": 1320,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 21,
+      "projectedX": 946.3913035236569,
+      "projectedY": 756.9281296923934
+    },
+    {
+      "time": 2.1666666666666616,
+      "scene": "factory",
+      "localTime": 2.1666666666666616,
+      "x": 2846,
+      "y": 680,
+      "vx": 1320,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 22,
+      "projectedX": 946.3913042496692,
+      "projectedY": 759.1115171110073
+    },
+    {
+      "time": 2.2499999999999947,
+      "scene": "factory",
+      "localTime": 2.2499999999999947,
+      "x": 2956,
+      "y": 680,
+      "vx": 1320,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 23,
+      "projectedX": 946.3913043361358,
+      "projectedY": 759.7430224049244
+    },
+    {
+      "time": 2.3333333333333277,
+      "scene": "factory",
+      "localTime": 2.3333333333333277,
+      "x": 3066,
+      "y": 683.6111111111111,
+      "vx": 1320,
+      "vy": 173.33333333333334,
+      "dead": false,
+      "dashing": 0,
+      "shots": 24,
+      "projectedX": 946.3913043464336,
+      "projectedY": 763.28966837615
+    },
+    {
+      "time": 2.4166666666666607,
+      "scene": "factory",
+      "localTime": 2.4166666666666607,
+      "x": 3176,
+      "y": 717.9166666666666,
+      "vx": 1320,
+      "vy": 606.6666666666666,
+      "dead": false,
+      "dashing": 0,
+      "shots": 25,
+      "projectedX": 946.39130434766,
+      "projectedY": 792.5528428751787
+    },
+    {
+      "time": 2.499999999999994,
+      "scene": "factory",
+      "localTime": 2.499999999999994,
+      "x": 3286,
+      "y": 788.3333333333333,
+      "vx": 1320,
+      "vy": 1040.0000000000002,
+      "dead": false,
+      "dashing": 0,
+      "shots": 26,
+      "projectedX": 946.3913043478065,
+      "projectedY": 848.3715390496995
+    },
+    {
+      "time": 2.583333333333327,
+      "scene": "factory",
+      "localTime": 2.583333333333327,
+      "x": 3396,
+      "y": 870.4444444444443,
+      "vx": 1320,
+      "vy": -1456.6666666666667,
+      "dead": false,
+      "dashing": 0,
+      "shots": 26,
+      "projectedX": 946.3913043478237,
+      "projectedY": 905.8191336716638
+    },
+    {
+      "time": 2.66666666666666,
+      "scene": "factory",
+      "localTime": 2.66666666666666,
+      "x": 3506,
+      "y": 768.9166666666665,
+      "vx": 1320,
+      "vy": -1023.333333333334,
+      "dead": false,
+      "dashing": 0,
+      "shots": 27,
+      "projectedX": 946.3913043478251,
+      "projectedY": 808.3192455610093
+    },
+    {
+      "time": 2.749999999999993,
+      "scene": "factory",
+      "localTime": 2.749999999999993,
+      "x": 3616,
+      "y": 703.4999999999999,
+      "vx": 1320,
+      "vy": -590.0000000000003,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 946.3913043478251,
+      "projectedY": 761.8227400793766
+    },
+    {
+      "time": 2.833333333333326,
+      "scene": "factory",
+      "localTime": 2.833333333333326,
+      "x": 3726,
+      "y": 655.2499999999998,
+      "vx": 1320,
+      "vy": -1293.3333333333335,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 946.3913043478251,
+      "projectedY": 729.606533111966
+    },
+    {
+      "time": 2.916666666666659,
+      "scene": "factory",
+      "localTime": 2.916666666666659,
+      "x": 3836,
+      "y": 567.3333333333331,
+      "vx": 1320,
+      "vy": -860.0000000000005,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 946.3913043478251,
+      "projectedY": 664.9441755040098
+    },
+    {
+      "time": 2.999999999999992,
+      "scene": "factory",
+      "localTime": 2.999999999999992,
+      "x": 3946,
+      "y": 515.5277777777776,
+      "vx": 1320,
+      "vy": -426.66666666666686,
+      "dead": false,
+      "dashing": 0,
+      "shots": 29,
+      "projectedX": 946.3913043478251,
+      "projectedY": 634.5238850235185
+    },
+    {
+      "time": 3.083333333333325,
+      "scene": "factory",
+      "localTime": 3.083333333333325,
+      "x": 4056,
+      "y": 499.83333333333314,
+      "vx": 1320,
+      "vy": 6.6666666666664725,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 946.3913043478251,
+      "projectedY": 631.4607982555252
+    },
+    {
+      "time": 3.166666666666658,
+      "scene": "factory",
+      "localTime": 3.166666666666658,
+      "x": 4166,
+      "y": 520.2499999999998,
+      "vx": 1320,
+      "vy": 439.9999999999998,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 946.3913043478251,
+      "projectedY": 653.763593065725
+    },
+    {
+      "time": 3.249999999999991,
+      "scene": "shaft",
+      "localTime": 0.049999999999999996,
+      "x": 577.5000000000002,
+      "y": 1632.5833333333333,
+      "vx": 1150,
+      "vy": -1240.0000000000005,
+      "dead": false,
+      "dashing": 0,
+      "shots": 1,
+      "projectedX": 929.1420075037643,
+      "projectedY": 625.8559332735026
+    },
+    {
+      "time": 3.333333333333324,
+      "scene": "shaft",
+      "localTime": 0.13333333333333333,
+      "x": 673.3333333333339,
+      "y": 1549.111111111111,
+      "vx": 1150,
+      "vy": -806.6666666666672,
+      "dead": false,
+      "dashing": 0,
+      "shots": 2,
+      "projectedX": 939.0738760305597,
+      "projectedY": 614.2504691928775
+    },
+    {
+      "time": 3.416666666666657,
+      "scene": "shaft",
+      "localTime": 0.21666666666666665,
+      "x": 769.1666666666677,
+      "y": 1501.75,
+      "vx": 1150,
+      "vy": -373.3333333333337,
+      "dead": false,
+      "dashing": 0,
+      "shots": 3,
+      "projectedX": 940.2567428351465,
+      "projectedY": 630.3271011403951
+    },
+    {
+      "time": 3.4999999999999902,
+      "scene": "shaft",
+      "localTime": 0.3000000000000001,
+      "x": 865.0000000000014,
+      "y": 1406.611111111111,
+      "vx": 1150,
+      "vy": -946.6666666666672,
+      "dead": false,
+      "dashing": 0,
+      "shots": 4,
+      "projectedX": 940.3976200400368,
+      "projectedY": 609.2652220348341
+    },
+    {
+      "time": 3.5833333333333233,
+      "scene": "shaft",
+      "localTime": 0.3833333333333337,
+      "x": 960.8333333333351,
+      "y": 1347.5833333333333,
+      "vx": 1150,
+      "vy": -513.3333333333335,
+      "dead": false,
+      "dashing": 0,
+      "shots": 4,
+      "projectedX": 940.4143982493677,
+      "projectedY": 622.6067570871262
+    },
+    {
+      "time": 3.6666666666666563,
+      "scene": "shaft",
+      "localTime": 0.4666666666666673,
+      "x": 1056.6666666666683,
+      "y": 1324.6666666666665,
+      "vx": 1150,
+      "vy": -80.0000000000002,
+      "dead": false,
+      "dashing": 0,
+      "shots": 5,
+      "projectedX": 940.4163965024457,
+      "projectedY": 645.8988570205249
+    },
+    {
+      "time": 3.7499999999999893,
+      "scene": "shaft",
+      "localTime": 0.5500000000000005,
+      "x": 1057,
+      "y": 1337.8611111111109,
+      "vx": 0,
+      "vy": 353.33333333333314,
+      "dead": false,
+      "dashing": 0,
+      "shots": 6,
+      "projectedX": 904.8532159470872,
+      "projectedY": 672.068977751476
+    },
+    {
+      "time": 3.8333333333333224,
+      "scene": "shaft",
+      "localTime": 0.6333333333333335,
+      "x": 1057,
+      "y": 1387.1666666666665,
+      "vx": 0,
+      "vy": 786.6666666666666,
+      "dead": false,
+      "dashing": 0,
+      "shots": 7,
+      "projectedX": 900.5780088634694,
+      "projectedY": 699.0715139091003
+    },
+    {
+      "time": 3.9166666666666554,
+      "scene": "shaft",
+      "localTime": 0.7166666666666666,
+      "x": 1018.6666666666669,
+      "y": 1383.6111111111109,
+      "vx": -1150,
+      "vy": -1326.666666666667,
+      "dead": false,
+      "dashing": 0,
+      "shots": 8,
+      "projectedX": 876.9074703613425,
+      "projectedY": 661.2651418347014
+    },
+    {
+      "time": 3.9999999999999885,
+      "scene": "shaft",
+      "localTime": 0.7999999999999996,
+      "x": 922.8333333333331,
+      "y": 1292.9166666666665,
+      "vx": -1150,
+      "vy": -893.3333333333339,
+      "dead": false,
+      "dashing": 0,
+      "shots": 9,
+      "projectedX": 861.6466053705392,
+      "projectedY": 620.6052814240422
+    },
+    {
+      "time": 4.083333333333326,
+      "scene": "shaft",
+      "localTime": 0.8833333333333326,
+      "x": 826.9999999999994,
+      "y": 1238.3333333333333,
+      "vx": -1150,
+      "vy": -460.00000000000034,
+      "dead": false,
+      "dashing": 0,
+      "shots": 9,
+      "projectedX": 859.829065140501,
+      "projectedY": 628.2784550857957
+    },
+    {
+      "time": 4.166666666666663,
+      "scene": "shaft",
+      "localTime": 0.9666666666666657,
+      "x": 731.1666666666657,
+      "y": 1152.75,
+      "vx": -1150,
+      "vy": -1033.333333333334,
+      "dead": false,
+      "dashing": 0,
+      "shots": 10,
+      "projectedX": 859.6125995279818,
+      "projectedY": 609.9591555720208
+    },
+    {
+      "time": 4.250000000000001,
+      "scene": "shaft",
+      "localTime": 1.0499999999999987,
+      "x": 635.333333333332,
+      "y": 1086.5,
+      "vx": -1150,
+      "vy": -600.0000000000002,
+      "dead": false,
+      "dashing": 0,
+      "shots": 11,
+      "projectedX": 859.5868188819037,
+      "projectedY": 618.9208043259878
+    },
+    {
+      "time": 4.333333333333338,
+      "scene": "shaft",
+      "localTime": 1.1333333333333317,
+      "x": 596.9999999999985,
+      "y": 1056.361111111111,
+      "vx": 0,
+      "vy": -166.66666666666688,
+      "dead": false,
+      "dashing": 0,
+      "shots": 12,
+      "projectedX": 888.7257559593565,
+      "projectedY": 640.9461014187326
+    },
+    {
+      "time": 4.416666666666676,
+      "scene": "shaft",
+      "localTime": 1.2166666666666648,
+      "x": 596.9999999999985,
+      "y": 1062.3333333333333,
+      "vx": 0,
+      "vy": 266.6666666666665,
+      "dead": false,
+      "dashing": 0,
+      "shots": 13,
+      "projectedX": 898.657258804171,
+      "projectedY": 666.7498223557662
+    },
+    {
+      "time": 4.500000000000013,
+      "scene": "shaft",
+      "localTime": 1.2999999999999978,
+      "x": 596.9999999999985,
+      "y": 1104.4166666666665,
+      "vx": 0,
+      "vy": 699.9999999999999,
+      "dead": false,
+      "dashing": 0,
+      "shots": 14,
+      "projectedX": 899.8400820567236,
+      "projectedY": 693.646384004434
+    },
+    {
+      "time": 4.583333333333351,
+      "scene": "shaft",
+      "localTime": 1.3833333333333309,
+      "x": 616.1666666666653,
+      "y": 1136.0833333333333,
+      "vx": 1150,
+      "vy": -1413.3333333333335,
+      "dead": false,
+      "dashing": 0,
+      "shots": 14,
+      "projectedX": 913.989258472797,
+      "projectedY": 682.7390867626871
+    },
+    {
+      "time": 4.666666666666688,
+      "scene": "shaft",
+      "localTime": 1.466666666666664,
+      "x": 711.999999999999,
+      "y": 1038.1666666666665,
+      "vx": 1150,
+      "vy": -980.0000000000007,
+      "dead": false,
+      "dashing": 0,
+      "shots": 15,
+      "projectedX": 937.2692122073722,
+      "projectedY": 622.9295708622835
+    },
+    {
+      "time": 4.750000000000026,
+      "scene": "shaft",
+      "localTime": 1.549999999999997,
+      "x": 807.8333333333327,
+      "y": 976.3611111111109,
+      "vx": 1150,
+      "vy": -546.666666666667,
+      "dead": false,
+      "dashing": 0,
+      "shots": 16,
+      "projectedX": 940.0418107783913,
+      "projectedY": 625.064053261384
+    },
+    {
+      "time": 4.833333333333363,
+      "scene": "shaft",
+      "localTime": 1.63333333333333,
+      "x": 903.6666666666664,
+      "y": 900.333333333333,
+      "vx": 1150,
+      "vy": -1120.0000000000005,
+      "dead": false,
+      "dashing": 0,
+      "shots": 17,
+      "projectedX": 940.3720220375571,
+      "projectedY": 611.7726416228845
+    },
+    {
+      "time": 4.916666666666701,
+      "scene": "shaft",
+      "localTime": 1.716666666666663,
+      "x": 999.5000000000001,
+      "y": 826.8611111111109,
+      "vx": 1150,
+      "vy": -686.666666666667,
+      "dead": false,
+      "dashing": 0,
+      "shots": 18,
+      "projectedX": 940.4113495755641,
+      "projectedY": 615.5586618667577
+    },
+    {
+      "time": 5.000000000000038,
+      "scene": "shaft",
+      "localTime": 1.799999999999996,
+      "x": 1057,
+      "y": 789.4999999999998,
+      "vx": 0,
+      "vy": -253.33333333333357,
+      "dead": false,
+      "dashing": 0,
+      "shots": 19,
+      "projectedX": 917.2546640072926,
+      "projectedY": 636.0870020861562
+    },
+    {
+      "time": 5.083333333333376,
+      "scene": "shaft",
+      "localTime": 1.883333333333329,
+      "x": 1057,
+      "y": 788.2499999999998,
+      "vx": 0,
+      "vy": 179.99999999999983,
+      "dead": false,
+      "dashing": 0,
+      "shots": 19,
+      "projectedX": 902.0549979315028,
+      "projectedY": 661.4577553408513
+    },
+    {
+      "time": 5.166666666666713,
+      "scene": "shaft",
+      "localTime": 1.9666666666666621,
+      "x": 1057,
+      "y": 823.1111111111109,
+      "vx": 0,
+      "vy": 613.3333333333331,
+      "dead": false,
+      "dashing": 0,
+      "shots": 20,
+      "projectedX": 900.244746376788,
+      "projectedY": 688.229088923643
+    },
+    {
+      "time": 5.250000000000051,
+      "scene": "shaft",
+      "localTime": 2.0499999999999954,
+      "x": 1057,
+      "y": 894.083333333333,
+      "vx": 0,
+      "vy": 1046.6666666666667,
+      "dead": false,
+      "dashing": 0,
+      "shots": 21,
+      "projectedX": 900.0291488317494,
+      "projectedY": 715.4055150173689
+    },
+    {
+      "time": 5.333333333333388,
+      "scene": "shaft",
+      "localTime": 2.1333333333333284,
+      "x": 1057,
+      "y": 1001.1666666666664,
+      "vx": 0,
+      "vy": 1479.9999999999993,
+      "dead": false,
+      "dashing": 0,
+      "shots": 22,
+      "projectedX": 900.0034715708707,
+      "projectedY": 742.6991067881527
+    },
+    {
+      "time": 5.416666666666726,
+      "scene": "shaft",
+      "localTime": 2.2166666666666615,
+      "x": 1057,
+      "y": 1144.3611111111109,
+      "vx": 0,
+      "vy": 1913.333333333332,
+      "dead": false,
+      "dashing": 0,
+      "shots": 23,
+      "projectedX": 900.0004134575413,
+      "projectedY": 770.0265866104551
+    },
+    {
+      "time": 5.500000000000063,
+      "scene": "shaft",
+      "localTime": 2.2999999999999945,
+      "x": 1057,
+      "y": 1323.6666666666665,
+      "vx": 0,
+      "vy": 2346.666666666666,
+      "dead": false,
+      "dashing": 0,
+      "shots": 24,
+      "projectedX": 900.0000492420131,
+      "projectedY": 797.363867938323
+    },
+    {
+      "time": 5.5833333333334005,
+      "scene": "shaft",
+      "localTime": 2.3833333333333275,
+      "x": 1057,
+      "y": 1383.6111111111109,
+      "vx": 0,
+      "vy": -1326.666666666667,
+      "dead": false,
+      "dashing": 0,
+      "shots": 24,
+      "projectedX": 900.000005864631,
+      "projectedY": 713.7229837014017
+    },
+    {
+      "time": 5.666666666666738,
+      "scene": "shaft",
+      "localTime": 2.4666666666666606,
+      "x": 1057,
+      "y": 1292.9166666666665,
+      "vx": 0,
+      "vy": -893.3333333333339,
+      "dead": false,
+      "dashing": 0,
+      "shots": 25,
+      "projectedX": 900.0000006984665,
+      "projectedY": 635.7777627545984
+    },
+    {
+      "time": 5.7500000000000755,
+      "scene": "shaft",
+      "localTime": 2.5499999999999936,
+      "x": 1057,
+      "y": 1238.3333333333333,
+      "vx": 0,
+      "vy": -460.00000000000034,
+      "dead": false,
+      "dashing": 0,
+      "shots": 26,
+      "projectedX": 900.000000083186,
+      "projectedY": 632.6668207053929
+    },
+    {
+      "time": 5.833333333333413,
+      "scene": "shaft",
+      "localTime": 2.6333333333333266,
+      "x": 1057,
+      "y": 1152.75,
+      "vx": 0,
+      "vy": -1033.333333333334,
+      "dead": false,
+      "dashing": 0,
+      "shots": 27,
+      "projectedX": 900.0000000099074,
+      "projectedY": 611.228410902886
+    },
+    {
+      "time": 5.9166666666667505,
+      "scene": "shaft",
+      "localTime": 2.7166666666666597,
+      "x": 1057,
+      "y": 1086.5,
+      "vx": 0,
+      "vy": -600.0000000000002,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 900.0000000011801,
+      "projectedY": 619.2879134583116
+    },
+    {
+      "time": 6.000000000000088,
+      "scene": "shaft",
+      "localTime": 2.7999999999999927,
+      "x": 1057,
+      "y": 1056.361111111111,
+      "vx": 0,
+      "vy": -166.66666666666688,
+      "dead": false,
+      "dashing": 0,
+      "shots": 29,
+      "projectedX": 900.0000000001405,
+      "projectedY": 641.0522810909848
+    },
+    {
+      "time": 6.083333333333425,
+      "scene": "shaft",
+      "localTime": 2.8833333333333258,
+      "x": 1057,
+      "y": 1062.3333333333333,
+      "vx": 0,
+      "vy": 266.6666666666665,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 900.0000000000168,
+      "projectedY": 666.7805329042297
+    },
+    {
+      "time": 6.166666666666763,
+      "scene": "shaft",
+      "localTime": 2.966666666666659,
+      "x": 1057,
+      "y": 1104.4166666666665,
+      "vx": 0,
+      "vy": 699.9999999999999,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 900.000000000002,
+      "projectedY": 693.65526647475
+    },
+    {
+      "time": 6.2500000000001,
+      "scene": "shaft",
+      "localTime": 3.049999999999992,
+      "x": 1057,
+      "y": 1182.6111111111109,
+      "vx": 0,
+      "vy": 1133.3333333333333,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 900.0000000000005,
+      "projectedY": 720.8615991435001
+    },
+    {
+      "time": 6.333333333333438,
+      "scene": "shaft",
+      "localTime": 3.133333333333325,
+      "x": 1057,
+      "y": 1296.9166666666665,
+      "vx": 0,
+      "vy": 1566.6666666666658,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 900.0000000000005,
+      "projectedY": 748.1638408498334
+    },
+    {
+      "time": 6.416666666666775,
+      "scene": "underwater",
+      "localTime": 0.025,
+      "x": 373.8849425878569,
+      "y": 1085.3880351227226,
+      "vx": 955.3977035142751,
+      "vy": -584.4785950910858,
+      "dead": false,
+      "dashing": 0,
+      "shots": 1,
+      "projectedX": 915.842909141648,
+      "projectedY": 608.5400479104394
+    },
+    {
+      "time": 6.500000000000113,
+      "scene": "underwater",
+      "localTime": 0.10833333333333332,
+      "x": 453.50141788071335,
+      "y": 1036.681485531798,
+      "vx": 955.3977035142753,
+      "vy": -584.478595091085,
+      "dead": false,
+      "dashing": 0,
+      "shots": 2,
+      "projectedX": 931.4652406717698,
+      "projectedY": 590.4738410161739
+    },
+    {
+      "time": 6.58333333333345,
+      "scene": "underwater",
+      "localTime": 0.19166666666666665,
+      "x": 533.1178931735698,
+      "y": 987.9749359408743,
+      "vx": 955.3977035142753,
+      "vy": -584.4785950910851,
+      "dead": false,
+      "dashing": 0,
+      "shots": 2,
+      "projectedX": 933.3258308847165,
+      "projectedY": 585.2485176505324
+    },
+    {
+      "time": 6.666666666666788,
+      "scene": "underwater",
+      "localTime": 0.275,
+      "x": 612.7343684664262,
+      "y": 939.2683863499508,
+      "vx": 955.3977035142752,
+      "vy": -584.4785950910855,
+      "dead": false,
+      "dashing": 0,
+      "shots": 3,
+      "projectedX": 933.5474236689843,
+      "projectedY": 583.737187439641
+    },
+    {
+      "time": 6.750000000000125,
+      "scene": "underwater",
+      "localTime": 0.3583333333333336,
+      "x": 692.3508437592826,
+      "y": 890.5618367590273,
+      "vx": 955.3977035142749,
+      "vy": -584.478595091086,
+      "dead": false,
+      "dashing": 0,
+      "shots": 4,
+      "projectedX": 933.5738149515449,
+      "projectedY": 583.3000625295596
+    },
+    {
+      "time": 6.833333333333463,
+      "scene": "underwater",
+      "localTime": 0.4416666666666672,
+      "x": 771.967319052139,
+      "y": 841.8552871681038,
+      "vx": 955.3977035142743,
+      "vy": -584.4785950910867,
+      "dead": false,
+      "dashing": 0,
+      "shots": 5,
+      "projectedX": 933.5769581035096,
+      "projectedY": 583.1736320607997
+    },
+    {
+      "time": 6.9166666666668,
+      "scene": "underwater",
+      "localTime": 0.5250000000000006,
+      "x": 851.5837943449955,
+      "y": 793.1487375771803,
+      "vx": 955.3977035142738,
+      "vy": -584.4785950910879,
+      "dead": false,
+      "dashing": 0,
+      "shots": 6,
+      "projectedX": 933.5773324469789,
+      "projectedY": 583.1370643359637
+    },
+    {
+      "time": 7.000000000000138,
+      "scene": "underwater",
+      "localTime": 0.6083333333333336,
+      "x": 931.2002696378519,
+      "y": 744.4421879862564,
+      "vx": 955.3977035142733,
+      "vy": -584.4785950910888,
+      "dead": false,
+      "dashing": 0,
+      "shots": 7,
+      "projectedX": 933.5773770305798,
+      "projectedY": 583.1264877833903
+    },
+    {
+      "time": 7.083333333333475,
+      "scene": "underwater",
+      "localTime": 0.6916666666666667,
+      "x": 1010.8167449307083,
+      "y": 695.7356383953322,
+      "vx": 955.3977035142733,
+      "vy": -584.4785950910887,
+      "dead": false,
+      "dashing": 0,
+      "shots": 7,
+      "projectedX": 933.5773823404026,
+      "projectedY": 583.1234287069824
+    },
+    {
+      "time": 7.166666666666813,
+      "scene": "underwater",
+      "localTime": 0.7749999999999997,
+      "x": 1090.4332202235637,
+      "y": 647.0290888044085,
+      "vx": 955.3977035142732,
+      "vy": -584.4785950910884,
+      "dead": false,
+      "dashing": 0,
+      "shots": 8,
+      "projectedX": 933.5773829727918,
+      "projectedY": 583.1225439244977
+    },
+    {
+      "time": 7.25000000000015,
+      "scene": "underwater",
+      "localTime": 0.8583333333333327,
+      "x": 1170.049695516419,
+      "y": 598.3225392134849,
+      "vx": 955.3977035142743,
+      "vy": -584.4785950910872,
+      "dead": false,
+      "dashing": 0,
+      "shots": 9,
+      "projectedX": 933.5773830481082,
+      "projectedY": 583.1222880171775
+    },
+    {
+      "time": 7.333333333333488,
+      "scene": "underwater",
+      "localTime": 0.9416666666666658,
+      "x": 1248.1439993310178,
+      "y": 629.9318856548922,
+      "vx": 932.5651313404159,
+      "vy": 620.2598453938743,
+      "dead": false,
+      "dashing": 0,
+      "shots": 10,
+      "projectedX": 932.9211992931487,
+      "projectedY": 630.9590207671016
+    },
+    {
+      "time": 7.416666666666825,
+      "scene": "underwater",
+      "localTime": 1.0249999999999988,
+      "x": 1325.8577602760524,
+      "y": 681.6202061043822,
+      "vx": 932.5651313404163,
+      "vy": 620.259845393874,
+      "dead": false,
+      "dashing": 0,
+      "shots": 11,
+      "projectedX": 932.7923538885673,
+      "projectedY": 650.9859225656672
+    },
+    {
+      "time": 7.5000000000001625,
+      "scene": "underwater",
+      "localTime": 1.1083333333333318,
+      "x": 1403.571521221087,
+      "y": 733.3085265538722,
+      "vx": 932.5651313404164,
+      "vy": 620.2598453938732,
+      "dead": false,
+      "dashing": 0,
+      "shots": 12,
+      "projectedX": 932.7770086439546,
+      "projectedY": 656.7783414459512
+    },
+    {
+      "time": 7.5833333333335,
+      "scene": "underwater",
+      "localTime": 1.1916666666666649,
+      "x": 1481.2852821661218,
+      "y": 784.9968470033617,
+      "vx": 932.5651313404167,
+      "vy": 620.2598453938732,
+      "dead": false,
+      "dashing": 0,
+      "shots": 12,
+      "projectedX": 932.7751810542709,
+      "projectedY": 658.4536937706463
+    },
+    {
+      "time": 7.6666666666668375,
+      "scene": "underwater",
+      "localTime": 1.274999999999998,
+      "x": 1558.9990431111564,
+      "y": 836.6851674528511,
+      "vx": 932.5651313404167,
+      "vy": 620.2598453938732,
+      "dead": false,
+      "dashing": 0,
+      "shots": 13,
+      "projectedX": 932.7749633917874,
+      "projectedY": 658.9382591085251
+    },
+    {
+      "time": 7.750000000000175,
+      "scene": "underwater",
+      "localTime": 1.358333333333331,
+      "x": 1636.712804056191,
+      "y": 888.3734879023405,
+      "vx": 932.5651313404165,
+      "vy": 620.2598453938731,
+      "dead": false,
+      "dashing": 0,
+      "shots": 14,
+      "projectedX": 932.7749374685961,
+      "projectedY": 659.0784108624056
+    },
+    {
+      "time": 7.8333333333335124,
+      "scene": "underwater",
+      "localTime": 1.441666666666664,
+      "x": 1714.4265650012258,
+      "y": 940.0618083518299,
+      "vx": 932.5651313404167,
+      "vy": 620.2598453938733,
+      "dead": false,
+      "dashing": 0,
+      "shots": 15,
+      "projectedX": 932.7749343811929,
+      "projectedY": 659.1189472206225
+    },
+    {
+      "time": 7.91666666666685,
+      "scene": "underwater",
+      "localTime": 1.524999999999997,
+      "x": 1792.1403259462604,
+      "y": 991.7501288013193,
+      "vx": 932.565131340417,
+      "vy": 620.259845393873,
+      "dead": false,
+      "dashing": 0,
+      "shots": 16,
+      "projectedX": 932.774934013489,
+      "projectedY": 659.1306716285732
+    },
+    {
+      "time": 8.000000000000187,
+      "scene": "underwater",
+      "localTime": 1.60833333333333,
+      "x": 1869.854086891295,
+      "y": 1043.4384492508084,
+      "vx": 932.565131340416,
+      "vy": 620.2598453938742,
+      "dead": false,
+      "dashing": 0,
+      "shots": 17,
+      "projectedX": 932.7749339696963,
+      "projectedY": 659.1340627013738
+    },
+    {
+      "time": 8.083333333333515,
+      "scene": "underwater",
+      "localTime": 1.691666666666663,
+      "x": 1947.5678478363297,
+      "y": 1095.1267697002975,
+      "vx": 932.5651313404112,
+      "vy": 620.2598453938812,
+      "dead": false,
+      "dashing": 0,
+      "shots": 17,
+      "projectedX": 932.7749339644806,
+      "projectedY": 659.1350435078068
+    },
+    {
+      "time": 8.166666666666844,
+      "scene": "underwater",
+      "localTime": 1.7749999999999961,
+      "x": 2133.3176139522734,
+      "y": 1218.671085631801,
+      "vx": 2373.045200285872,
+      "vy": 1578.3397851540672,
+      "dead": false,
+      "dashing": 1,
+      "shots": 18,
+      "projectedX": 975.9414381836614,
+      "projectedY": 699.7922317889117
+    },
+    {
+      "time": 8.250000000000172,
+      "scene": "underwater",
+      "localTime": 1.8583333333333292,
+      "x": 2186.6894731851166,
+      "y": 1294.7827337818014,
+      "vx": -1092.12057869763,
+      "vy": 248.33977044596313,
+      "dead": false,
+      "dashing": 0.40000000000000013,
+      "shots": 19,
+      "projectedX": 902.7571784206757,
+      "projectedY": 675.0747700611062
+    },
+    {
+      "time": 8.333333333333501,
+      "scene": "underwater",
+      "localTime": 1.9416666666666622,
+      "x": 2095.679424960314,
+      "y": 1315.4777146522977,
+      "vx": -1092.1205786976298,
+      "vy": 248.3397704459649,
+      "dead": false,
+      "dashing": 0,
+      "shots": 20,
+      "projectedX": 866.5171593218975,
+      "projectedY": 647.0664462635189
+    },
+    {
+      "time": 8.41666666666683,
+      "scene": "underwater",
+      "localTime": 2.0249999999999955,
+      "x": 2004.6693767355114,
+      "y": 1336.172695522794,
+      "vx": -1092.120578697629,
+      "vy": 248.3397704459676,
+      "dead": false,
+      "dashing": 0,
+      "shots": 21,
+      "projectedX": 862.2010414157976,
+      "projectedY": 638.9655455249995
+    },
+    {
+      "time": 8.500000000000158,
+      "scene": "underwater",
+      "localTime": 2.1083333333333285,
+      "x": 1913.6593285107087,
+      "y": 1356.867676393291,
+      "vx": -1092.1205786976288,
+      "vy": 248.3397704459684,
+      "dead": false,
+      "dashing": 0,
+      "shots": 22,
+      "projectedX": 861.6869999157482,
+      "projectedY": 636.6225066037998
+    },
+    {
+      "time": 8.583333333333487,
+      "scene": "underwater",
+      "localTime": 2.1916666666666615,
+      "x": 1822.6492802859061,
+      "y": 1377.5626572637887,
+      "vx": -1092.1205786976288,
+      "vy": 248.33977044596875,
+      "dead": false,
+      "dashing": 0,
+      "shots": 22,
+      "projectedX": 861.6257785428568,
+      "projectedY": 635.9448250022767
+    },
+    {
+      "time": 8.666666666666815,
+      "scene": "underwater",
+      "localTime": 2.2749999999999946,
+      "x": 1731.6392320611035,
+      "y": 1398.257638134286,
+      "vx": -1092.1205786976286,
+      "vy": 248.33977044597,
+      "dead": false,
+      "dashing": 0,
+      "shots": 23,
+      "projectedX": 861.6184871928426,
+      "projectedY": 635.7488178643296
+    },
+    {
+      "time": 8.750000000000144,
+      "scene": "underwater",
+      "localTime": 2.3583333333333276,
+      "x": 1745.2712297298817,
+      "y": 1381.3881254987145,
+      "vx": 1000.7203391739812,
+      "vy": -502.9500996754173,
+      "dead": false,
+      "dashing": 0,
+      "shots": 24,
+      "projectedX": 914.6520411831586,
+      "projectedY": 610.8084547252599
+    },
+    {
+      "time": 8.833333333333472,
+      "scene": "underwater",
+      "localTime": 2.4416666666666607,
+      "x": 1828.6645913277139,
+      "y": 1339.4756171924305,
+      "vx": 1000.7203391739808,
+      "vy": -502.95009967541773,
+      "dead": false,
+      "dashing": 0,
+      "shots": 25,
+      "projectedX": 932.7265645807154,
+      "projectedY": 594.7861702575553
+    },
+    {
+      "time": 8.916666666666801,
+      "scene": "underwater",
+      "localTime": 2.5249999999999937,
+      "x": 1912.057952925546,
+      "y": 1297.5631088861464,
+      "vx": 1000.7203391739807,
+      "vy": -502.95009967541836,
+      "dead": false,
+      "dashing": 0,
+      "shots": 26,
+      "projectedX": 934.8792062188941,
+      "projectedY": 590.1520144610427
+    },
+    {
+      "time": 9.00000000000013,
+      "scene": "underwater",
+      "localTime": 2.6083333333333267,
+      "x": 1995.4513145233782,
+      "y": 1255.6506005798624,
+      "vx": 1000.7203391739804,
+      "vy": -502.95009967541887,
+      "dead": false,
+      "dashing": 0,
+      "shots": 27,
+      "projectedX": 935.1355817769374,
+      "projectedY": 588.8116687700372
+    },
+    {
+      "time": 9.083333333333458,
+      "scene": "underwater",
+      "localTime": 2.6916666666666598,
+      "x": 2078.8446761212103,
+      "y": 1213.7380922735783,
+      "vx": 1000.7203391739798,
+      "vy": -502.95009967541955,
+      "dead": false,
+      "dashing": 0,
+      "shots": 27,
+      "projectedX": 935.1661156222353,
+      "projectedY": 588.4239980377004
+    },
+    {
+      "time": 9.166666666666787,
+      "scene": "underwater",
+      "localTime": 2.774999999999993,
+      "x": 2162.2380377190425,
+      "y": 1171.8255839672943,
+      "vx": 1000.7203391739796,
+      "vy": -502.95009967542046,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 935.1697521456072,
+      "projectedY": 588.3118712947867
+    },
+    {
+      "time": 9.250000000000115,
+      "scene": "underwater",
+      "localTime": 2.858333333333326,
+      "x": 2245.6313993168746,
+      "y": 1129.9130756610102,
+      "vx": 1000.720339173979,
+      "vy": -502.9500996754213,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 935.1701852486799,
+      "projectedY": 588.27944066377
+    },
+    {
+      "time": 9.333333333333444,
+      "scene": "underwater",
+      "localTime": 2.941666666666659,
+      "x": 2329.024760914707,
+      "y": 1088.0005673547257,
+      "vx": 1000.7203391739786,
+      "vy": -502.9500996754223,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 935.1702368304391,
+      "projectedY": 588.2700606907069
+    },
+    {
+      "time": 9.416666666666773,
+      "scene": "underwater",
+      "localTime": 3.024999999999992,
+      "x": 2412.418122512539,
+      "y": 1046.0880590484403,
+      "vx": 1000.7203391739786,
+      "vy": -502.9500996754224,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 935.1702429737288,
+      "projectedY": 588.2673477032654
+    },
+    {
+      "time": 9.500000000000101,
+      "scene": "underwater",
+      "localTime": 3.108333333333325,
+      "x": 2495.811484110371,
+      "y": 1004.175550742155,
+      "vx": 1000.7203391739783,
+      "vy": -502.9500996754224,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 935.1702437053832,
+      "projectedY": 588.26656302075
+    },
+    {
+      "time": 9.58333333333343,
+      "scene": "underwater",
+      "localTime": 3.191666666666658,
+      "x": 2579.2048457082033,
+      "y": 962.2630424358698,
+      "vx": 1000.7203391739783,
+      "vy": -502.95009967542273,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 935.1702437925219,
+      "projectedY": 588.2663360655343
+    },
+    {
+      "time": 9.666666666666758,
+      "scene": "topdown",
+      "localTime": 0.075,
+      "x": 571.4999999999999,
+      "y": 1700,
+      "vx": 1220,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 1,
+      "projectedX": 985.0930259169643,
+      "projectedY": 570
+    },
+    {
+      "time": 9.750000000000087,
+      "scene": "topdown",
+      "localTime": 0.15833333333333333,
+      "x": 673.1666666666662,
+      "y": 1700,
+      "vx": 1220,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 2,
+      "projectedX": 997.3544893328584,
+      "projectedY": 570
+    },
+    {
+      "time": 9.833333333333416,
+      "scene": "topdown",
+      "localTime": 0.24166666666666664,
+      "x": 774.8333333333325,
+      "y": 1700,
+      "vx": 1220,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 3,
+      "projectedX": 998.9296417336577,
+      "projectedY": 570
+    },
+    {
+      "time": 9.916666666666744,
+      "scene": "topdown",
+      "localTime": 0.3250000000000002,
+      "x": 876.4999999999987,
+      "y": 1700,
+      "vx": 1220,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 4,
+      "projectedX": 999.1946615905932,
+      "projectedY": 570
+    },
+    {
+      "time": 10.000000000000073,
+      "scene": "topdown",
+      "localTime": 0.40833333333333377,
+      "x": 978.166666666665,
+      "y": 1700,
+      "vx": 1220,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 5,
+      "projectedX": 999.2810131390987,
+      "projectedY": 570
+    },
+    {
+      "time": 10.083333333333401,
+      "scene": "topdown",
+      "localTime": 0.49166666666666736,
+      "x": 1079.833333333332,
+      "y": 1700,
+      "vx": 1220,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 5,
+      "projectedX": 999.3303008167583,
+      "projectedY": 570
+    },
+    {
+      "time": 10.16666666666673,
+      "scene": "topdown",
+      "localTime": 0.5750000000000004,
+      "x": 1181.4999999999993,
+      "y": 1700,
+      "vx": 1220,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 6,
+      "projectedX": 999.3639569874022,
+      "projectedY": 570
+    },
+    {
+      "time": 10.250000000000059,
+      "scene": "topdown",
+      "localTime": 0.6583333333333334,
+      "x": 1283.1666666666667,
+      "y": 1700,
+      "vx": 1220,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 7,
+      "projectedX": 999.3877619482628,
+      "projectedY": 570
+    },
+    {
+      "time": 10.333333333333387,
+      "scene": "topdown",
+      "localTime": 0.7416666666666665,
+      "x": 1384.8333333333342,
+      "y": 1700,
+      "vx": 1220,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 8,
+      "projectedX": 999.4047015478359,
+      "projectedY": 570
+    },
+    {
+      "time": 10.416666666666716,
+      "scene": "topdown",
+      "localTime": 0.8249999999999995,
+      "x": 1387.1003348860502,
+      "y": 1598.3586117023629,
+      "vx": 27.20401863260288,
+      "vy": -1219.696659571648,
+      "dead": false,
+      "dashing": 0,
+      "shots": 9,
+      "projectedX": 965.4687136733716,
+      "projectedY": 535.2863279433566
+    },
+    {
+      "time": 10.500000000000044,
+      "scene": "topdown",
+      "localTime": 0.9083333333333325,
+      "x": 1389.3673364387662,
+      "y": 1496.7172234047257,
+      "vx": 27.204018632605113,
+      "vy": -1219.696659571648,
+      "dead": false,
+      "dashing": 0,
+      "shots": 10,
+      "projectedX": 961.4258754120464,
+      "projectedY": 531.1435224491565
+    },
+    {
+      "time": 10.583333333333373,
+      "scene": "topdown",
+      "localTime": 0.9916666666666656,
+      "x": 1391.634337991483,
+      "y": 1395.0758351070886,
+      "vx": 27.20401863260565,
+      "vy": -1219.696659571648,
+      "dead": false,
+      "dashing": 0,
+      "shots": 10,
+      "projectedX": 960.9443856439125,
+      "projectedY": 530.6449107905929
+    },
+    {
+      "time": 10.666666666666702,
+      "scene": "topdown",
+      "localTime": 1.0749999999999986,
+      "x": 1393.9013395442003,
+      "y": 1293.4344468094514,
+      "vx": 27.20401863260559,
+      "vy": -1219.696659571648,
+      "dead": false,
+      "dashing": 0,
+      "shots": 11,
+      "projectedX": 960.8871129030985,
+      "projectedY": 530.5818841715526
+    },
+    {
+      "time": 10.75000000000003,
+      "scene": "topdown",
+      "localTime": 1.1583333333333317,
+      "x": 1396.1683410969174,
+      "y": 1191.7930585118143,
+      "vx": 27.204018632605457,
+      "vy": -1219.696659571648,
+      "dead": false,
+      "dashing": 0,
+      "shots": 12,
+      "projectedX": 960.880348780876,
+      "projectedY": 530.5717882915598
+    },
+    {
+      "time": 10.833333333333359,
+      "scene": "topdown",
+      "localTime": 1.2416666666666647,
+      "x": 1398.4353426496345,
+      "y": 1090.151670214177,
+      "vx": 27.204018632605006,
+      "vy": -1219.696659571648,
+      "dead": false,
+      "dashing": 0,
+      "shots": 13,
+      "projectedX": 960.8795842572123,
+      "projectedY": 530.5687414304248
+    },
+    {
+      "time": 10.916666666666687,
+      "scene": "topdown",
+      "localTime": 1.3249999999999977,
+      "x": 1348.7602347383654,
+      "y": 1037.7457123632269,
+      "vx": -1219.4066085030663,
+      "vy": -38.046328851150655,
+      "dead": false,
+      "dashing": 0,
+      "shots": 14,
+      "projectedX": 934.4852744101404,
+      "projectedY": 555.5859206524714
+    },
+    {
+      "time": 11.000000000000016,
+      "scene": "topdown",
+      "localTime": 1.4083333333333308,
+      "x": 1247.1430173631097,
+      "y": 1034.5751849589635,
+      "vx": -1219.4066085030663,
+      "vy": -38.046328851148665,
+      "dead": false,
+      "dashing": 0,
+      "shots": 15,
+      "projectedX": 922.23186910341,
+      "projectedY": 567.1996835996285
+    },
+    {
+      "time": 11.083333333333345,
+      "scene": "topdown",
+      "localTime": 1.4916666666666638,
+      "x": 1145.525799987854,
+      "y": 1031.4046575547006,
+      "vx": -1219.4066085030663,
+      "vy": -38.04632885114633,
+      "dead": false,
+      "dashing": 0,
+      "shots": 15,
+      "projectedX": 920.7718015437728,
+      "projectedY": 568.5828810142831
+    },
+    {
+      "time": 11.166666666666673,
+      "scene": "topdown",
+      "localTime": 1.5749999999999968,
+      "x": 1043.9085826125984,
+      "y": 1028.2341301504384,
+      "vx": -1219.4066085030663,
+      "vy": -38.04632885114632,
+      "dead": false,
+      "dashing": 0,
+      "shots": 16,
+      "projectedX": 920.597431446696,
+      "projectedY": 568.7476058683004
+    },
+    {
+      "time": 11.250000000000002,
+      "scene": "topdown",
+      "localTime": 1.6583333333333299,
+      "x": 942.2913652373427,
+      "y": 1025.0636027461762,
+      "vx": -1219.4066085030663,
+      "vy": -38.046328851146285,
+      "dead": false,
+      "dashing": 0,
+      "shots": 17,
+      "projectedX": 920.5763254636332,
+      "projectedY": 568.7672140204787
+    },
+    {
+      "time": 11.33333333333333,
+      "scene": "topdown",
+      "localTime": 1.741666666666663,
+      "x": 840.674147862087,
+      "y": 1021.8930753419139,
+      "vx": -1219.4066085030663,
+      "vy": -38.04632885114617,
+      "dead": false,
+      "dashing": 0,
+      "shots": 18,
+      "projectedX": 920.573570567018,
+      "projectedY": 568.7695418142246
+    },
+    {
+      "time": 11.416666666666659,
+      "scene": "topdown",
+      "localTime": 1.824999999999996,
+      "x": 797.994404105606,
+      "y": 959.6587467967121,
+      "vx": -40.65713612756814,
+      "vy": -1219.3223516699366,
+      "dead": false,
+      "dashing": 0,
+      "shots": 19,
+      "projectedX": 948.0536150452874,
+      "projectedY": 541.2303670302662
+    },
+    {
+      "time": 11.499999999999988,
+      "scene": "topdown",
+      "localTime": 1.908333333333329,
+      "x": 794.6063094283086,
+      "y": 858.0485508242172,
+      "vx": -40.65713612756792,
+      "vy": -1219.3223516699366,
+      "dead": false,
+      "dashing": 0,
+      "shots": 20,
+      "projectedX": 957.4191968338396,
+      "projectedY": 531.8445571012323
+    },
+    {
+      "time": 11.583333333333316,
+      "scene": "topdown",
+      "localTime": 1.991666666666662,
+      "x": 791.2182147510113,
+      "y": 756.4383548517222,
+      "vx": -40.657136127567966,
+      "vy": -1219.3223516699366,
+      "dead": false,
+      "dashing": 0,
+      "shots": 20,
+      "projectedX": 958.5346213684339,
+      "projectedY": 530.7266332934765
+    },
+    {
+      "time": 11.666666666666645,
+      "scene": "topdown",
+      "localTime": 2.0749999999999953,
+      "x": 787.8301200737139,
+      "y": 654.8281588792273,
+      "vx": -40.65713612756807,
+      "vy": -1219.3223516699366,
+      "dead": false,
+      "dashing": 0,
+      "shots": 21,
+      "projectedX": 958.6674646207074,
+      "projectedY": 530.5934281662744
+    },
+    {
+      "time": 11.749999999999973,
+      "scene": "topdown",
+      "localTime": 2.1583333333333283,
+      "x": 784.4420253964166,
+      "y": 553.2179629067324,
+      "vx": -40.65713612756734,
+      "vy": -1219.3223516699366,
+      "dead": false,
+      "dashing": 0,
+      "shots": 22,
+      "projectedX": 958.6832845562282,
+      "projectedY": 530.5775193804129
+    },
+    {
+      "time": 11.833333333333302,
+      "scene": "topdown",
+      "localTime": 2.2416666666666614,
+      "x": 781.0539307191193,
+      "y": 451.6077669342375,
+      "vx": -40.65713612756641,
+      "vy": -1219.3223516699366,
+      "dead": false,
+      "dashing": 0,
+      "shots": 23,
+      "projectedX": 958.6851676315086,
+      "projectedY": 530.5755931264752
+    },
+    {
+      "time": 11.91666666666663,
+      "scene": "topdown",
+      "localTime": 2.3249999999999944,
+      "x": 872.1837868820315,
+      "y": 439.05233556165024,
+      "vx": 1219.5822084085553,
+      "vy": -31.925490337836262,
+      "dead": false,
+      "dashing": 0,
+      "shots": 24,
+      "projectedX": 993.4293858927936,
+      "projectedY": 563.3111151869948
+    },
+    {
+      "time": 11.99999999999996,
+      "scene": "topdown",
+      "localTime": 2.4083333333333274,
+      "x": 973.8156375827449,
+      "y": 436.3918780334972,
+      "vx": 1219.5822084085553,
+      "vy": -31.92549033783619,
+      "dead": false,
+      "dashing": 0,
+      "shots": 25,
+      "projectedX": 998.7180800965272,
+      "projectedY": 568.2940495504358
+    },
+    {
+      "time": 12.083333333333288,
+      "scene": "topdown",
+      "localTime": 2.4916666666666605,
+      "x": 1075.4474882834577,
+      "y": 433.7314205053442,
+      "vx": 1219.5822084085553,
+      "vy": -31.925490337836187,
+      "dead": false,
+      "dashing": 0,
+      "shots": 25,
+      "projectedX": 999.3479653289397,
+      "projectedY": 568.887507634531
+    },
+    {
+      "time": 12.166666666666616,
+      "scene": "topdown",
+      "localTime": 2.5749999999999935,
+      "x": 1177.07933898417,
+      "y": 431.0709629771912,
+      "vx": 1219.582208408555,
+      "vy": -31.925490337836276,
+      "dead": false,
+      "dashing": 0,
+      "shots": 26,
+      "projectedX": 999.4229916289079,
+      "projectedY": 568.9581871854492
+    },
+    {
+      "time": 12.249999999999945,
+      "scene": "topdown",
+      "localTime": 2.6583333333333266,
+      "x": 1278.7111896848821,
+      "y": 428.41050544903817,
+      "vx": 1219.582208408555,
+      "vy": -31.92549033783623,
+      "dead": false,
+      "dashing": 0,
+      "shots": 27,
+      "projectedX": 999.4319329143968,
+      "projectedY": 568.9666048371579
+    },
+    {
+      "time": 12.333333333333274,
+      "scene": "topdown",
+      "localTime": 2.7416666666666596,
+      "x": 1380.3430403855943,
+      "y": 425.7500479208852,
+      "vx": 1219.5822084085553,
+      "vy": -31.92549033783615,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 999.4330019317492,
+      "projectedY": 568.9676072557477
+    },
+    {
+      "time": 12.416666666666602,
+      "scene": "topdown",
+      "localTime": 2.8249999999999926,
+      "x": 1481.9748910863066,
+      "y": 423.0895903927322,
+      "vx": 1219.5822084085553,
+      "vy": -31.925490337836457,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 999.4331321900305,
+      "projectedY": 568.9677265649564
+    },
+    {
+      "time": 12.49999999999993,
+      "scene": "topdown",
+      "localTime": 2.9083333333333257,
+      "x": 1583.6067417870188,
+      "y": 420.4291328645792,
+      "vx": 1219.582208408555,
+      "vy": -31.925490337836553,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 999.4331497984377,
+      "projectedY": 568.9677407196207
+    },
+    {
+      "time": 12.58333333333326,
+      "scene": "topdown",
+      "localTime": 2.9916666666666587,
+      "x": 1588.5091327575938,
+      "y": 521.9775335111808,
+      "vx": 58.82869164689954,
+      "vy": 1218.5808077592203,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 966.3720016495529,
+      "projectedY": 604.5852769026648
+    },
+    {
+      "time": 12.666666666666588,
+      "scene": "topdown",
+      "localTime": 3.0749999999999917,
+      "x": 1593.411523728169,
+      "y": 623.525934157783,
+      "vx": 58.82869164689964,
+      "vy": 1218.5808077592203,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 962.4344811418797,
+      "projectedY": 608.8272595306514
+    },
+    {
+      "time": 12.749999999999917,
+      "scene": "topdown",
+      "localTime": 3.1583333333333248,
+      "x": 1598.313914698744,
+      "y": 725.0743348043852,
+      "vx": 58.82869164690031,
+      "vy": 1218.5808077592203,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 961.9655298985118,
+      "projectedY": 609.3324724329509
+    },
+    {
+      "time": 12.833333333333245,
+      "scene": "topdown",
+      "localTime": 3.241666666666658,
+      "x": 1680.548407455889,
+      "y": 748.9751468586173,
+      "vx": 1218.810218445441,
+      "vy": 53.86697887367229,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 992.5793784290585,
+      "projectedY": 578.5978219601777
+    },
+    {
+      "time": 12.916666666666574,
+      "scene": "topdown",
+      "localTime": 3.324999999999991,
+      "x": 1782.1159256596766,
+      "y": 753.4640617647569,
+      "vx": 1218.810218445441,
+      "vy": 53.86697887367072,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 998.5948966847554,
+      "projectedY": 572.5582502631547
+    },
+    {
+      "time": 12.999999999999902,
+      "scene": "topdown",
+      "localTime": 3.408333333333324,
+      "x": 1883.6834438634642,
+      "y": 757.9529766708963,
+      "vx": 1218.810218445441,
+      "vy": 53.8669788736684,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 999.3113338429922,
+      "projectedY": 571.8389486713376
+    },
+    {
+      "time": 13.083333333333231,
+      "scene": "topdown",
+      "localTime": 3.491666666666657,
+      "x": 1924.3104511449792,
+      "y": 759.7485426333519,
+      "vx": 0,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 970.9817995460492,
+      "projectedY": 570.4974477130949
+    },
+    {
+      "time": 13.16666666666656,
+      "scene": "topdown",
+      "localTime": 3.57499999999999,
+      "x": 1924.3104511449792,
+      "y": 759.7485426333519,
+      "vx": 0,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 961.3079116137732,
+      "projectedY": 570.0592450844211
+    },
+    {
+      "time": 13.249999999999888,
+      "scene": "topdown",
+      "localTime": 3.658333333333323,
+      "x": 1924.3104511449792,
+      "y": 759.7485426333519,
+      "vx": 0,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 960.1557698062315,
+      "projectedY": 570.0070559778071
+    },
+    {
+      "time": 13.333333333333217,
+      "scene": "topdown",
+      "localTime": 3.741666666666656,
+      "x": 1924.3104511449792,
+      "y": 759.7485426333519,
+      "vx": 0,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 960.0185518900948,
+      "projectedY": 570.0008403536473
+    },
+    {
+      "time": 13.416666666666545,
+      "scene": "topdown",
+      "localTime": 3.824999999999989,
+      "x": 1924.3104511449792,
+      "y": 759.7485426333519,
+      "vx": 0,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 960.0022094951148,
+      "projectedY": 570.0001000845342
+    },
+    {
+      "time": 13.499999999999874,
+      "scene": "topdown",
+      "localTime": 3.908333333333322,
+      "x": 1924.3104511449792,
+      "y": 759.7485426333519,
+      "vx": 0,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 960.0002631467003,
+      "projectedY": 570.0000119198792
+    },
+    {
+      "time": 13.583333333333202,
+      "scene": "topdown",
+      "localTime": 3.991666666666655,
+      "x": 1924.3104511449792,
+      "y": 759.7485426333519,
+      "vx": 0,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 960.0000313402755,
+      "projectedY": 570.0000014196352
+    },
+    {
+      "time": 13.666666666666531,
+      "scene": "sky",
+      "localTime": 0.06666666666666667,
+      "x": 432,
+      "y": 942.8677277190565,
+      "vx": 1380,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 1,
+      "projectedX": 939.659727661354,
+      "projectedY": 761.7062328630825
+    },
+    {
+      "time": 13.74999999999986,
+      "scene": "sky",
+      "localTime": 0.15,
+      "x": 547,
+      "y": 946.3409361989516,
+      "vx": 1380,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 2,
+      "projectedX": 947.4471402420725,
+      "projectedY": 762.3525380897047
+    },
+    {
+      "time": 13.833333333333188,
+      "scene": "sky",
+      "localTime": 0.2333333333333333,
+      "x": 662,
+      "y": 850.4265684494337,
+      "vx": 1380,
+      "vy": -1110.0000000000007,
+      "dead": false,
+      "dashing": 0,
+      "shots": 3,
+      "projectedX": 948.3746063891022,
+      "projectedY": 678.3772417787277
+    },
+    {
+      "time": 13.916666666666517,
+      "scene": "sky",
+      "localTime": 0.3166666666666668,
+      "x": 777,
+      "y": 777.7876795605448,
+      "vx": 1380,
+      "vy": -676.6666666666671,
+      "dead": false,
+      "dashing": 0,
+      "shots": 4,
+      "projectedX": 948.4850658575032,
+      "projectedY": 628.5893442693423
+    },
+    {
+      "time": 13.999999999999845,
+      "scene": "sky",
+      "localTime": 0.4000000000000004,
+      "x": 892,
+      "y": 741.259901782767,
+      "vx": 1380,
+      "vy": -243.33333333333374,
+      "dead": false,
+      "dashing": 0,
+      "shots": 5,
+      "projectedX": 948.4982213718026,
+      "projectedY": 609.8553129662226
+    },
+    {
+      "time": 14.083333333333174,
+      "scene": "sky",
+      "localTime": 0.483333333333334,
+      "x": 1007,
+      "y": 646.1210128938781,
+      "vx": 1380,
+      "vy": -946.6666666666672,
+      "dead": false,
+      "dashing": 0,
+      "shots": 5,
+      "projectedX": 948.4997881687372,
+      "projectedY": 536.8332298014833
+    },
+    {
+      "time": 14.166666666666503,
+      "scene": "sky",
+      "localTime": 0.5666666666666671,
+      "x": 1122,
+      "y": 587.0932351161002,
+      "vx": 1380,
+      "vy": -513.3333333333335,
+      "dead": false,
+      "dashing": 0,
+      "shots": 6,
+      "projectedX": 948.4999747712964,
+      "projectedY": 500.5043788976084
+    },
+    {
+      "time": 14.249999999999831,
+      "scene": "sky",
+      "localTime": 0.6500000000000001,
+      "x": 1335,
+      "y": 579.6210128938781,
+      "vx": 2850,
+      "vy": 0,
+      "dead": false,
+      "dashing": 1,
+      "shots": 7,
+      "projectedX": 990.7462286345774,
+      "projectedY": 505.3347815304609
+    },
+    {
+      "time": 14.33333333333316,
+      "scene": "sky",
+      "localTime": 0.7333333333333332,
+      "x": 1523.5,
+      "y": 583.2321240049891,
+      "vx": 1380,
+      "vy": 173.33333333333334,
+      "dead": false,
+      "dashing": 0.5000000000000001,
+      "shots": 8,
+      "projectedX": 969.4352464011663,
+      "projectedY": 512.3005512117602
+    },
+    {
+      "time": 14.416666666666488,
+      "scene": "sky",
+      "localTime": 0.8166666666666662,
+      "x": 1638.5,
+      "y": 617.5376795605447,
+      "vx": 1380,
+      "vy": 606.6666666666666,
+      "dead": false,
+      "dashing": 0,
+      "shots": 9,
+      "projectedX": 950.9933483510149,
+      "projectedY": 542.5526453615398
+    },
+    {
+      "time": 14.499999999999817,
+      "scene": "sky",
+      "localTime": 0.8999999999999992,
+      "x": 1753.5,
+      "y": 687.9543462272113,
+      "vx": 1380,
+      "vy": 1040.0000000000002,
+      "dead": false,
+      "dashing": 0,
+      "shots": 10,
+      "projectedX": 948.7969530847827,
+      "projectedY": 598.6573686466796
+    },
+    {
+      "time": 14.583333333333146,
+      "scene": "sky",
+      "localTime": 0.9833333333333323,
+      "x": 1868.5,
+      "y": 794.4821240049891,
+      "vx": 1380,
+      "vy": 1473.3333333333328,
+      "dead": false,
+      "dashing": 0,
+      "shots": 10,
+      "projectedX": 948.5353665521811,
+      "projectedY": 679.6928025447247
+    },
+    {
+      "time": 14.666666666666474,
+      "scene": "sky",
+      "localTime": 1.0666666666666653,
+      "x": 1983.5,
+      "y": 709.499204227456,
+      "vx": 1380,
+      "vy": -1110.0000000000007,
+      "dead": false,
+      "dashing": 0,
+      "shots": 11,
+      "projectedX": 948.5042120896439,
+      "projectedY": 657.6311328015514
+    },
+    {
+      "time": 14.749999999999803,
+      "scene": "sky",
+      "localTime": 1.1499999999999984,
+      "x": 2098.5,
+      "y": 636.860315338567,
+      "vx": 1380,
+      "vy": -676.6666666666671,
+      "dead": false,
+      "dashing": 0,
+      "shots": 12,
+      "projectedX": 948.5005016519299,
+      "projectedY": 622.588907729506
+    },
+    {
+      "time": 14.833333333333131,
+      "scene": "sky",
+      "localTime": 1.2333333333333314,
+      "x": 2213.5,
+      "y": 600.3325375607892,
+      "vx": 1380,
+      "vy": -243.33333333333374,
+      "dead": false,
+      "dashing": 0,
+      "shots": 13,
+      "projectedX": 948.5000597457979,
+      "projectedY": 608.1197952983933
+    },
+    {
+      "time": 14.91666666666646,
+      "scene": "sky",
+      "localTime": 1.3166666666666644,
+      "x": 2328.5,
+      "y": 505.1936486719003,
+      "vx": 1380,
+      "vy": -946.6666666666672,
+      "dead": false,
+      "dashing": 0,
+      "shots": 14,
+      "projectedX": 948.5000071156119,
+      "projectedY": 536.3312627270294
+    },
+    {
+      "time": 14.999999999999789,
+      "scene": "sky",
+      "localTime": 1.3999999999999975,
+      "x": 2443.5,
+      "y": 446.1658708941225,
+      "vx": 1380,
+      "vy": -513.3333333333335,
+      "dead": false,
+      "dashing": 0,
+      "shots": 15,
+      "projectedX": 948.5000008474558,
+      "projectedY": 500.35919400637596
+    },
+    {
+      "time": 15.083333333333117,
+      "scene": "sky",
+      "localTime": 1.4833333333333305,
+      "x": 2656.5,
+      "y": 438.6936486719003,
+      "vx": 2850,
+      "vy": 0,
+      "dead": false,
+      "dashing": 1,
+      "shots": 15,
+      "projectedX": 990.7462317401992,
+      "projectedY": 505.2927894283591
+    },
+    {
+      "time": 15.166666666666446,
+      "scene": "sky",
+      "localTime": 1.5666666666666635,
+      "x": 2845,
+      "y": 442.3047597830114,
+      "vx": 1380,
+      "vy": 173.33333333333334,
+      "dead": false,
+      "dashing": 0.5000000000000001,
+      "shots": 16,
+      "projectedX": 969.43524677104,
+      "projectedY": 512.2884057562383
+    },
+    {
+      "time": 15.249999999999774,
+      "scene": "sky",
+      "localTime": 1.6499999999999966,
+      "x": 2960,
+      "y": 476.6103153385669,
+      "vx": 1380,
+      "vy": 606.6666666666666,
+      "dead": false,
+      "dashing": 0,
+      "shots": 17,
+      "projectedX": 950.9933483950663,
+      "projectedY": 542.5491325083495
+    },
+    {
+      "time": 15.333333333333103,
+      "scene": "sky",
+      "localTime": 1.7333333333333296,
+      "x": 3075,
+      "y": 547.0269820052335,
+      "vx": 1380,
+      "vy": 1040.0000000000002,
+      "dead": false,
+      "dashing": 0,
+      "shots": 18,
+      "projectedX": 948.7969530900291,
+      "projectedY": 598.6563526174731
+    },
+    {
+      "time": 15.416666666666432,
+      "scene": "sky",
+      "localTime": 1.8166666666666627,
+      "x": 3190,
+      "y": 653.5547597830114,
+      "vx": 1380,
+      "vy": 1473.3333333333328,
+      "dead": false,
+      "dashing": 0,
+      "shots": 19,
+      "projectedX": 948.5353665528064,
+      "projectedY": 679.6925086766657
+    },
+    {
+      "time": 15.49999999999976,
+      "scene": "sky",
+      "localTime": 1.8999999999999957,
+      "x": 3305,
+      "y": 796.1936486719002,
+      "vx": 1380,
+      "vy": 1906.6666666666654,
+      "dead": false,
+      "dashing": 0,
+      "shots": 20,
+      "projectedX": 948.5042120897187,
+      "projectedY": 785.3922138127514
+    },
+    {
+      "time": 15.583333333333089,
+      "scene": "sky",
+      "localTime": 1.9833333333333287,
+      "x": 3420,
+      "y": 917.9205655654773,
+      "vx": 1380,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 20,
+      "projectedX": 948.5005016519394,
+      "projectedY": 838.8654759049416
+    },
+    {
+      "time": 15.666666666666417,
+      "scene": "sky",
+      "localTime": 2.066666666666662,
+      "x": 3535,
+      "y": 917.8989356705066,
+      "vx": 1380,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 21,
+      "projectedX": 948.5000597457997,
+      "projectedY": 782.7601475670081
+    },
+    {
+      "time": 15.749999999999746,
+      "scene": "sky",
+      "localTime": 2.149999999999995,
+      "x": 3650,
+      "y": 917.1637316937104,
+      "vx": 1380,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 22,
+      "projectedX": 948.5000071156123,
+      "projectedY": 766.1495309840997
+    },
+    {
+      "time": 15.833333333333075,
+      "scene": "sky",
+      "localTime": 2.233333333333328,
+      "x": 3765,
+      "y": 915.7442638975734,
+      "vx": 1380,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 23,
+      "projectedX": 948.5000008474558,
+      "projectedY": 760.979324442381
+    },
+    {
+      "time": 15.916666666666403,
+      "scene": "sky",
+      "localTime": 2.316666666666661,
+      "x": 3880,
+      "y": 913.6971219837382,
+      "vx": 1380,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 24,
+      "projectedX": 948.5000001009303,
+      "projectedY": 759.149915656526
+    },
+    {
+      "time": 15.999999999999732,
+      "scene": "sky",
+      "localTime": 2.399999999999994,
+      "x": 3995,
+      "y": 911.103919040179,
+      "vx": 1380,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 25,
+      "projectedX": 948.5000000120203,
+      "projectedY": 758.3319546951724
+    },
+    {
+      "time": 16.083333333333062,
+      "scene": "sky",
+      "localTime": 2.483333333333327,
+      "x": 4110,
+      "y": 814.5683778595658,
+      "vx": 1380,
+      "vy": -1110.0000000000007,
+      "dead": false,
+      "dashing": 0,
+      "shots": 25,
+      "projectedX": 948.5000000014315,
+      "projectedY": 677.034697627621
+    },
+    {
+      "time": 16.16666666666639,
+      "scene": "sky",
+      "localTime": 2.56666666666666,
+      "x": 4225,
+      "y": 741.9294889706769,
+      "vx": 1380,
+      "vy": -676.6666666666671,
+      "dead": false,
+      "dashing": 0,
+      "shots": 26,
+      "projectedX": 948.500000000171,
+      "projectedY": 628.2010376722109
+    },
+    {
+      "time": 16.24999999999972,
+      "scene": "sky",
+      "localTime": 2.6499999999999932,
+      "x": 4340,
+      "y": 705.401711192899,
+      "vx": 1380,
+      "vy": -243.33333333333374,
+      "dead": false,
+      "dashing": 0,
+      "shots": 27,
+      "projectedX": 948.5000000000209,
+      "projectedY": 609.7430023109257
+    },
+    {
+      "time": 16.333333333333048,
+      "scene": "sky",
+      "localTime": 2.7333333333333263,
+      "x": 4455,
+      "y": 610.2628223040101,
+      "vx": 1380,
+      "vy": -946.6666666666672,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 948.5000000000018,
+      "projectedY": 536.8007459771383
+    },
+    {
+      "time": 16.416666666666377,
+      "scene": "sky",
+      "localTime": 2.8166666666666593,
+      "x": 4570,
+      "y": 551.2350445262323,
+      "vx": 1380,
+      "vy": -513.3333333333335,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 948.5000000000018,
+      "projectedY": 500.49498353933814
+    },
+    {
+      "time": 16.499999999999705,
+      "scene": "sky",
+      "localTime": 2.8999999999999924,
+      "x": 4783,
+      "y": 543.7628223040101,
+      "vx": 2850,
+      "vy": 0,
+      "dead": false,
+      "dashing": 1,
+      "shots": 29,
+      "projectedX": 990.7462316392684,
+      "projectedY": 505.33206409312686
+    },
+    {
+      "time": 16.583333333333034,
+      "scene": "sky",
+      "localTime": 2.9833333333333254,
+      "x": 4971.5,
+      "y": 547.3739334151212,
+      "vx": 1380,
+      "vy": 173.33333333333334,
+      "dead": false,
+      "dashing": 0.5000000000000001,
+      "shots": 28,
+      "projectedX": 969.4352467590188,
+      "projectedY": 512.2997652421942
+    },
+    {
+      "time": 16.666666666666362,
+      "scene": "sky",
+      "localTime": 3.0666666666666584,
+      "x": 5086.5,
+      "y": 581.6794889706767,
+      "vx": 1380,
+      "vy": 606.6666666666666,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 950.9933483936338,
+      "projectedY": 542.552418034068
+    },
+    {
+      "time": 16.74999999999969,
+      "scene": "sky",
+      "localTime": 3.1499999999999915,
+      "x": 5201.5,
+      "y": 652.0961556373434,
+      "vx": 1380,
+      "vy": 1040.0000000000002,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 948.7969530898581,
+      "projectedY": 598.6573028963228
+    },
+    {
+      "time": 16.83333333333302,
+      "scene": "final",
+      "localTime": 0.03333333333333333,
+      "x": 328,
+      "y": 900,
+      "vx": 1440,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 1,
+      "projectedX": 928.9983148354792,
+      "projectedY": 760.0229714398149
+    },
+    {
+      "time": 16.916666666666348,
+      "scene": "final",
+      "localTime": 0.11666666666666665,
+      "x": 448,
+      "y": 900,
+      "vx": 1440,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 2,
+      "projectedX": 948.0217400678061,
+      "projectedY": 760.2167061638731
+    },
+    {
+      "time": 16.999999999999677,
+      "scene": "final",
+      "localTime": 0.19999999999999998,
+      "x": 568,
+      "y": 900,
+      "vx": 1440,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 3,
+      "projectedX": 950.2736568224217,
+      "projectedY": 760.5596007446896
+    },
+    {
+      "time": 17.083333333333005,
+      "scene": "final",
+      "localTime": 0.2833333333333334,
+      "x": 688,
+      "y": 900,
+      "vx": 1440,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 3,
+      "projectedX": 950.5221398376738,
+      "projectedY": 761.0087674565433
+    },
+    {
+      "time": 17.166666666666334,
+      "scene": "final",
+      "localTime": 0.366666666666667,
+      "x": 808,
+      "y": 900,
+      "vx": 1440,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 4,
+      "projectedX": 950.5285082655529,
+      "projectedY": 761.533650021715
+    },
+    {
+      "time": 17.249999999999662,
+      "scene": "final",
+      "localTime": 0.45000000000000057,
+      "x": 928,
+      "y": 900,
+      "vx": 1440,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 5,
+      "projectedX": 950.5037567691384,
+      "projectedY": 762.1124779664294
+    },
+    {
+      "time": 17.33333333333299,
+      "scene": "final",
+      "localTime": 0.5333333333333339,
+      "x": 1048,
+      "y": 813,
+      "vx": 1440,
+      "vy": -1153.333333333334,
+      "dead": false,
+      "dashing": 0,
+      "shots": 6,
+      "projectedX": 950.4737077183167,
+      "projectedY": 686.2576460753354
+    },
+    {
+      "time": 17.41666666666632,
+      "scene": "final",
+      "localTime": 0.6166666666666669,
+      "x": 1168,
+      "y": 736.75,
+      "vx": 1440,
+      "vy": -720.0000000000005,
+      "dead": false,
+      "dashing": 0,
+      "shots": 7,
+      "projectedX": 950.4418992826965,
+      "projectedY": 632.8829717953746
+    },
+    {
+      "time": 17.49999999999965,
+      "scene": "final",
+      "localTime": 0.7,
+      "x": 1288,
+      "y": 696.6111111111111,
+      "vx": 1440,
+      "vy": -286.6666666666671,
+      "dead": false,
+      "dashing": 0,
+      "shots": 8,
+      "projectedX": 950.4090780175194,
+      "projectedY": 611.2870817263358
+    },
+    {
+      "time": 17.583333333332977,
+      "scene": "final",
+      "localTime": 0.783333333333333,
+      "x": 1384,
+      "y": 607.3333333333333,
+      "vx": -1440,
+      "vy": -990.0000000000006,
+      "dead": false,
+      "dashing": 0,
+      "shots": 8,
+      "projectedX": 930.4939743474674,
+      "projectedY": 541.529621902863
+    },
+    {
+      "time": 17.666666666666305,
+      "scene": "final",
+      "localTime": 0.866666666666666,
+      "x": 1288,
+      "y": 544.6944444444443,
+      "vx": 1440,
+      "vy": -556.6666666666669,
+      "dead": false,
+      "dashing": 0,
+      "shots": 9,
+      "projectedX": 876.2183428294262,
+      "projectedY": 500.88607044879285
+    },
+    {
+      "time": 17.749999999999634,
+      "scene": "final",
+      "localTime": 0.9499999999999991,
+      "x": 1408,
+      "y": 518.1666666666665,
+      "vx": 1440,
+      "vy": -123.33333333333354,
+      "dead": false,
+      "dashing": 0,
+      "shots": 10,
+      "projectedX": 941.4478718776263,
+      "projectedY": 489.3876931246088
+    },
+    {
+      "time": 17.833333333332963,
+      "scene": "final",
+      "localTime": 1.033333333333332,
+      "x": 1528,
+      "y": 527.7499999999999,
+      "vx": 1440,
+      "vy": 309.99999999999983,
+      "dead": false,
+      "dashing": 0,
+      "shots": 11,
+      "projectedX": 949.2137080599622,
+      "projectedY": 504.42893369571993
+    },
+    {
+      "time": 17.91666666666629,
+      "scene": "final",
+      "localTime": 1.1166666666666651,
+      "x": 1648,
+      "y": 573.4444444444443,
+      "vx": 1440,
+      "vy": 743.3333333333333,
+      "dead": false,
+      "dashing": 0,
+      "shots": 12,
+      "projectedX": 950.1112625300945,
+      "projectedY": 545.4482490040127
+    },
+    {
+      "time": 17.99999999999962,
+      "scene": "final",
+      "localTime": 1.1999999999999982,
+      "x": 1768,
+      "y": 655.2499999999999,
+      "vx": 1440,
+      "vy": 1176.6666666666665,
+      "dead": false,
+      "dashing": 0,
+      "shots": 13,
+      "projectedX": 950.1877938109031,
+      "projectedY": 612.478303703879
+    },
+    {
+      "time": 18.08333333333295,
+      "scene": "final",
+      "localTime": 1.2833333333333312,
+      "x": 1888,
+      "y": 773.1666666666665,
+      "vx": 1440,
+      "vy": 1609.999999999999,
+      "dead": false,
+      "dashing": 0,
+      "shots": 13,
+      "projectedX": 950.1661183947,
+      "projectedY": 705.7246951085131
+    },
+    {
+      "time": 18.166666666666277,
+      "scene": "final",
+      "localTime": 1.3666666666666643,
+      "x": 2008,
+      "y": 790,
+      "vx": 1440,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 14,
+      "projectedX": 950.1326516288177,
+      "projectedY": 753.4366777379677
+    },
+    {
+      "time": 18.249999999999606,
+      "scene": "final",
+      "localTime": 1.4499999999999973,
+      "x": 2128,
+      "y": 712.6111111111111,
+      "vx": 1440,
+      "vy": -1196.6666666666672,
+      "dead": false,
+      "dashing": 0,
+      "shots": 15,
+      "projectedX": 950.0977375518125,
+      "projectedY": 694.0210224780644
+    },
+    {
+      "time": 18.333333333332934,
+      "scene": "final",
+      "localTime": 1.5333333333333303,
+      "x": 2248,
+      "y": 632.75,
+      "vx": 1440,
+      "vy": -763.3333333333338,
+      "dead": false,
+      "dashing": 0,
+      "shots": 16,
+      "projectedX": 950.0626234386882,
+      "projectedY": 637.9587303790983
+    },
+    {
+      "time": 18.416666666666263,
+      "scene": "final",
+      "localTime": 1.6166666666666634,
+      "x": 2368,
+      "y": 589,
+      "vx": 1440,
+      "vy": -330.0000000000004,
+      "dead": false,
+      "dashing": 0,
+      "shots": 17,
+      "projectedX": 950.0274661450906,
+      "projectedY": 613.4903709566739
+    },
+    {
+      "time": 18.49999999999959,
+      "scene": "final",
+      "localTime": 1.6999999999999964,
+      "x": 2488,
+      "y": 505.5833333333332,
+      "vx": 1440,
+      "vy": -1033.333333333334,
+      "dead": false,
+      "dashing": 0,
+      "shots": 18,
+      "projectedX": 949.9922899599353,
+      "projectedY": 546.4310193025077
+    },
+    {
+      "time": 18.58333333333292,
+      "scene": "final",
+      "localTime": 1.7833333333333294,
+      "x": 2608,
+      "y": 439.3333333333332,
+      "vx": 1440,
+      "vy": -600.0000000000002,
+      "dead": false,
+      "dashing": 0,
+      "shots": 18,
+      "projectedX": 949.9571017341975,
+      "projectedY": 500.8597920917616
+    },
+    {
+      "time": 18.66666666666625,
+      "scene": "final",
+      "localTime": 1.8666666666666625,
+      "x": 2728,
+      "y": 409.1944444444443,
+      "vx": 1440,
+      "vy": -166.66666666666688,
+      "dead": false,
+      "dashing": 0,
+      "shots": 19,
+      "projectedX": 949.9219050995013,
+      "projectedY": 486.0776851895748
+    },
+    {
+      "time": 18.749999999999577,
+      "scene": "final",
+      "localTime": 1.9499999999999955,
+      "x": 2848,
+      "y": 415.1666666666665,
+      "vx": 1440,
+      "vy": 266.6666666666665,
+      "dead": false,
+      "dashing": 0,
+      "shots": 20,
+      "projectedX": 949.8867024939348,
+      "projectedY": 499.01790714256305
+    },
+    {
+      "time": 18.833333333332906,
+      "scene": "final",
+      "localTime": 2.0333333333333288,
+      "x": 2968,
+      "y": 457.24999999999983,
+      "vx": 1440,
+      "vy": 699.9999999999999,
+      "dead": false,
+      "dashing": 0,
+      "shots": 21,
+      "projectedX": 949.8514956367167,
+      "projectedY": 538.9863455324403
+    },
+    {
+      "time": 18.916666666666234,
+      "scene": "final",
+      "localTime": 2.116666666666662,
+      "x": 3088,
+      "y": 535.4444444444443,
+      "vx": 1440,
+      "vy": 1133.3333333333333,
+      "dead": false,
+      "dashing": 0,
+      "shots": 22,
+      "projectedX": 949.8162857506086,
+      "projectedY": 605.9775918340513
+    },
+    {
+      "time": 18.999999999999563,
+      "scene": "final",
+      "localTime": 2.199999999999995,
+      "x": 3208,
+      "y": 649.7499999999999,
+      "vx": 1440,
+      "vy": 1566.6666666666658,
+      "dead": false,
+      "dashing": 0,
+      "shots": 23,
+      "projectedX": 949.7810737065361,
+      "projectedY": 700.1861461444653
+    },
+    {
+      "time": 19.08333333333289,
+      "scene": "final",
+      "localTime": 2.283333333333328,
+      "x": 3375,
+      "y": 735.6666666666664,
+      "vx": 2850,
+      "vy": 0,
+      "dead": false,
+      "dashing": 1,
+      "shots": 23,
+      "projectedX": 980.7527943291817,
+      "projectedY": 757.2307622155026
+    },
+    {
+      "time": 19.16666666666622,
+      "scene": "final",
+      "localTime": 2.366666666666661,
+      "x": 3612.5,
+      "y": 735.6666666666664,
+      "vx": 2850,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0.9,
+      "shots": 24,
+      "projectedX": 1001.2430166584743,
+      "projectedY": 743.5271925398233
+    },
+    {
+      "time": 19.24999999999955,
+      "scene": "final",
+      "localTime": 2.449999999999994,
+      "x": 3732.5,
+      "y": 755.5277777777775,
+      "vx": 1440,
+      "vy": 433.33333333333326,
+      "dead": false,
+      "dashing": 0,
+      "shots": 25,
+      "projectedX": 955.8338435473513,
+      "projectedY": 759.2474363181115
+    },
+    {
+      "time": 19.333333333332877,
+      "scene": "final",
+      "localTime": 2.533333333333327,
+      "x": 3852.5,
+      "y": 760,
+      "vx": 1440,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 26,
+      "projectedX": 950.3761711523126,
+      "projectedY": 774.469688056572
+    },
+    {
+      "time": 19.416666666666206,
+      "scene": "final",
+      "localTime": 2.61666666666666,
+      "x": 3972.5,
+      "y": 760,
+      "vx": 1440,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 27,
+      "projectedX": 949.6929466343595,
+      "projectedY": 778.8191990279493
+    },
+    {
+      "time": 19.499999999999535,
+      "scene": "final",
+      "localTime": 2.699999999999993,
+      "x": 4092.5,
+      "y": 760,
+      "vx": 1440,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 949.5802909298011,
+      "projectedY": 780.5872110786895
+    },
+    {
+      "time": 19.583333333332863,
+      "scene": "final",
+      "localTime": 2.783333333333326,
+      "x": 4212.5,
+      "y": 760,
+      "vx": 1440,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 949.5358199366132,
+      "projectedY": 781.6060285547778
+    },
+    {
+      "time": 19.666666666666192,
+      "scene": "final",
+      "localTime": 2.866666666666659,
+      "x": 4332.5,
+      "y": 760,
+      "vx": 1440,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 949.4994970314518,
+      "projectedY": 782.4074206354858
+    },
+    {
+      "time": 19.74999999999952,
+      "scene": "final",
+      "localTime": 2.949999999999992,
+      "x": 4452.5,
+      "y": 760,
+      "vx": 1440,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 949.4641477427934,
+      "projectedY": 783.1457146641093
+    },
+    {
+      "time": 19.83333333333285,
+      "scene": "final",
+      "localTime": 3.033333333333325,
+      "x": 4572.5,
+      "y": 760,
+      "vx": 1440,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 949.428914740049,
+      "projectedY": 783.8656980141436
+    },
+    {
+      "time": 19.916666666666178,
+      "scene": "final",
+      "localTime": 3.1166666666666583,
+      "x": 4692.5,
+      "y": 760,
+      "vx": 1440,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 949.3936955901003,
+      "projectedY": 784.5803681427028
+    },
+    {
+      "time": 19.999999999999506,
+      "scene": "final",
+      "localTime": 3.1999999999999913,
+      "x": 4812.5,
+      "y": 760,
+      "vx": 1440,
+      "vy": 0,
+      "dead": false,
+      "dashing": 0,
+      "shots": 28,
+      "projectedX": 949.3584780647844,
+      "projectedY": 785.2934968100477
+    }
+  ],
+  "events": [
+    {
+      "kind": "cut",
+      "t": 0,
+      "scene": "factory"
+    },
+    {
+      "kind": "fire",
+      "t": 0.008333333333333333,
+      "scene": "factory",
+      "id": 0,
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 0.09999999999999999,
+      "scene": "factory",
+      "id": 1,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 0.19999999999999998,
+      "scene": "factory",
+      "id": 2,
+      "type": "note"
+    },
+    {
+      "kind": "jump",
+      "t": 0.22499999999999998,
+      "scene": "factory",
+      "x": 646,
+      "y": 850
+    },
+    {
+      "kind": "fire",
+      "t": 0.3000000000000001,
+      "scene": "factory",
+      "id": 3,
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 0.4000000000000004,
+      "scene": "factory",
+      "id": 4,
+      "type": "note"
+    },
+    {
+      "kind": "double-jump",
+      "t": 0.4666666666666673,
+      "scene": "factory",
+      "x": 965,
+      "y": 644.5833333333333
+    },
+    {
+      "kind": "fire",
+      "t": 0.5000000000000007,
+      "scene": "factory",
+      "id": 5,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 0.5416666666666672,
+      "scene": "factory",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 0.6000000000000003,
+      "scene": "factory",
+      "id": 6,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 0.6000000000000003,
+      "scene": "factory",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 0.7,
+      "scene": "factory",
+      "id": 7,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 0.7999999999999996,
+      "scene": "factory",
+      "id": 8,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 0.8999999999999992,
+      "scene": "factory",
+      "id": 9,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 0.9666666666666657,
+      "scene": "factory",
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 0.974999999999999,
+      "scene": "factory",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 0.9999999999999989,
+      "scene": "factory",
+      "id": 10,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 1.0249999999999988,
+      "scene": "factory",
+      "type": "note"
+    },
+    {
+      "kind": "land",
+      "t": 1.0749999999999986,
+      "scene": "factory",
+      "x": 1779,
+      "y": 790
+    },
+    {
+      "kind": "jump",
+      "t": 1.083333333333332,
+      "scene": "factory",
+      "x": 1779,
+      "y": 790
+    },
+    {
+      "kind": "fire",
+      "t": 1.0999999999999985,
+      "scene": "factory",
+      "id": 11,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 1.1999999999999982,
+      "scene": "factory",
+      "id": 12,
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 1.2999999999999978,
+      "scene": "factory",
+      "id": 13,
+      "type": "note"
+    },
+    {
+      "kind": "double-jump",
+      "t": 1.3249999999999977,
+      "scene": "factory",
+      "x": 1834,
+      "y": 584.5833333333333
+    },
+    {
+      "kind": "fire",
+      "t": 1.3999999999999975,
+      "scene": "factory",
+      "id": 14,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 1.466666666666664,
+      "scene": "factory",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 1.4999999999999971,
+      "scene": "factory",
+      "id": 15,
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 1.5999999999999968,
+      "scene": "factory",
+      "id": 16,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 1.6583333333333299,
+      "scene": "factory",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 1.6999999999999964,
+      "scene": "factory",
+      "id": 17,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 1.7333333333333296,
+      "scene": "factory",
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 1.741666666666663,
+      "scene": "factory",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 1.799999999999996,
+      "scene": "factory",
+      "id": 18,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 1.799999999999996,
+      "scene": "factory",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 1.8999999999999957,
+      "scene": "factory",
+      "id": 19,
+      "type": "note"
+    },
+    {
+      "kind": "land",
+      "t": 1.908333333333329,
+      "scene": "factory",
+      "x": 2505,
+      "y": 680
+    },
+    {
+      "kind": "fire",
+      "t": 1.9999999999999953,
+      "scene": "factory",
+      "id": 20,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 2.099999999999995,
+      "scene": "factory",
+      "id": 21,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 2.149999999999995,
+      "scene": "factory",
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 2.1666666666666616,
+      "scene": "factory",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 2.199999999999995,
+      "scene": "factory",
+      "id": 22,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 2.2666666666666613,
+      "scene": "factory",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 2.2999999999999945,
+      "scene": "factory",
+      "id": 23,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 2.399999999999994,
+      "scene": "factory",
+      "id": 24,
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 2.499999999999994,
+      "scene": "factory",
+      "id": 25,
+      "type": "note"
+    },
+    {
+      "kind": "jump",
+      "t": 2.583333333333327,
+      "scene": "factory",
+      "x": 3385,
+      "y": 882.5833333333333
+    },
+    {
+      "kind": "fire",
+      "t": 2.5999999999999934,
+      "scene": "factory",
+      "id": 26,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 2.699999999999993,
+      "scene": "factory",
+      "id": 27,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 2.7666666666666595,
+      "scene": "factory",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 2.7999999999999927,
+      "scene": "factory",
+      "id": 28,
+      "type": "note"
+    },
+    {
+      "kind": "double-jump",
+      "t": 2.8249999999999926,
+      "scene": "factory",
+      "x": 3704,
+      "y": 677.1666666666665
+    },
+    {
+      "kind": "dodge",
+      "t": 2.8249999999999926,
+      "scene": "factory",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 2.8999999999999924,
+      "scene": "factory",
+      "id": 29,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 2.9083333333333257,
+      "scene": "factory",
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 2.9916666666666587,
+      "scene": "factory",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 2.999999999999992,
+      "scene": "factory",
+      "id": 30,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 2.999999999999992,
+      "scene": "factory",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 3.0999999999999917,
+      "scene": "factory",
+      "id": 31,
+      "type": "note"
+    },
+    {
+      "kind": "cut",
+      "t": 3.2083333333333246,
+      "scene": "shaft"
+    },
+    {
+      "kind": "jump",
+      "t": 3.2083333333333246,
+      "scene": "shaft",
+      "x": 520,
+      "y": 1700
+    },
+    {
+      "kind": "fire",
+      "t": 3.2083333333333246,
+      "scene": "shaft",
+      "id": 0,
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 3.299999999999991,
+      "scene": "shaft",
+      "id": 1,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 3.3999999999999906,
+      "scene": "shaft",
+      "id": 2,
+      "type": "note"
+    },
+    {
+      "kind": "double-jump",
+      "t": 3.4249999999999905,
+      "scene": "shaft",
+      "x": 769.1666666666677,
+      "y": 1501.75
+    },
+    {
+      "kind": "fire",
+      "t": 3.4999999999999902,
+      "scene": "shaft",
+      "id": 3,
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 3.59999999999999,
+      "scene": "shaft",
+      "id": 4,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 3.6999999999999895,
+      "scene": "shaft",
+      "id": 5,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 3.799999999999989,
+      "scene": "shaft",
+      "id": 6,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 3.8083333333333225,
+      "scene": "shaft",
+      "type": "word"
+    },
+    {
+      "kind": "land",
+      "t": 3.883333333333322,
+      "scene": "shaft",
+      "x": 1066.5833333333333,
+      "y": 1430
+    },
+    {
+      "kind": "jump",
+      "t": 3.8916666666666555,
+      "scene": "shaft",
+      "x": 1057,
+      "y": 1430
+    },
+    {
+      "kind": "fire",
+      "t": 3.899999999999989,
+      "scene": "shaft",
+      "id": 7,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 3.9999999999999885,
+      "scene": "shaft",
+      "id": 8,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 4.099999999999993,
+      "scene": "shaft",
+      "id": 9,
+      "type": "word"
+    },
+    {
+      "kind": "double-jump",
+      "t": 4.108333333333327,
+      "scene": "shaft",
+      "x": 807.8333333333327,
+      "y": 1231.75
+    },
+    {
+      "kind": "dodge",
+      "t": 4.174999999999997,
+      "scene": "shaft",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 4.199999999999998,
+      "scene": "shaft",
+      "id": 10,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 4.208333333333332,
+      "scene": "shaft",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 4.300000000000003,
+      "scene": "shaft",
+      "id": 11,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 4.400000000000008,
+      "scene": "shaft",
+      "id": 12,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 4.450000000000011,
+      "scene": "shaft",
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 4.483333333333346,
+      "scene": "shaft",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 4.500000000000013,
+      "scene": "shaft",
+      "id": 13,
+      "type": "note"
+    },
+    {
+      "kind": "land",
+      "t": 4.566666666666683,
+      "scene": "shaft",
+      "x": 596.9999999999985,
+      "y": 1160
+    },
+    {
+      "kind": "jump",
+      "t": 4.575000000000017,
+      "scene": "shaft",
+      "x": 596.9999999999985,
+      "y": 1160
+    },
+    {
+      "kind": "fire",
+      "t": 4.600000000000018,
+      "scene": "shaft",
+      "id": 14,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 4.675000000000022,
+      "scene": "shaft",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 4.700000000000023,
+      "scene": "shaft",
+      "id": 15,
+      "type": "word"
+    },
+    {
+      "kind": "double-jump",
+      "t": 4.7916666666666945,
+      "scene": "shaft",
+      "x": 846.1666666666662,
+      "y": 961.7499999999998
+    },
+    {
+      "kind": "fire",
+      "t": 4.800000000000028,
+      "scene": "shaft",
+      "id": 16,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 4.833333333333363,
+      "scene": "shaft",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 4.900000000000033,
+      "scene": "shaft",
+      "id": 17,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 4.9250000000000345,
+      "scene": "shaft",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 5.000000000000038,
+      "scene": "shaft",
+      "id": 18,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 5.000000000000038,
+      "scene": "shaft",
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 5.025000000000039,
+      "scene": "shaft",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 5.100000000000043,
+      "scene": "shaft",
+      "id": 19,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 5.200000000000048,
+      "scene": "shaft",
+      "id": 20,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 5.300000000000053,
+      "scene": "shaft",
+      "id": 21,
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 5.400000000000058,
+      "scene": "shaft",
+      "id": 22,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 5.450000000000061,
+      "scene": "shaft",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 5.500000000000063,
+      "scene": "shaft",
+      "id": 23,
+      "type": "note"
+    },
+    {
+      "kind": "land",
+      "t": 5.5500000000000655,
+      "scene": "shaft",
+      "x": 1066.5833333333333,
+      "y": 1430
+    },
+    {
+      "kind": "jump",
+      "t": 5.558333333333399,
+      "scene": "shaft",
+      "x": 1057,
+      "y": 1430
+    },
+    {
+      "kind": "fire",
+      "t": 5.600000000000068,
+      "scene": "shaft",
+      "id": 24,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 5.600000000000068,
+      "scene": "shaft",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 5.700000000000073,
+      "scene": "shaft",
+      "id": 25,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 5.725000000000074,
+      "scene": "shaft",
+      "type": "word"
+    },
+    {
+      "kind": "double-jump",
+      "t": 5.775000000000077,
+      "scene": "shaft",
+      "x": 1057,
+      "y": 1231.75
+    },
+    {
+      "kind": "fire",
+      "t": 5.800000000000078,
+      "scene": "shaft",
+      "id": 26,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 5.900000000000083,
+      "scene": "shaft",
+      "id": 27,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 5.9166666666667505,
+      "scene": "shaft",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 6.000000000000088,
+      "scene": "shaft",
+      "id": 28,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 6.100000000000093,
+      "scene": "shaft",
+      "id": 29,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 6.108333333333427,
+      "scene": "shaft",
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 6.166666666666763,
+      "scene": "shaft",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 6.200000000000098,
+      "scene": "shaft",
+      "id": 30,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 6.200000000000098,
+      "scene": "shaft",
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 6.200000000000098,
+      "scene": "shaft",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 6.300000000000103,
+      "scene": "shaft",
+      "id": 31,
+      "type": "note"
+    },
+    {
+      "kind": "cut",
+      "t": 6.400000000000108,
+      "scene": "underwater"
+    },
+    {
+      "kind": "fire",
+      "t": 6.400000000000108,
+      "scene": "underwater",
+      "id": 0,
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 6.491666666666779,
+      "scene": "underwater",
+      "id": 1,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 6.591666666666784,
+      "scene": "underwater",
+      "id": 2,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 6.691666666666789,
+      "scene": "underwater",
+      "id": 3,
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 6.791666666666794,
+      "scene": "underwater",
+      "id": 4,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 6.891666666666799,
+      "scene": "underwater",
+      "id": 5,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 6.950000000000135,
+      "scene": "underwater",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 6.991666666666804,
+      "scene": "underwater",
+      "id": 6,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 6.991666666666804,
+      "scene": "underwater",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 7.091666666666809,
+      "scene": "underwater",
+      "id": 7,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 7.191666666666814,
+      "scene": "underwater",
+      "id": 8,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 7.291666666666819,
+      "scene": "underwater",
+      "id": 9,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 7.358333333333489,
+      "scene": "underwater",
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 7.366666666666823,
+      "scene": "underwater",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 7.391666666666824,
+      "scene": "underwater",
+      "id": 10,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 7.45000000000016,
+      "scene": "underwater",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 7.491666666666829,
+      "scene": "underwater",
+      "id": 11,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 7.591666666666834,
+      "scene": "underwater",
+      "id": 12,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 7.591666666666834,
+      "scene": "underwater",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 7.691666666666839,
+      "scene": "underwater",
+      "id": 13,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 7.791666666666844,
+      "scene": "underwater",
+      "id": 14,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 7.891666666666849,
+      "scene": "underwater",
+      "id": 15,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 7.891666666666849,
+      "scene": "underwater",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 7.991666666666854,
+      "scene": "underwater",
+      "id": 16,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 8.091666666666848,
+      "scene": "underwater",
+      "id": 17,
+      "type": "note"
+    },
+    {
+      "kind": "dash",
+      "t": 8.10000000000018,
+      "scene": "underwater",
+      "dx": 0.8326474386967971,
+      "dy": 0.553803433387392
+    },
+    {
+      "kind": "dodge",
+      "t": 8.108333333333514,
+      "scene": "underwater",
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 8.12500000000018,
+      "scene": "underwater",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 8.191666666666842,
+      "scene": "underwater",
+      "id": 18,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 8.191666666666842,
+      "scene": "underwater",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 8.291666666666837,
+      "scene": "underwater",
+      "id": 19,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 8.391666666666831,
+      "scene": "underwater",
+      "id": 20,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 8.491666666666825,
+      "scene": "underwater",
+      "id": 21,
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 8.59166666666682,
+      "scene": "underwater",
+      "id": 22,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 8.691666666666814,
+      "scene": "underwater",
+      "id": 23,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 8.750000000000144,
+      "scene": "underwater",
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 8.750000000000144,
+      "scene": "underwater",
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 8.750000000000144,
+      "scene": "underwater",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 8.791666666666808,
+      "scene": "underwater",
+      "id": 24,
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 8.891666666666802,
+      "scene": "underwater",
+      "id": 25,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 8.991666666666797,
+      "scene": "underwater",
+      "id": 26,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 9.050000000000127,
+      "scene": "underwater",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 9.091666666666791,
+      "scene": "underwater",
+      "id": 27,
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 9.191666666666785,
+      "scene": "underwater",
+      "id": 28,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 9.23333333333345,
+      "scene": "underwater",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 9.29166666666678,
+      "scene": "underwater",
+      "id": 29,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 9.316666666666778,
+      "scene": "underwater",
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 9.375000000000108,
+      "scene": "underwater",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 9.391666666666774,
+      "scene": "underwater",
+      "id": 30,
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 9.491666666666768,
+      "scene": "underwater",
+      "id": 31,
+      "type": "note"
+    },
+    {
+      "kind": "cut",
+      "t": 9.600000000000096,
+      "scene": "topdown"
+    },
+    {
+      "kind": "fire",
+      "t": 9.600000000000096,
+      "scene": "topdown",
+      "id": 0,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 9.600000000000096,
+      "scene": "topdown",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 9.691666666666757,
+      "scene": "topdown",
+      "id": 1,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 9.791666666666751,
+      "scene": "topdown",
+      "id": 2,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 9.891666666666746,
+      "scene": "topdown",
+      "id": 3,
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 9.99166666666674,
+      "scene": "topdown",
+      "id": 4,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 10.091666666666734,
+      "scene": "topdown",
+      "id": 5,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 10.191666666666729,
+      "scene": "topdown",
+      "id": 6,
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 10.291666666666723,
+      "scene": "topdown",
+      "id": 7,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 10.391666666666717,
+      "scene": "topdown",
+      "id": 8,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 10.491666666666712,
+      "scene": "topdown",
+      "id": 9,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 10.51666666666671,
+      "scene": "topdown",
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 10.541666666666709,
+      "scene": "topdown",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 10.591666666666706,
+      "scene": "topdown",
+      "id": 10,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 10.6916666666667,
+      "scene": "topdown",
+      "id": 11,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 10.791666666666694,
+      "scene": "topdown",
+      "id": 12,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 10.80833333333336,
+      "scene": "topdown",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 10.891666666666689,
+      "scene": "topdown",
+      "id": 13,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 10.991666666666683,
+      "scene": "topdown",
+      "id": 14,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 11.008333333333349,
+      "scene": "topdown",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 11.091666666666677,
+      "scene": "topdown",
+      "id": 15,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 11.133333333333342,
+      "scene": "topdown",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 11.191666666666672,
+      "scene": "topdown",
+      "id": 16,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 11.291666666666666,
+      "scene": "topdown",
+      "id": 17,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 11.349999999999996,
+      "scene": "topdown",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 11.39166666666666,
+      "scene": "topdown",
+      "id": 18,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 11.483333333333322,
+      "scene": "topdown",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 11.491666666666655,
+      "scene": "topdown",
+      "id": 19,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 11.591666666666649,
+      "scene": "topdown",
+      "id": 20,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 11.674999999999978,
+      "scene": "topdown",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 11.691666666666643,
+      "scene": "topdown",
+      "id": 21,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 11.733333333333308,
+      "scene": "topdown",
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 11.758333333333306,
+      "scene": "topdown",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 11.791666666666638,
+      "scene": "topdown",
+      "id": 22,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 11.891666666666632,
+      "scene": "topdown",
+      "id": 23,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 11.958333333333295,
+      "scene": "topdown",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 11.991666666666626,
+      "scene": "topdown",
+      "id": 24,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 11.991666666666626,
+      "scene": "topdown",
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 11.99999999999996,
+      "scene": "topdown",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 12.09166666666662,
+      "scene": "topdown",
+      "id": 25,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 12.191666666666615,
+      "scene": "topdown",
+      "id": 26,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 12.241666666666612,
+      "scene": "topdown",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 12.29166666666661,
+      "scene": "topdown",
+      "id": 27,
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 12.391666666666604,
+      "scene": "topdown",
+      "id": 28,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 12.424999999999935,
+      "scene": "topdown",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 12.491666666666598,
+      "scene": "topdown",
+      "id": 29,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 12.566666666666594,
+      "scene": "topdown",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 12.591666666666592,
+      "scene": "topdown",
+      "id": 30,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 12.591666666666592,
+      "scene": "topdown",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 12.691666666666586,
+      "scene": "topdown",
+      "id": 31,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 12.79166666666658,
+      "scene": "topdown",
+      "id": 32,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 12.891666666666575,
+      "scene": "topdown",
+      "id": 33,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 12.924999999999907,
+      "scene": "topdown",
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 12.93333333333324,
+      "scene": "topdown",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 12.99166666666657,
+      "scene": "topdown",
+      "id": 34,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 13.083333333333231,
+      "scene": "topdown",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 13.091666666666564,
+      "scene": "topdown",
+      "id": 35,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 13.191666666666558,
+      "scene": "topdown",
+      "id": 36,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 13.191666666666558,
+      "scene": "topdown",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 13.291666666666552,
+      "scene": "topdown",
+      "id": 37,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 13.391666666666547,
+      "scene": "topdown",
+      "id": 38,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 13.491666666666541,
+      "scene": "topdown",
+      "id": 39,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 13.524999999999872,
+      "scene": "topdown",
+      "type": "word"
+    },
+    {
+      "kind": "cut",
+      "t": 13.608333333333201,
+      "scene": "sky"
+    },
+    {
+      "kind": "fire",
+      "t": 13.608333333333201,
+      "scene": "sky",
+      "id": 0,
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 13.699999999999863,
+      "scene": "sky",
+      "id": 1,
+      "type": "note"
+    },
+    {
+      "kind": "jump",
+      "t": 13.766666666666525,
+      "scene": "sky",
+      "x": 558.5,
+      "y": 946.6765684494337
+    },
+    {
+      "kind": "fire",
+      "t": 13.799999999999857,
+      "scene": "sky",
+      "id": 2,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 13.899999999999851,
+      "scene": "sky",
+      "id": 3,
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 13.999999999999845,
+      "scene": "sky",
+      "id": 4,
+      "type": "note"
+    },
+    {
+      "kind": "double-jump",
+      "t": 14.008333333333178,
+      "scene": "sky",
+      "x": 892,
+      "y": 741.259901782767
+    },
+    {
+      "kind": "fire",
+      "t": 14.09999999999984,
+      "scene": "sky",
+      "id": 5,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 14.133333333333171,
+      "scene": "sky",
+      "type": "word"
+    },
+    {
+      "kind": "dash",
+      "t": 14.191666666666501,
+      "scene": "sky",
+      "dx": 1,
+      "dy": 0
+    },
+    {
+      "kind": "fire",
+      "t": 14.199999999999834,
+      "scene": "sky",
+      "id": 6,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 14.199999999999834,
+      "scene": "sky",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 14.299999999999828,
+      "scene": "sky",
+      "id": 7,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 14.399999999999823,
+      "scene": "sky",
+      "id": 8,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 14.499999999999817,
+      "scene": "sky",
+      "id": 9,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 14.541666666666481,
+      "scene": "sky",
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 14.574999999999813,
+      "scene": "sky",
+      "type": "note"
+    },
+    {
+      "kind": "land",
+      "t": 14.591666666666478,
+      "scene": "sky",
+      "x": 1880,
+      "y": 805.749204227456
+    },
+    {
+      "kind": "jump",
+      "t": 14.599999999999811,
+      "scene": "sky",
+      "x": 1880,
+      "y": 805.749204227456
+    },
+    {
+      "kind": "fire",
+      "t": 14.599999999999811,
+      "scene": "sky",
+      "id": 10,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 14.68333333333314,
+      "scene": "sky",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 14.699999999999806,
+      "scene": "sky",
+      "id": 11,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 14.7999999999998,
+      "scene": "sky",
+      "id": 12,
+      "type": "word"
+    },
+    {
+      "kind": "double-jump",
+      "t": 14.841666666666464,
+      "scene": "sky",
+      "x": 2213.5,
+      "y": 600.3325375607892
+    },
+    {
+      "kind": "fire",
+      "t": 14.899999999999794,
+      "scene": "sky",
+      "id": 13,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 14.999999999999789,
+      "scene": "sky",
+      "id": 14,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 14.999999999999789,
+      "scene": "sky",
+      "type": "word"
+    },
+    {
+      "kind": "dash",
+      "t": 15.024999999999787,
+      "scene": "sky",
+      "dx": 1,
+      "dy": 0
+    },
+    {
+      "kind": "dodge",
+      "t": 15.03333333333312,
+      "scene": "sky",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 15.099999999999783,
+      "scene": "sky",
+      "id": 15,
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 15.199999999999777,
+      "scene": "sky",
+      "id": 16,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 15.199999999999777,
+      "scene": "sky",
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 15.233333333333109,
+      "scene": "sky",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 15.299999999999772,
+      "scene": "sky",
+      "id": 17,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 15.333333333333103,
+      "scene": "sky",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 15.399999999999766,
+      "scene": "sky",
+      "id": 18,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 15.399999999999766,
+      "scene": "sky",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 15.49999999999976,
+      "scene": "sky",
+      "id": 19,
+      "type": "note"
+    },
+    {
+      "kind": "land",
+      "t": 15.566666666666423,
+      "scene": "sky",
+      "x": 3397,
+      "y": 917.8386818321571
+    },
+    {
+      "kind": "fire",
+      "t": 15.599999999999755,
+      "scene": "sky",
+      "id": 20,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 15.699999999999749,
+      "scene": "sky",
+      "id": 21,
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 15.799999999999743,
+      "scene": "sky",
+      "id": 22,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 15.866666666666406,
+      "scene": "sky",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 15.899999999999737,
+      "scene": "sky",
+      "id": 23,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 15.924999999999736,
+      "scene": "sky",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 15.999999999999732,
+      "scene": "sky",
+      "id": 24,
+      "type": "word"
+    },
+    {
+      "kind": "jump",
+      "t": 16.0166666666664,
+      "scene": "sky",
+      "x": 4006.5,
+      "y": 910.8183778595658
+    },
+    {
+      "kind": "fire",
+      "t": 16.099999999999728,
+      "scene": "sky",
+      "id": 25,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 16.199999999999722,
+      "scene": "sky",
+      "id": 26,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 16.241666666666386,
+      "scene": "sky",
+      "type": "word"
+    },
+    {
+      "kind": "double-jump",
+      "t": 16.258333333333052,
+      "scene": "sky",
+      "x": 4340,
+      "y": 705.401711192899
+    },
+    {
+      "kind": "fire",
+      "t": 16.299999999999716,
+      "scene": "sky",
+      "id": 27,
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 16.39999999999971,
+      "scene": "sky",
+      "id": 28,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 16.416666666666377,
+      "scene": "sky",
+      "type": "note"
+    },
+    {
+      "kind": "dash",
+      "t": 16.441666666666375,
+      "scene": "sky",
+      "dx": 1,
+      "dy": 0
+    },
+    {
+      "kind": "dodge",
+      "t": 16.48333333333304,
+      "scene": "sky",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 16.499999999999705,
+      "scene": "sky",
+      "id": 29,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 16.524999999999704,
+      "scene": "sky",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 16.5999999999997,
+      "scene": "sky",
+      "id": 30,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 16.5999999999997,
+      "scene": "sky",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 16.699999999999694,
+      "scene": "sky",
+      "id": 31,
+      "type": "note"
+    },
+    {
+      "kind": "land",
+      "t": 16.783333333333022,
+      "scene": "sky",
+      "x": 5247.5,
+      "y": 685.6099918731366
+    },
+    {
+      "kind": "jump",
+      "t": 16.791666666666355,
+      "scene": "sky",
+      "x": 5247.5,
+      "y": 685.6099918731366
+    },
+    {
+      "kind": "cut",
+      "t": 16.80833333333302,
+      "scene": "final"
+    },
+    {
+      "kind": "fire",
+      "t": 16.80833333333302,
+      "scene": "final",
+      "id": 0,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 16.80833333333302,
+      "scene": "final",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 16.899999999999682,
+      "scene": "final",
+      "id": 1,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 16.999999999999677,
+      "scene": "final",
+      "id": 2,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 17.09999999999967,
+      "scene": "final",
+      "id": 3,
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 17.199999999999665,
+      "scene": "final",
+      "id": 4,
+      "type": "note"
+    },
+    {
+      "kind": "jump",
+      "t": 17.27499999999966,
+      "scene": "final",
+      "x": 952,
+      "y": 900
+    },
+    {
+      "kind": "fire",
+      "t": 17.29999999999966,
+      "scene": "final",
+      "id": 5,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 17.399999999999654,
+      "scene": "final",
+      "id": 6,
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 17.49999999999965,
+      "scene": "final",
+      "id": 7,
+      "type": "note"
+    },
+    {
+      "kind": "double-jump",
+      "t": 17.516666666666314,
+      "scene": "final",
+      "x": 1300,
+      "y": 694.5833333333333
+    },
+    {
+      "kind": "fire",
+      "t": 17.599999999999643,
+      "scene": "final",
+      "id": 8,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 17.699999999999637,
+      "scene": "final",
+      "id": 9,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 17.7666666666663,
+      "scene": "final",
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 17.7666666666663,
+      "scene": "final",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 17.79999999999963,
+      "scene": "final",
+      "id": 10,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 17.866666666666294,
+      "scene": "final",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 17.899999999999626,
+      "scene": "final",
+      "id": 11,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 17.983333333332954,
+      "scene": "final",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 17.99999999999962,
+      "scene": "final",
+      "id": 12,
+      "type": "word"
+    },
+    {
+      "kind": "land",
+      "t": 18.099999999999614,
+      "scene": "final",
+      "x": 1912,
+      "y": 790
+    },
+    {
+      "kind": "fire",
+      "t": 18.099999999999614,
+      "scene": "final",
+      "id": 13,
+      "type": "note"
+    },
+    {
+      "kind": "jump",
+      "t": 18.19999999999961,
+      "scene": "final",
+      "x": 2044,
+      "y": 790
+    },
+    {
+      "kind": "fire",
+      "t": 18.19999999999961,
+      "scene": "final",
+      "id": 14,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 18.299999999999603,
+      "scene": "final",
+      "id": 15,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 18.31666666666627,
+      "scene": "final",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 18.399999999999597,
+      "scene": "final",
+      "id": 16,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 18.43333333333293,
+      "scene": "final",
+      "type": "note"
+    },
+    {
+      "kind": "double-jump",
+      "t": 18.44166666666626,
+      "scene": "final",
+      "x": 2392,
+      "y": 584.5833333333333
+    },
+    {
+      "kind": "fire",
+      "t": 18.49999999999959,
+      "scene": "final",
+      "id": 17,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 18.516666666666257,
+      "scene": "final",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 18.599999999999586,
+      "scene": "final",
+      "id": 18,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 18.599999999999586,
+      "scene": "final",
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 18.599999999999586,
+      "scene": "final",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 18.69999999999958,
+      "scene": "final",
+      "id": 19,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 18.799999999999574,
+      "scene": "final",
+      "id": 20,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 18.89999999999957,
+      "scene": "final",
+      "id": 21,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 18.99166666666623,
+      "scene": "final",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 18.999999999999563,
+      "scene": "final",
+      "id": 22,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 19.01666666666623,
+      "scene": "final",
+      "type": "note"
+    },
+    {
+      "kind": "dash",
+      "t": 19.058333333332893,
+      "scene": "final",
+      "dx": 1,
+      "dy": 0
+    },
+    {
+      "kind": "dodge",
+      "t": 19.058333333332893,
+      "scene": "final",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 19.099999999999557,
+      "scene": "final",
+      "id": 23,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 19.19999999999955,
+      "scene": "final",
+      "id": 24,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 19.19999999999955,
+      "scene": "final",
+      "type": "word"
+    },
+    {
+      "kind": "land",
+      "t": 19.266666666666215,
+      "scene": "final",
+      "x": 3756.5,
+      "y": 760
+    },
+    {
+      "kind": "fire",
+      "t": 19.299999999999546,
+      "scene": "final",
+      "id": 25,
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 19.39999999999954,
+      "scene": "final",
+      "id": 26,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 19.449999999999537,
+      "scene": "final",
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 19.499999999999535,
+      "scene": "final",
+      "id": 27,
+      "type": "word"
+    },
+    {
+      "kind": "fire",
+      "t": 19.59999999999953,
+      "scene": "final",
+      "id": 28,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 19.641666666666193,
+      "scene": "final",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 19.699999999999523,
+      "scene": "final",
+      "id": 29,
+      "type": "note"
+    },
+    {
+      "kind": "dodge",
+      "t": 19.74999999999952,
+      "scene": "final",
+      "type": "note"
+    },
+    {
+      "kind": "fire",
+      "t": 19.799999999999518,
+      "scene": "final",
+      "id": 30,
+      "type": "word"
+    },
+    {
+      "kind": "dodge",
+      "t": 19.799999999999518,
+      "scene": "final",
+      "type": "word"
+    },
+    {
+      "kind": "exit",
+      "t": 19.86666666666618,
+      "scene": "final"
+    },
+    {
+      "kind": "fire",
+      "t": 19.899999999999512,
+      "scene": "final",
+      "id": 31,
+      "type": "note"
+    }
+  ],
+  "summary": {
+    "passed": true,
+    "checks": 32,
+    "failures": [],
+    "deaths": 0,
+    "respawns": 0,
+    "dodges": 112
+  },
+  "pageErrors": [],
+  "generatedAt": "2026-09-30T20:15:22.190Z",
+  "scope": "Private Chromium read-only manual controls and deterministic six-world film; music-video difficulty accepted."
+}

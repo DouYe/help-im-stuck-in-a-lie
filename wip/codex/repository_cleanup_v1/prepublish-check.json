@@ -1,0 +1,9 @@
+{
+  "checked_files": 948,
+  "bytes": 594705205,
+  "loose_song_audio": [],
+  "audio_inside_zips": [],
+  "credential_pattern_paths": [],
+  "zip_integrity_passed": true,
+  "scope": "Project deliverables; excludes Git/dependencies/temporary caches. Pattern scan is a bounded check, not a guarantee about every possible secret format."
+}

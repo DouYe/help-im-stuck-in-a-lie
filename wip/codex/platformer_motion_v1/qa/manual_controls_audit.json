@@ -1,0 +1,201 @@
+{
+  "sourceHash": "f7a70715d3161b550696f5162f5fb4935822c7fa12889f1dee807e4c26f09c12",
+  "viewport": [
+    1920,
+    1080
+  ],
+  "physicsHz": 120,
+  "checks": [
+    {
+      "name": "move ArrowRight",
+      "pass": true,
+      "evidence": {
+        "x": 401.3541666666667,
+        "vx": 480,
+        "facing": 1
+      }
+    },
+    {
+      "name": "move KeyD",
+      "pass": true,
+      "evidence": {
+        "x": 401.3541666666667,
+        "vx": 480,
+        "facing": 1
+      }
+    },
+    {
+      "name": "move ArrowLeft",
+      "pass": true,
+      "evidence": {
+        "x": 60,
+        "vx": -480,
+        "facing": -1
+      }
+    },
+    {
+      "name": "move KeyA",
+      "pass": true,
+      "evidence": {
+        "x": 60,
+        "vx": -480,
+        "facing": -1
+      }
+    },
+    {
+      "name": "jump Space",
+      "pass": true,
+      "evidence": {
+        "y": 753.9270833333334,
+        "vy": -872.4999999999998,
+        "events": 0.049999999999999996
+      }
+    },
+    {
+      "name": "land after Space",
+      "pass": true,
+      "evidence": {
+        "y": 800,
+        "grounded": true
+      }
+    },
+    {
+      "name": "jump KeyW",
+      "pass": true,
+      "evidence": {
+        "y": 753.9270833333334,
+        "vy": -872.4999999999998,
+        "events": 0.049999999999999996
+      }
+    },
+    {
+      "name": "land after KeyW",
+      "pass": true,
+      "evidence": {
+        "y": 800,
+        "grounded": true
+      }
+    },
+    {
+      "name": "jump ArrowUp",
+      "pass": true,
+      "evidence": {
+        "y": 753.9270833333334,
+        "vy": -872.4999999999998,
+        "events": 0.049999999999999996
+      }
+    },
+    {
+      "name": "land after ArrowUp",
+      "pass": true,
+      "evidence": {
+        "y": 800,
+        "grounded": true
+      }
+    },
+    {
+      "name": "duck KeyS",
+      "pass": true,
+      "evidence": {
+        "duck": 1,
+        "standingHeight": 144.89999999999998,
+        "duckHeight": 96.6,
+        "recoveredDuck": 0
+      }
+    },
+    {
+      "name": "duck ArrowDown",
+      "pass": true,
+      "evidence": {
+        "duck": 1,
+        "standingHeight": 144.89999999999998,
+        "duckHeight": 96.6,
+        "recoveredDuck": 0
+      }
+    },
+    {
+      "name": "R clears simulation state",
+      "pass": true,
+      "evidence": {
+        "before": {
+          "time": 0.5000000000000007,
+          "x": 341.00000000000006,
+          "y": 603.6458333333336
+        },
+        "after": {
+          "time": 0,
+          "p": {
+            "x": 220,
+            "y": 800,
+            "vx": 0,
+            "vy": 0,
+            "width": 105,
+            "grounded": true,
+            "duck": 0,
+            "landing": 0,
+            "runPhase": 0,
+            "facing": 1,
+            "hair": {
+              "hx": 0,
+              "lift": 0,
+              "hxv": 0,
+              "liftv": 0,
+              "prevVx": 0,
+              "prevVy": 0,
+              "initialized": true
+            },
+            "dead": false
+          },
+          "cam": {
+            "x": 0,
+            "y": 0,
+            "vx": 0,
+            "vy": 0,
+            "zoom": 1
+          },
+          "attempt": 1,
+          "finishAt": -1,
+          "shots": []
+        }
+      }
+    },
+    {
+      "name": "R clears event history",
+      "pass": true,
+      "evidence": {
+        "events": []
+      }
+    },
+    {
+      "name": "R retains manual idle mode",
+      "pass": true,
+      "evidence": {
+        "x": 220,
+        "vx": 0,
+        "time": 0.19999999999999998
+      }
+    },
+    {
+      "name": "movement works after R",
+      "pass": true,
+      "evidence": {
+        "x": 259.58333333333337,
+        "vx": 379.99999999999994
+      }
+    },
+    {
+      "name": "no page or console errors",
+      "pass": true,
+      "evidence": {
+        "errors": []
+      }
+    }
+  ],
+  "errors": [],
+  "observations": [
+    "render=1 freezes requestAnimationFrame; all movement in this audit used deterministic renderAt times after manual reset.",
+    "Duck collision height uses width*(1.38-.46*duck), changing 144.9px standing to 96.6px fully ducked.",
+    "Input keys intentionally persist while physically held across reset; all restart checks released movement keys before R."
+  ],
+  "passed": true
+}

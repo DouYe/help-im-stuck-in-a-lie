@@ -1,0 +1,654 @@
+{
+  "source": "lie-video-project.zip",
+  "target": "archive/lie-video-project_without_audio.zip",
+  "all_non_audio_members_verified": true,
+  "retained": [
+    {
+      "name": "lie-video/\u4f7f\u7528\u8bf4\u660e.md",
+      "size": 10919,
+      "sha256": "c893a21d73a15b147e57ba72af4cc5c4aef974e38c7871f356d79cf2b6608a46"
+    },
+    {
+      "name": "lie-video/LICENSE.pdoom-engine",
+      "size": 1074,
+      "sha256": "5fc212466ce7183be5d85a3ee34fea461712842d5cd256b470978a83577083cb"
+    },
+    {
+      "name": "lie-video/HOW-IT-WORKS.md",
+      "size": 2737,
+      "sha256": "5fd85e3aab1252f1cafd0930dd92150469bda7839fcb34a9548417d53ebbf93b"
+    },
+    {
+      "name": "lie-video/app/index.html",
+      "size": 1907,
+      "sha256": "b531304b130b91362e1ef5aa0618edfbf2035b4882f0b61b7f8109fa069dceea"
+    },
+    {
+      "name": "lie-video/app/package.json",
+      "size": 354,
+      "sha256": "44dbe077466a6becd9063ab507bd709e19230fde86e50922d5f41d5ba7201beb"
+    },
+    {
+      "name": "lie-video/app/tsconfig.json",
+      "size": 443,
+      "sha256": "0ee0eae1d87104a942fe19cee2084f74bc728eed17b5a2e87fc2585a288549b8"
+    },
+    {
+      "name": "lie-video/app/src/timeline.ts",
+      "size": 3471,
+      "sha256": "db675e7c81f7d2394def6c901053d77c03694a340a89d4e794e923d70f28a201"
+    },
+    {
+      "name": "lie-video/app/src/figtest.ts",
+      "size": 1907,
+      "sha256": "e7a5c0fb211769841adc5f2e40bfd33139aa328dc9f8e62e5d60e16c4d98b2d6"
+    },
+    {
+      "name": "lie-video/app/src/edit.ts",
+      "size": 6826,
+      "sha256": "c0ce81ee46497b4b19d9740e595d3852aeedced0372026f380bbb8c58c0d3b0e"
+    },
+    {
+      "name": "lie-video/app/src/main.ts",
+      "size": 8558,
+      "sha256": "db483933afdf8618b5e76e04a87cd18292e0c1f7b3ec4ab44af0c96082c43418"
+    },
+    {
+      "name": "lie-video/app/src/danmaku/heart.ts",
+      "size": 4785,
+      "sha256": "ec97d7c00c51d7262ad680b40e326189f2fa2e43cfad20ead28a5d97573a373d"
+    },
+    {
+      "name": "lie-video/app/src/danmaku/mode.ts",
+      "size": 3533,
+      "sha256": "a2a040d1b61814f8149f7caba782a8a40fc91625ac4c6c1314430f84cc3a01f9"
+    },
+    {
+      "name": "lie-video/app/src/danmaku/glyphs.ts",
+      "size": 8173,
+      "sha256": "9cdbab280b4c41050d5c54f6c6505bce9e853cc17716eee6d99c1911189e004d"
+    },
+    {
+      "name": "lie-video/app/src/danmaku/kinetic.ts",
+      "size": 5699,
+      "sha256": "bcdb3ebf330399d7e4f6a342d7277403cc6037287d131bc554c541296c09a554"
+    },
+    {
+      "name": "lie-video/app/src/danmaku/lyric.ts",
+      "size": 2525,
+      "sha256": "b2bdf8e2cf9631576320b0fe498f6e2c1eec6f1fa951222ebff5551ac15cde6f"
+    },
+    {
+      "name": "lie-video/app/src/danmaku/figure.ts",
+      "size": 14099,
+      "sha256": "bc4e2a494a67812ffcccc42d350a7b2bb83e779f73b9e50a2790032cabe788ba"
+    },
+    {
+      "name": "lie-video/app/src/danmaku/transition.ts",
+      "size": 9354,
+      "sha256": "3db78a25c0eee6dd6cd5af8d998661a15c0db8788463aead765aa960662ac69f"
+    },
+    {
+      "name": "lie-video/app/src/danmaku/symbols.ts",
+      "size": 9700,
+      "sha256": "f3056ec41fcca8203964bd6225ece14592850c2c4bb6f3c929d9df787ae78f85"
+    },
+    {
+      "name": "lie-video/app/src/engine/scale.ts",
+      "size": 615,
+      "sha256": "868ae545b1414e01f9a50a395bcd84081b84653a19485a7599f8a894eac5a9b0"
+    },
+    {
+      "name": "lie-video/app/src/engine/palette.ts",
+      "size": 1264,
+      "sha256": "951a31dccfaff54acc8c42be40deeb961ee32331ef116c7fd6de83f79e031100"
+    },
+    {
+      "name": "lie-video/app/src/engine/gl.ts",
+      "size": 11491,
+      "sha256": "05126116d767ba87875274664ace6dd7e4b93ed917166a6f0dec7f93ae50dc46"
+    },
+    {
+      "name": "lie-video/app/src/engine/scene.ts",
+      "size": 2998,
+      "sha256": "496286017ce64400c50f063536db03ec26dd7da66722d636c13a37e24f79567b"
+    },
+    {
+      "name": "lie-video/app/src/engine/lines.ts",
+      "size": 7778,
+      "sha256": "afd4d20fb5d0d472b2f05585917388047e7f2297b9cb08adcc8bdac6e3763a27"
+    },
+    {
+      "name": "lie-video/app/src/engine/post.ts",
+      "size": 11047,
+      "sha256": "98e91f6d1e231fdadab6a06d2e7057f5dc0b861b3fd84f79b57ea319d388f2a0"
+    },
+    {
+      "name": "lie-video/app/src/engine/audio.ts",
+      "size": 5435,
+      "sha256": "f43e20578f445ee952e8196c1c5fa00c13563c4d24b259a92b37c29b495df6b5"
+    },
+    {
+      "name": "lie-video/app/src/engine/type.ts",
+      "size": 9573,
+      "sha256": "2c70468e22d6b4bf99d6b67b007d882ba8f24d4549bf970fea57a37e8e085dfb"
+    },
+    {
+      "name": "lie-video/app/src/engine/util.ts",
+      "size": 7537,
+      "sha256": "717fff8fc177040fc038067725e13b6f7ef7670b7a466f268404672dfaa44a4c"
+    },
+    {
+      "name": "lie-video/app/src/engine/engine.ts",
+      "size": 18821,
+      "sha256": "0e0fe30fcc1093565e19e7eb612b0bd66fef08925c618f95dbc78f1db84e6a0d"
+    },
+    {
+      "name": "lie-video/app/src/engine/lyrics.ts",
+      "size": 4150,
+      "sha256": "03f360eb8aad243fe4b7186e7a1c6009b244969ffee0ce203998ab6120a879db"
+    },
+    {
+      "name": "lie-video/app/src/engine/stroke.ts",
+      "size": 14549,
+      "sha256": "1a59c766f50eb85883c318d19780e037f6fa5122c8844689c60bef656f896ee5"
+    },
+    {
+      "name": "lie-video/app/src/engine/hud.ts",
+      "size": 7755,
+      "sha256": "9dcf8ba2ef614f87b6f3aa8834baa9b33d3e8589104b9e4f5145ad814414ba58"
+    },
+    {
+      "name": "lie-video/app/src/engine/glsl/common.ts",
+      "size": 10852,
+      "sha256": "9c7b0371ed1be2addd5b2aeab1e3dde71a1d40ff6d3af17c3d5f6de1dbb4a954"
+    },
+    {
+      "name": "lie-video/app/src/scenes/heart.ts",
+      "size": 6254,
+      "sha256": "c0ca7534c30c65b848e3d6b66ceef94abfbf5884a13eec29d71197f471ee7b2a"
+    },
+    {
+      "name": "lie-video/app/src/scenes/cage.ts",
+      "size": 13633,
+      "sha256": "e944c90ef2d19571871ab9e5e86e6910b063dca2cc6e0cfaeac31b7393ad7882"
+    },
+    {
+      "name": "lie-video/app/src/scenes/help.ts",
+      "size": 5285,
+      "sha256": "a9066b2bb18b7e9867758a68fbb026e5b6fadcb627dfa9db131e895cff5b1b6d"
+    },
+    {
+      "name": "lie-video/app/src/scenes/_motifs.ts",
+      "size": 6254,
+      "sha256": "292440fb23a9ca2377c30bf50ebf32764e09ef2a5cda180ac40bf6681bd137de"
+    },
+    {
+      "name": "lie-video/app/src/scenes/tape.ts",
+      "size": 14571,
+      "sha256": "4e956b06680372f020534eb1e5ca15a7ec8b945c85df1a56e916c3839ba6f34a"
+    },
+    {
+      "name": "lie-video/app/src/scenes/stitch.ts",
+      "size": 14559,
+      "sha256": "b64dc3d40195ffa4c512db312b6e09d2f69f0bdd70136faa2921bdac532d9a68"
+    },
+    {
+      "name": "lie-video/app/src/scenes/poster.ts",
+      "size": 7861,
+      "sha256": "74dc731d51593c6bf6559f449f0dad85326f39d5b04217f8ed072b803402213c"
+    },
+    {
+      "name": "lie-video/app/src/scenes/xray.ts",
+      "size": 14554,
+      "sha256": "5bdabab0c88d429aa6e78771c90e074e7fbff6c9a0ac3417933c8ade6cc886b5"
+    },
+    {
+      "name": "lie-video/app/src/scenes/storm.ts",
+      "size": 3554,
+      "sha256": "beec3671cb21a8a4e290dfa63fd238546e4021c4f9620209ce3b6a1e5b10d67e"
+    },
+    {
+      "name": "lie-video/app/src/scenes/bars.ts",
+      "size": 3870,
+      "sha256": "03becc3e747bcebe0776d56e97dc4fb2b6c3549f28076568fc62ec944c2215dd"
+    },
+    {
+      "name": "lie-video/app/src/scenes/swarm.ts",
+      "size": 4770,
+      "sha256": "719c1001e7db9bb61a46cf72ec409f76775c1ef6f66905385d810fbdd1b8d096"
+    },
+    {
+      "name": "lie-video/app/src/scenes/flap.ts",
+      "size": 6525,
+      "sha256": "1ecbd18adabf562bfd5826ce91deb5bf29db93352ab3c30591ee1294a4a66ef8"
+    },
+    {
+      "name": "lie-video/app/src/scenes/portrait.ts",
+      "size": 8922,
+      "sha256": "12e0aa5913e17970167341f487cdf0dc020d77418eaf6728f05a26d138a76814"
+    },
+    {
+      "name": "lie-video/app/src/scenes/engrave.ts",
+      "size": 11149,
+      "sha256": "da112b0c4e2e6e94e9ceea63aa3388a65a529d877a15bf707faa614d893da7c5"
+    },
+    {
+      "name": "lie-video/app/src/scenes/slam.ts",
+      "size": 4641,
+      "sha256": "3a83dd89c06356de15db8be614229b46dd72ef4d6b96734e9bcd929d22158af5"
+    },
+    {
+      "name": "lie-video/app/src/scenes/polygraph.ts",
+      "size": 13063,
+      "sha256": "6dce9ad21421c5419f2e8d1181fbe14ac3019d65e8142f49bf8a5a68577960bc"
+    },
+    {
+      "name": "lie-video/app/src/scenes/maze.ts",
+      "size": 22262,
+      "sha256": "15bce23565af06d7813a7366278d164a1bbdd074d3f0b88ccf311f35d5dbfc9e"
+    },
+    {
+      "name": "lie-video/app/src/scenes/tunnel.ts",
+      "size": 4852,
+      "sha256": "6383546b8c0bd7a35b5c405234b4a07ec170a3c55f0bcb9f1fde7b6cd31eab18"
+    },
+    {
+      "name": "lie-video/app/src/scenes/sketch.ts",
+      "size": 10449,
+      "sha256": "fc1b5c93fd1dea4527098a89d7c714b9f922958f90c923ebd6910e7c34b17523"
+    },
+    {
+      "name": "lie-video/app/public/fonts/Archivo-w1125-900.ttf",
+      "size": 121268,
+      "sha256": "6b04492e0ff1dbf8e39c286cd8d32420a12363661dd331c4705c0822a8683318"
+    },
+    {
+      "name": "lie-video/app/public/fonts/Archivo-w1125-300.ttf",
+      "size": 121740,
+      "sha256": "318687751c75f16b2f911d736179926da7b2edb48c6cc3a8083d93beefa31b08"
+    },
+    {
+      "name": "lie-video/app/public/fonts/Archivo-w1000-300.ttf",
+      "size": 121492,
+      "sha256": "863ec9a266154b483ca2fb544a1ae886b2c2e725894ba14a7dd642ecff08836a"
+    },
+    {
+      "name": "lie-video/app/public/fonts/Archivo-w620-700.ttf",
+      "size": 120376,
+      "sha256": "6526f0939a591a3092368ffa5f9ec77e82d8cbbcf044dab17b9a0dfbaa4c151c"
+    },
+    {
+      "name": "lie-video/app/public/fonts/ArchivoItalic-w750-800.ttf",
+      "size": 133296,
+      "sha256": "bc7fa2efc9a4aa22960cfcfbe50025c8d82ff177f4e9a3e016cf0665dbee918c"
+    },
+    {
+      "name": "lie-video/app/public/fonts/Archivo-w1000-500.ttf",
+      "size": 121588,
+      "sha256": "bafcdd01342208afee59debeb1264abaeaedf7efcb067d96fe4ff20cf204cc22"
+    },
+    {
+      "name": "lie-video/app/public/fonts/Archivo-w875-500.ttf",
+      "size": 121328,
+      "sha256": "838d87c7f772488cdb67ad2c719a42c716d52ebcfaae1068e5fde10bd1d0ba99"
+    },
+    {
+      "name": "lie-video/app/public/fonts/Archivo-w620-500.ttf",
+      "size": 120416,
+      "sha256": "c5a9c17c1ac8fbbb47345f805a73d933615db56ed4b2ca2ca84e9b9b3273b1e4"
+    },
+    {
+      "name": "lie-video/app/public/fonts/Archivo-w750-700.ttf",
+      "size": 120888,
+      "sha256": "dd9741079f1f5dd5ad9842bc5152dcab9b01e52f1f1b545bcf347edd6858fcb7"
+    },
+    {
+      "name": "lie-video/app/public/fonts/ArchivoItalic-w1000-400.ttf",
+      "size": 133740,
+      "sha256": "e458ef98ab695b2dbcb53441edcbbb7d8b86fda2dbd7542513a6aa37762c8750"
+    },
+    {
+      "name": "lie-video/app/public/fonts/Archivo-w620-900.ttf",
+      "size": 120080,
+      "sha256": "7bf041853788deafccaf6626af105d63a2c4e9bfe90ed8f3722e49e635520e22"
+    },
+    {
+      "name": "lie-video/app/public/fonts/CormorantItalic-400.ttf",
+      "size": 454392,
+      "sha256": "272bae4becdd77c6f8cf3a252a775212b88c1c8c5a28a0cf8ef799d6887cacda"
+    },
+    {
+      "name": "lie-video/app/public/fonts/Archivo-w1000-900.ttf",
+      "size": 120740,
+      "sha256": "df7f620345ceaf9307c4c021d486d567035c3c3af9e29b12a892f7e5d4d8be48"
+    },
+    {
+      "name": "lie-video/app/public/fonts/Archivo-w1000-700.ttf",
+      "size": 121440,
+      "sha256": "c19fb7f90860e8e6e5e7795a8b7ec603fc788c69cef7fbfa47d69674a4ce5847"
+    },
+    {
+      "name": "lie-video/app/public/fonts/Archivo-w620-300.ttf",
+      "size": 120484,
+      "sha256": "5a97cc5a200d8ab7e459c77ab8055fe06e7b3eaa3b04016a1333797f9a7f2cab"
+    },
+    {
+      "name": "lie-video/app/public/fonts/Archivo-w1250-500.ttf",
+      "size": 121652,
+      "sha256": "36a7bf442a40583b42272084a7fd036467dea5a54a9a106820083e48413851d3"
+    },
+    {
+      "name": "lie-video/app/public/fonts/Archivo-w875-700.ttf",
+      "size": 121212,
+      "sha256": "c37e23695fc6352f35ef9efcb64e86cfbcf124e235cccda9fa83cde88792ac79"
+    },
+    {
+      "name": "lie-video/app/public/fonts/Archivo-w1125-700.ttf",
+      "size": 121716,
+      "sha256": "57510ee1a63a64549244cdaa829a245795e1a901c48cb57891e2ac0ce530e9bd"
+    },
+    {
+      "name": "lie-video/app/public/fonts/Archivo-w1250-300.ttf",
+      "size": 121648,
+      "sha256": "4fd218920884877281f203b81d2ddbb8af90cf1e58ab81830f2b4dc8cb06b377"
+    },
+    {
+      "name": "lie-video/app/public/fonts/Archivo-w750-300.ttf",
+      "size": 120988,
+      "sha256": "2920a8b658d4fa4c596bd79f94577c36e8fc63a60e3260e9eaab3bacc911d4f0"
+    },
+    {
+      "name": "lie-video/app/public/fonts/Archivo-w1125-500.ttf",
+      "size": 121788,
+      "sha256": "141642530cf681535aad885f5384ec6b5a355daa221ea64f06d0405448708a73"
+    },
+    {
+      "name": "lie-video/app/public/fonts/CormorantItalic-600.ttf",
+      "size": 454472,
+      "sha256": "436ab920355e6f186f19183c749a2c0bb2592ebf86fabe4bcffd83b17b3fbc5a"
+    },
+    {
+      "name": "lie-video/app/public/fonts/Cormorant-400.ttf",
+      "size": 774016,
+      "sha256": "4e7958f688e875a0073febb1fdbcc87d85babedf7705ae9e70ecc9513eae9c3e"
+    },
+    {
+      "name": "lie-video/app/public/fonts/Archivo-w875-900.ttf",
+      "size": 120844,
+      "sha256": "3f2011e473d614bf899e2c2f1c7b67e4fbf61b505dfc0543a0547a35c18c5adf"
+    },
+    {
+      "name": "lie-video/app/public/fonts/Archivo-w1250-900.ttf",
+      "size": 121220,
+      "sha256": "97954352b2fcb9d4a5917d658fc71a27db5bd6dad4fe1a8a77c171211860f286"
+    },
+    {
+      "name": "lie-video/app/public/fonts/Archivo-w875-300.ttf",
+      "size": 121144,
+      "sha256": "b6ddedcb6a7d5ae535f593bd4c84edf685c7c30fa8d57d61b03c1b956156d0fe"
+    },
+    {
+      "name": "lie-video/app/public/fonts/Archivo-w750-500.ttf",
+      "size": 120968,
+      "sha256": "12a3814c240d98fbd3e12db49d87d9e8f7d303241450d2ce7a0d78fc2aff877d"
+    },
+    {
+      "name": "lie-video/app/public/fonts/ArchivoItalic-w750-400.ttf",
+      "size": 133472,
+      "sha256": "70d6ff465ae66aa0cb424c5452e13b1dbb19b913adf3ed80b9bc59575cb90203"
+    },
+    {
+      "name": "lie-video/app/public/fonts/Archivo-w750-900.ttf",
+      "size": 120588,
+      "sha256": "e544dc863d11d50b6b159f2459204b4f994fecf46f75d428c8ebfc118cc9e00f"
+    },
+    {
+      "name": "lie-video/app/public/fonts/Archivo-w1250-700.ttf",
+      "size": 121628,
+      "sha256": "55a4492a5a97a6134ec83e289fbc2510d40031a432881a72ef6dd8ae302a380c"
+    },
+    {
+      "name": "lie-video/app/public/fonts/Cormorant-600.ttf",
+      "size": 774032,
+      "sha256": "6cdad32e7e609276adf97085c6fc21a259f311e3b8bdc880784222bdf8911727"
+    },
+    {
+      "name": "lie-video/app/public/fonts/ArchivoItalic-w1000-800.ttf",
+      "size": 133828,
+      "sha256": "9e8c5abbb79942428dee6a133483a146f223c790b5f0ee3c0cb3280c8776e99c"
+    },
+    {
+      "name": "lie-video/app/public/fonts/stroke/EMSOsmotron.svg",
+      "size": 30158,
+      "sha256": "158b0f247a005ca5b6b8556f85684ad10cbb04c41ebbd394b9090c8ea2f16c52"
+    },
+    {
+      "name": "lie-video/app/public/fonts/stroke/EMSFelix.svg",
+      "size": 48819,
+      "sha256": "e7b2463c6cb2a2cbef59db9b1f9f5a20a0ecd9158eeb8f01f2015c9e5be7dca4"
+    },
+    {
+      "name": "lie-video/app/public/fonts/stroke/EMSTech.svg",
+      "size": 40777,
+      "sha256": "7b5a420d4e16285213e7e2b1d187d086835c2dd7a7f64c5b8057434f082fc46f"
+    },
+    {
+      "name": "lie-video/app/public/fonts/stroke/HersheyScript1.svg",
+      "size": 60060,
+      "sha256": "bc0cbdca869d455d000e9961cca0191843cc1c2d7e134a732be2b5081b32eb3b"
+    },
+    {
+      "name": "lie-video/app/public/fonts/stroke/HersheySerifMed.svg",
+      "size": 60544,
+      "sha256": "63e5c88e6fd3a1c2b9a3c90b239c7af3086a15df80373cac80daedbf29b0c04a"
+    },
+    {
+      "name": "lie-video/app/public/fonts/stroke/HersheySans1.svg",
+      "size": 40196,
+      "sha256": "a7b9cb8f6465a66d7b1b2f774579749edf1f960b0ed929f0908bd97211f479fa"
+    },
+    {
+      "name": "lie-video/app/public/fonts/stroke/EMSAllure.svg",
+      "size": 57469,
+      "sha256": "55ed2de9c602229f32dd2784aae704023a5594eb8d208131f2552fae330a2a67"
+    },
+    {
+      "name": "lie-video/app/public/fonts/stroke/EMSReadability.svg",
+      "size": 41926,
+      "sha256": "eebece4f2a47b9d3a8f40cab2b0f689ca60902997abd5c81064ef0d2a3a05522"
+    },
+    {
+      "name": "lie-video/app/public/fonts/src/CormorantGaramond-Italic[wght].ttf",
+      "size": 715644,
+      "sha256": "0f48ea6abb2084537854f7174c470991a463b13036309e3b50a81511611c530d"
+    },
+    {
+      "name": "lie-video/app/public/fonts/src/CormorantGaramond[wght].ttf",
+      "size": 1195560,
+      "sha256": "b20b7d9626dd956b2c5e558692ad328b1f19e3275e2782db4fa07670d83f35e0"
+    },
+    {
+      "name": "lie-video/app/public/fonts/src/IBMPlexMono-SemiBold.ttf",
+      "size": 140216,
+      "sha256": "d3c38e55c78f5b0f28009fddba4834ec503278936a5986032424c9bd2d23aa46"
+    },
+    {
+      "name": "lie-video/app/public/fonts/src/IBMPlexMono-Italic.ttf",
+      "size": 143920,
+      "sha256": "3362fc791b0652193328b862c1c5f23a789bc7288b1617fa63302f88689a2a34"
+    },
+    {
+      "name": "lie-video/app/public/fonts/src/IBMPlexMono-Regular.ttf",
+      "size": 135580,
+      "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+    },
+    {
+      "name": "lie-video/app/public/fonts/src/Archivo[wdth,wght].ttf",
+      "size": 658596,
+      "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053"
+    },
+    {
+      "name": "lie-video/app/public/fonts/src/IBMPlexMono-Medium.ttf",
+      "size": 136704,
+      "sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755"
+    },
+    {
+      "name": "lie-video/app/public/fonts/src/Archivo-Italic[wdth,wght].ttf",
+      "size": 741368,
+      "sha256": "305d13b4eb80e62f7d517f78d7c045250d977552a420f2dbed906f314e761305"
+    },
+    {
+      "name": "lie-video/app/public/fonts/src/OFL.txt",
+      "size": 4388,
+      "sha256": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b"
+    },
+    {
+      "name": "lie-video/app/public/fonts/src/IBMPlexMono-Light.ttf",
+      "size": 135216,
+      "sha256": "780bcf65509d72a35ec114b57bcbe220dc6b77d8ea2e9b25e294be3c570c5025"
+    },
+    {
+      "name": "lie-video/app/public/fonts/src/IBMPlexMono-Bold.ttf",
+      "size": 137784,
+      "sha256": "ac27abd6450a64dd94467580a02fe6235156d5b92f2926ebbc8e7489df64e0be"
+    },
+    {
+      "name": "lie-video/app/scripts/figshot.ts",
+      "size": 727,
+      "sha256": "445b5506e4859a63b1ae0f2d73f4a7085eaf801f601c98f49054369197e31094"
+    },
+    {
+      "name": "lie-video/app/scripts/render.ts",
+      "size": 14294,
+      "sha256": "55f195cd0c9d0d026e51f162483f83c247aad1cd7e9b4fce114b8f3daf98b29c"
+    },
+    {
+      "name": "lie-video/app/scripts/serve.ts",
+      "size": 2944,
+      "sha256": "942b4904fc641aeff0648c349e14cbd9aa4da8e3b930f8b8093bd40055c56d69"
+    },
+    {
+      "name": "lie-video/data/audio.edit.json",
+      "size": 1088316,
+      "sha256": "f38626d128f086d4ac0e35c66cfd86dad5a3f08dd6c95c0ae4c477c9c0a0650e"
+    },
+    {
+      "name": "lie-video/data/lyrics.json",
+      "size": 5035,
+      "sha256": "0d8c88270b3c8bf5d4ba53a9e5c4bb4c792abc612a7f6c4f087f693e23fc3ede"
+    },
+    {
+      "name": "lie-video/data/audio.real.json",
+      "size": 1133065,
+      "sha256": "e87bf00786ab0764cb02715b82aa14563e71741a53463c6e79f4121c46051d7b"
+    },
+    {
+      "name": "lie-video/data/audio.json",
+      "size": 1088664,
+      "sha256": "bdeb28476ae06913ed02a5699696d7606442ec00c53ce73e87cf976e3e562d3f"
+    },
+    {
+      "name": "lie-video/data/demo/lyrics.json",
+      "size": 1698,
+      "sha256": "1d15ecdb7d8b57c7cb93dfa48f17224c74599764399e38654b790ff549cb61fb"
+    },
+    {
+      "name": "lie-video/data/demo/audio.json",
+      "size": 99182,
+      "sha256": "1f64483eb1bcf636f921c4aeb39ea29a50418b1abbe37928b2eca8f278a72cb4"
+    },
+    {
+      "name": "lie-video/analysis/centre_pitch.py",
+      "size": 1564,
+      "sha256": "44904f52cc94eea2029ece3ee2981ded3d10124ac9be17f24ce5c933ce0512c6"
+    },
+    {
+      "name": "lie-video/analysis/centre_mask.py",
+      "size": 1374,
+      "sha256": "5b7c4c9cae0d0f449d7028971ab57af59fcc35ea7c5bd8281fac1d6502426377"
+    },
+    {
+      "name": "lie-video/analysis/finalize_real.py",
+      "size": 5074,
+      "sha256": "68875c6b1c366434146541c12c51c49355978aea6608d2003dbba947742bc5a1"
+    },
+    {
+      "name": "lie-video/analysis/plot_overview.py",
+      "size": 2204,
+      "sha256": "bcd2c432a6b8f04b0b12eac6a027b4f47d2ebe56cbef1cfd4d2e2fe2349f504b"
+    },
+    {
+      "name": "lie-video/analysis/repet_vocals.py",
+      "size": 3173,
+      "sha256": "0747ba4511a9e503090eb377d500f0620ded28b17e1ebbe82119157119004b49"
+    },
+    {
+      "name": "lie-video/analysis/syl_onsets.npy",
+      "size": 5072,
+      "sha256": "191ef03c505ee4f44623f6792fcc6658278de2f2c7f642080529f44e8875203f"
+    },
+    {
+      "name": "lie-video/analysis/plot_vocals.py",
+      "size": 1985,
+      "sha256": "13c267fcce98bf86c7c9479a7e5bdea6e0bc2031e7049faac28588c357c4253f"
+    },
+    {
+      "name": "lie-video/analysis/make_placeholder.py",
+      "size": 6794,
+      "sha256": "d49ac0047dd1a92c9e2871b522cd894fe8bdf71fdc96df96a77bf4fe9d4a484d"
+    },
+    {
+      "name": "lie-video/analysis/grid_fix.json",
+      "size": 59,
+      "sha256": "5d2eecb89824b5e4f744bbd14ddce19fd0ddb3f5097397ecb871f92678cea51f"
+    },
+    {
+      "name": "lie-video/analysis/plot_melody.py",
+      "size": 2532,
+      "sha256": "74497329763cca968099586472fae9da52c727251af4ca38428fed94b2bdf559"
+    },
+    {
+      "name": "lie-video/analysis/plot_centre.py",
+      "size": 2498,
+      "sha256": "a4708a0aad35dc3bc7b7c8fbd2ffea3072a8fccc7d136d4c8a876c201e9296aa"
+    },
+    {
+      "name": "lie-video/analysis/analyze_song.py",
+      "size": 10478,
+      "sha256": "6403c3a5870b6cffa5a81ebd1e22dfc63b45e8a93fec0059cd21d062b298eb03"
+    },
+    {
+      "name": "lie-video/analysis/plot_ssm.py",
+      "size": 1843,
+      "sha256": "42651e690346c3dd002c0fe84495897eac7f1392b723d84b9c6e61c5439f85ee"
+    },
+    {
+      "name": "lie-video/analysis/plot_bargrid.py",
+      "size": 2281,
+      "sha256": "ee19c57bd655e3e16c1ec2319f1d73db337e8b241dc41a6eade51972e6f8b253"
+    },
+    {
+      "name": "lie-video/analysis/melody.py",
+      "size": 3274,
+      "sha256": "cd06b0b67a0200ee6153f77b40ee8be4e5104cf2e2d3f0a8df7d59f34991974c"
+    },
+    {
+      "name": "lie-video/analysis/map_edit.py",
+      "size": 2282,
+      "sha256": "d1e2638863e29e98e3ca9c8283456c7f20759efcc4a70bda05d541bfc970b709"
+    }
+  ],
+  "removed_mp3": [
+    {
+      "name": "lie-video/audio/edit/song.mp3",
+      "size": 4232944,
+      "sha256": "a4dabdb1d83d8ab5a5c0c78d98a2389f0c1f14f841626a5e92359a4157e96dbd"
+    },
+    {
+      "name": "lie-video/audio/real/song.mp3",
+      "size": 4467439,
+      "sha256": "654885be59ac2b495482cf2c09cb87a9cb7283c32ec74a9e6b66922d5224b7d7"
+    }
+  ]
+}

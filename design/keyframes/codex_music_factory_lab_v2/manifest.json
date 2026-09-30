@@ -1,0 +1,29 @@
+{
+  "status": "new static proposals awaiting Hon review",
+  "frames": [
+    {
+      "id": "F01",
+      "file": "F01_music_factory_identical_ai.png",
+      "title": "IDENTICAL AI / ONE HEART",
+      "sha256": "0a8b754b6b23caa3f2d2095fa7afca660590d79c9f0f1f90733ddd302ad582ab"
+    },
+    {
+      "id": "F02",
+      "file": "F02_return_to_line_zero.png",
+      "title": "DEATH / RETURN TO START",
+      "sha256": "8816330b6d739150e71557c2f0efc2d55be077ebc1f732c363137ae954a9a362"
+    },
+    {
+      "id": "F03",
+      "file": "F03_trumpet_lyric_attack.png",
+      "title": "BRASS ENEMY / LYRICS",
+      "sha256": "800339bda5cd861a07046d1b67c60f931b45bea6d083896924525b8c85b2b5b2"
+    },
+    {
+      "id": "F04",
+      "file": "F04_perspective_escape_corridor.png",
+      "title": "3D CODE CORRIDOR / EXIT",
+      "sha256": "71cfc6a4cb9e114693c0693f92a933185458888542957fa8578a362f7f0186f2"
+    }
+  ]
+}

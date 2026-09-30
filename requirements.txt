@@ -1,0 +1,4 @@
+# Python still-image generators. No dependency is vendored into this repository.
+Pillow>=10,<13
+# Historical analysis scripts additionally import numpy, scipy, matplotlib,
+# and onnxruntime; see tools/README.md before rerunning audio analysis.

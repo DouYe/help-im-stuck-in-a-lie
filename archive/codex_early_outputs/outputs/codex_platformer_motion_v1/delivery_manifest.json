@@ -1,0 +1,25 @@
+{
+  "main_duration": 20,
+  "main_frames": 1200,
+  "fps": 60,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "audio_excerpt": [
+    42.012,
+    62.012
+  ],
+  "files": [
+    {
+      "file": "platformer_motion_v2.mp4",
+      "shared_project_file": "renders\\2026-09-30_codex_platformer_motion_v2.mp4",
+      "sha256": "b7ea1aee679b2b67a24e1a05cc3d7d1c12ee9cad87896601eecb559fbc553e4a"
+    },
+    {
+      "file": "platformer_hair_slow_v1.mp4",
+      "shared_project_file": "renders\\2026-09-30_codex_platformer_hair_slow_v1.mp4",
+      "sha256": "698313e678051878b56af663a660110786fb1679cb44ba92c96cc44e7b0b4592"
+    }
+  ]
+}

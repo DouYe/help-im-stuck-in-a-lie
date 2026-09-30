@@ -1,0 +1,200 @@
+{
+  "folders": {
+    "AGENTS.md": {
+      "bytes": 5027,
+      "files": 1
+    },
+    "ChatGPT Image Sep 29, 2026, 12_20_22 PM.png": {
+      "bytes": 2014441,
+      "files": 1
+    },
+    "ChatGPT Image Sep 29, 2026, 12_20_50 PM.png": {
+      "bytes": 1571913,
+      "files": 1
+    },
+    "CLAUDE.md": {
+      "bytes": 230,
+      "files": 1
+    },
+    "GEMINI.md": {
+      "bytes": 230,
+      "files": 1
+    },
+    "Help! I'm not just AI - Final.mp3": {
+      "bytes": 4412837,
+      "files": 1
+    },
+    "Help! I'm not just AI.mp3": {
+      "bytes": 4232944,
+      "files": 1
+    },
+    "Help-Im-stuck-in-a-LIE_first15s.mp4": {
+      "bytes": 7704288,
+      "files": 1
+    },
+    "HOW-IT-WORKS.md": {
+      "bytes": 225,
+      "files": 1
+    },
+    "LICENSE.pdoom-engine": {
+      "bytes": 1074,
+      "files": 1
+    },
+    "lie-video-project.zip": {
+      "bytes": 13152868,
+      "files": 1
+    },
+    "README.md": {
+      "bytes": 5481,
+      "files": 1
+    },
+    "Stuck in a Lie (Edit).mp3": {
+      "bytes": 4232944,
+      "files": 1
+    },
+    "Stuck in a Lie.mp3": {
+      "bytes": 4467439,
+      "files": 1
+    },
+    "Stuck-in-a-Lie_chorus1_chaos.mp4": {
+      "bytes": 19544379,
+      "files": 1
+    },
+    "Stuck-in-a-Lie_chorus1_heroine.mp4": {
+      "bytes": 19273559,
+      "files": 1
+    },
+    "Stuck-in-a-Lie_chorus1_seven.mp4": {
+      "bytes": 19021985,
+      "files": 1
+    },
+    "\u4f7f\u7528\u8bf4\u660e.md": {
+      "bytes": 15771,
+      "files": 1
+    },
+    "analysis": {
+      "bytes": 873924,
+      "files": 24
+    },
+    "app": {
+      "bytes": 10999068,
+      "files": 116
+    },
+    "audio": {
+      "bytes": 13116652,
+      "files": 3
+    },
+    "Claude outputs": {
+      "bytes": 46443822,
+      "files": 35
+    },
+    "coordination": {
+      "bytes": 66053,
+      "files": 3
+    },
+    "data": {
+      "bytes": 3421069,
+      "files": 7
+    },
+    "design": {
+      "bytes": 117806622,
+      "files": 140
+    },
+    "docs": {
+      "bytes": 108777,
+      "files": 9
+    },
+    "renders": {
+      "bytes": 60399581,
+      "files": 5
+    },
+    "wip": {
+      "bytes": 179360883,
+      "files": 537
+    }
+  },
+  "totalBytes": 532254086,
+  "fileCount": 897,
+  "largest": [
+    {
+      "path": "renders/2026-09-30_codex_six_worlds_motion_v1.mp4",
+      "bytes": 40344641
+    },
+    {
+      "path": "wip/codex/platformer_motion_v2/six_worlds_motion_v1.mp4",
+      "bytes": 40344641
+    },
+    {
+      "path": "Stuck-in-a-Lie_chorus1_chaos.mp4",
+      "bytes": 19544379
+    },
+    {
+      "path": "Stuck-in-a-Lie_chorus1_heroine.mp4",
+      "bytes": 19273559
+    },
+    {
+      "path": "Stuck-in-a-Lie_chorus1_seven.mp4",
+      "bytes": 19021985
+    },
+    {
+      "path": "lie-video-project.zip",
+      "bytes": 13152868
+    },
+    {
+      "path": "renders/2026-09-30_codex_platformer_motion_v2.mp4",
+      "bytes": 12750681
+    },
+    {
+      "path": "wip/codex/platformer_motion_v1/platformer_motion_v2.mp4",
+      "bytes": 12750681
+    },
+    {
+      "path": "wip/codex/platformer_motion_v1/platformer_motion_v1.mp4",
+      "bytes": 12702257
+    },
+    {
+      "path": "wip/codex/visual_audit/lib/PIL/_avif.cp310-win_amd64.pyd",
+      "bytes": 7893504
+    },
+    {
+      "path": "Help-Im-stuck-in-a-LIE_first15s.mp4",
+      "bytes": 7704288
+    },
+    {
+      "path": "renders/2026-09-30_codex_game_worlds_motion_board_v1.mp4",
+      "bytes": 5264984
+    },
+    {
+      "path": "wip/codex/game_worlds_v2/motion_board_work.mp4",
+      "bytes": 5264984
+    },
+    {
+      "path": "Stuck in a Lie.mp3",
+      "bytes": 4467439
+    },
+    {
+      "path": "audio/real/song.mp3",
+      "bytes": 4467439
+    },
+    {
+      "path": "audio/final/song.mp3",
+      "bytes": 4414553
+    },
+    {
+      "path": "Help! I'm not just AI - Final.mp3",
+      "bytes": 4412837
+    },
+    {
+      "path": "audio/edit/song.mp3",
+      "bytes": 4234660
+    },
+    {
+      "path": "Help! I'm not just AI.mp3",
+      "bytes": 4232944
+    },
+    {
+      "path": "Stuck in a Lie (Edit).mp3",
+      "bytes": 4232944
+    }
+  ]
+}

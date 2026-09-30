@@ -1,0 +1,71 @@
+{
+  "date": "2026-09-30",
+  "platform": "win32",
+  "node": "v24.19.0",
+  "browser": "153.0.8010.50",
+  "dependency": "playwright-core 1.62.1 installed with standard local package resolution",
+  "checks": {
+    "syntax": true,
+    "previewIndexAndModules": true,
+    "audioByteRange": true,
+    "pathTraversalBlocked": true,
+    "missingFile404": true,
+    "temporaryAudioExcerptAndMapping": true,
+    "full20SecondRouteEventsIdenticalToDeliveredAudit": true,
+    "auditSamples12": true,
+    "smokeCaptureH264AAC1080p60": true,
+    "smokeFrames30": true,
+    "fullSmokeDecode": true,
+    "existingOutputRefused": true,
+    "missingSelectedAudioRefused": true,
+    "incompleteAudioExcerptRefused": true
+  },
+  "audit": {
+    "counts": {
+      "cut": 6,
+      "fire": 200,
+      "jump": 13,
+      "double-jump": 12,
+      "dodge": 112,
+      "land": 10,
+      "dash": 5,
+      "exit": 1
+    },
+    "peakShots": 29,
+    "layers": [
+      0.12,
+      0.35,
+      0.65,
+      1,
+      1.4
+    ]
+  },
+  "smokeMedia": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "60/1",
+        "nb_frames": "30"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "r_frame_rate": "0/0",
+        "nb_frames": "23"
+      }
+    ],
+    "format": {
+      "duration": "0.500000"
+    }
+  },
+  "limitations": [
+    "Windows tested locally; macOS/Linux discovery has not been executed there.",
+    "0.5-second synthetic-audio capture checked the portable export path; no new music video or final-song render was generated.",
+    "Consolas availability can alter cross-platform typography."
+  ]
+}

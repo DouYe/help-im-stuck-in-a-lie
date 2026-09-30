@@ -1,0 +1,18 @@
+# Regenerable dependencies and local caches only; keep media, historical work and QA.
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+wip/codex/visual_audit/lib/
+.tmp/
+app/dist/
+.DS_Store
+Thumbs.db
+
+# Credentials are not project assets.
+.env
+.env.*
+!.env.example
+*.pem
+*.key

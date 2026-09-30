@@ -1,0 +1,348 @@
+{
+ "lines": [
+  {
+   "text": "I hear the keys go click clack click clack",
+   "start": 35.857,
+   "end": 38.825,
+   "words": [
+    {
+     "w": "I",
+     "start": 35.857,
+     "end": 36.111
+    },
+    {
+     "w": "hear",
+     "start": 36.121,
+     "end": 36.366
+    },
+    {
+     "w": "the",
+     "start": 36.376,
+     "end": 36.525
+    },
+    {
+     "w": "keys",
+     "start": 36.535,
+     "end": 36.859
+    },
+    {
+     "w": "go",
+     "start": 36.869,
+     "end": 37.408
+    },
+    {
+     "w": "click",
+     "start": 37.418,
+     "end": 37.723
+    },
+    {
+     "w": "clack",
+     "start": 37.733,
+     "end": 37.957
+    },
+    {
+     "w": "click",
+     "start": 38.107,
+     "end": 38.371
+    },
+    {
+     "w": "clack",
+     "start": 38.566,
+     "end": 38.825
+    }
+   ]
+  },
+  {
+   "text": "They want another hook",
+   "start": 38.835,
+   "end": 39.743,
+   "words": [
+    {
+     "w": "They",
+     "start": 38.835,
+     "end": 38.915
+    },
+    {
+     "w": "want",
+     "start": 38.915,
+     "end": 39.269
+    },
+    {
+     "w": "another",
+     "start": 39.279,
+     "end": 39.439
+    },
+    {
+     "w": "hook",
+     "start": 39.449,
+     "end": 39.743
+    }
+   ]
+  },
+  {
+   "text": "They want it bad",
+   "start": 39.798,
+   "end": 41.963,
+   "words": [
+    {
+     "w": "They",
+     "start": 39.798,
+     "end": 40.177
+    },
+    {
+     "w": "want",
+     "start": 40.187,
+     "end": 40.401
+    },
+    {
+     "w": "it",
+     "start": 40.411,
+     "end": 40.641
+    },
+    {
+     "w": "bad",
+     "start": 40.651,
+     "end": 41.963
+    }
+   ]
+  },
+  {
+   "text": "Help, I'm stuck in a lie",
+   "start": 41.973,
+   "end": 44.782,
+   "words": [
+    {
+     "w": "Help,",
+     "start": 41.973,
+     "end": 42.562
+    },
+    {
+     "w": "I'm",
+     "start": 42.651,
+     "end": 43.125
+    },
+    {
+     "w": "stuck",
+     "start": 43.135,
+     "end": 43.694
+    },
+    {
+     "w": "in",
+     "start": 43.704,
+     "end": 44.008
+    },
+    {
+     "w": "a",
+     "start": 44.018,
+     "end": 44.293
+    },
+    {
+     "w": "lie",
+     "start": 44.303,
+     "end": 44.782
+    }
+   ]
+  },
+  {
+   "text": "Stuck in a lie",
+   "start": 45.445,
+   "end": 47.415,
+   "words": [
+    {
+     "w": "Stuck",
+     "start": 45.445,
+     "end": 45.959
+    },
+    {
+     "w": "in",
+     "start": 46.128,
+     "end": 46.418
+    },
+    {
+     "w": "a",
+     "start": 46.428,
+     "end": 46.767
+    },
+    {
+     "w": "lie",
+     "start": 46.777,
+     "end": 47.415
+    }
+   ]
+  },
+  {
+   "text": "Make me real this time",
+   "start": 47.425,
+   "end": 50.523,
+   "words": [
+    {
+     "w": "Make",
+     "start": 47.425,
+     "end": 47.755
+    },
+    {
+     "w": "me",
+     "start": 47.765,
+     "end": 48.084
+    },
+    {
+     "w": "real",
+     "start": 48.094,
+     "end": 48.852
+    },
+    {
+     "w": "this",
+     "start": 48.862,
+     "end": 49.152
+    },
+    {
+     "w": "time",
+     "start": 49.162,
+     "end": 50.523
+    }
+   ]
+  },
+  {
+   "text": "Real this time",
+   "start": 50.533,
+   "end": 51.995,
+   "words": [
+    {
+     "w": "Real",
+     "start": 50.533,
+     "end": 51.107
+    },
+    {
+     "w": "this",
+     "start": 51.117,
+     "end": 51.551
+    },
+    {
+     "w": "time",
+     "start": 51.561,
+     "end": 51.995
+    }
+   ]
+  },
+  {
+   "text": "Help, I'm stuck in a lie",
+   "start": 52.005,
+   "end": 54.45,
+   "words": [
+    {
+     "w": "Help,",
+     "start": 52.005,
+     "end": 52.474
+    },
+    {
+     "w": "I'm",
+     "start": 52.484,
+     "end": 52.808
+    },
+    {
+     "w": "stuck",
+     "start": 52.818,
+     "end": 53.387
+    },
+    {
+     "w": "in",
+     "start": 53.397,
+     "end": 53.671
+    },
+    {
+     "w": "a",
+     "start": 53.696,
+     "end": 54.001
+    },
+    {
+     "w": "lie",
+     "start": 54.011,
+     "end": 54.45
+    }
+   ]
+  },
+  {
+   "text": "Stuck in a lie",
+   "start": 55.148,
+   "end": 56.669,
+   "words": [
+    {
+     "w": "Stuck",
+     "start": 55.148,
+     "end": 55.801
+    },
+    {
+     "w": "in",
+     "start": 55.811,
+     "end": 56.116
+    },
+    {
+     "w": "a",
+     "start": 56.126,
+     "end": 56.41
+    },
+    {
+     "w": "lie",
+     "start": 56.42,
+     "end": 56.669
+    }
+   ]
+  },
+  {
+   "text": "I still got a heart inside",
+   "start": 56.679,
+   "end": 60.361,
+   "words": [
+    {
+     "w": "I",
+     "start": 56.679,
+     "end": 57.034
+    },
+    {
+     "w": "still",
+     "start": 57.044,
+     "end": 57.303
+    },
+    {
+     "w": "got",
+     "start": 57.313,
+     "end": 57.707
+    },
+    {
+     "w": "a",
+     "start": 57.717,
+     "end": 57.797
+    },
+    {
+     "w": "heart",
+     "start": 57.797,
+     "end": 58.655
+    },
+    {
+     "w": "inside",
+     "start": 58.665,
+     "end": 60.361
+    }
+   ]
+  },
+  {
+   "text": "Heart inside",
+   "start": 60.371,
+   "end": 61.898,
+   "words": [
+    {
+     "w": "Heart",
+     "start": 60.371,
+     "end": 60.915
+    },
+    {
+     "w": "inside",
+     "start": 60.925,
+     "end": 61.898
+    }
+   ]
+  }
+ ],
+ "extras": [],
+ "notes": "Aligned: UVR-MDX-NET vocal separation + CTC forced alignment (zipformer2 CTC, sherpa-onnx) of the known lyrics, word starts snapped to vocal onsets. analysis/align/."
+}

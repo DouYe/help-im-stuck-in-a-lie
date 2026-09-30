@@ -1,0 +1,121 @@
+{
+ "lines": [
+  {
+   "text": "Help!",
+   "start": 2.8125,
+   "end": 3.5156,
+   "words": [
+    {
+     "w": "Help!",
+     "start": 2.8125,
+     "end": 3.5156
+    }
+   ]
+  },
+  {
+   "text": "I'm stuck in a LIE",
+   "start": 3.75,
+   "end": 7.2656,
+   "words": [
+    {
+     "w": "I'm",
+     "start": 3.75,
+     "end": 4.1719
+    },
+    {
+     "w": "stuck",
+     "start": 4.2188,
+     "end": 4.6406
+    },
+    {
+     "w": "in",
+     "start": 4.6875,
+     "end": 4.8984
+    },
+    {
+     "w": "a",
+     "start": 4.9219,
+     "end": 5.1328
+    },
+    {
+     "w": "LIE",
+     "start": 5.1562,
+     "end": 7.2656
+    }
+   ]
+  },
+  {
+   "text": "Help!",
+   "start": 7.5,
+   "end": 8.2031,
+   "words": [
+    {
+     "w": "Help!",
+     "start": 7.5,
+     "end": 8.2031
+    }
+   ]
+  },
+  {
+   "text": "I'm stuck in a LIE",
+   "start": 9.375,
+   "end": 12.4219,
+   "words": [
+    {
+     "w": "I'm",
+     "start": 9.375,
+     "end": 9.7969
+    },
+    {
+     "w": "stuck",
+     "start": 9.8438,
+     "end": 10.2656
+    },
+    {
+     "w": "in",
+     "start": 10.3125,
+     "end": 10.5234
+    },
+    {
+     "w": "a",
+     "start": 10.5469,
+     "end": 10.7578
+    },
+    {
+     "w": "LIE",
+     "start": 10.7812,
+     "end": 12.4219
+    }
+   ]
+  },
+  {
+   "text": "LIE LIE LIE LIE",
+   "start": 13.125,
+   "end": 14.9531,
+   "words": [
+    {
+     "w": "LIE",
+     "start": 13.125,
+     "end": 13.3359
+    },
+    {
+     "w": "LIE",
+     "start": 13.5938,
+     "end": 13.8047
+    },
+    {
+     "w": "LIE",
+     "start": 14.0625,
+     "end": 14.2734
+    },
+    {
+     "w": "LIE",
+     "start": 14.5312,
+     "end": 14.9531
+    }
+   ]
+  }
+ ],
+ "extras": [],
+ "notes": "placeholder timings for the synthesized demo beat"
+}

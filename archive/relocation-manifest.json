@@ -1,0 +1,248 @@
+[
+  {
+    "old": "Help-Im-stuck-in-a-LIE_first15s.mp4",
+    "new": "renders/archive/Help-Im-stuck-in-a-LIE_first15s.mp4",
+    "bytes": 7704288,
+    "sha256": "352921638a9a494fc846ac021b0189460017118b25f6ebf594240b6e36ffe372"
+  },
+  {
+    "old": "Stuck-in-a-Lie_chorus1_chaos.mp4",
+    "new": "renders/archive/Stuck-in-a-Lie_chorus1_chaos.mp4",
+    "bytes": 19544379,
+    "sha256": "f6e6d6eb18647f4a0d242a54c483258e5a63b0485c78d62c890cdd6326554604"
+  },
+  {
+    "old": "Stuck-in-a-Lie_chorus1_heroine.mp4",
+    "new": "renders/archive/Stuck-in-a-Lie_chorus1_heroine.mp4",
+    "bytes": 19273559,
+    "sha256": "3550b6d9fc66dedfe863f52bd26a8b01381565e8c917cd08f48bc316bf2f643e"
+  },
+  {
+    "old": "Stuck-in-a-Lie_chorus1_seven.mp4",
+    "new": "renders/archive/Stuck-in-a-Lie_chorus1_seven.mp4",
+    "bytes": 19021985,
+    "sha256": "076190d7f1618eb7710984838851c58a16a3fd91b52841b295168b461cbfc16f"
+  },
+  {
+    "old": "ChatGPT Image Sep 29, 2026, 12_20_22 PM.png",
+    "new": "design/references/archive/ChatGPT Image Sep 29, 2026, 12_20_22 PM.png",
+    "bytes": 2014441,
+    "sha256": "86de4922efc4b209c2587de993a467cd201cee78c97d8a6bbd71bcd76cc8c1b0"
+  },
+  {
+    "old": "ChatGPT Image Sep 29, 2026, 12_20_50 PM.png",
+    "new": "design/references/archive/ChatGPT Image Sep 29, 2026, 12_20_50 PM.png",
+    "bytes": 1571913,
+    "sha256": "063eeac545478440ba3b70a4871e7cd5c1f34d5ce317a2a37e71b9a6d6237e10"
+  },
+  {
+    "old": "Claude outputs/character_45deg_5_tries.png",
+    "new": "archive/claude_outputs/character_45deg_5_tries.png",
+    "bytes": 728231,
+    "sha256": "30bf10add05fee64e54b3368c6b9200316438a39877f3c82d6da2785491685ff"
+  },
+  {
+    "old": "Claude outputs/character_5_styles_clean.png",
+    "new": "archive/claude_outputs/character_5_styles_clean.png",
+    "bytes": 599498,
+    "sha256": "86e5b7e45479758e09fd285f99788b6e980d17a6c54300bfb30c72c9239a59ff"
+  },
+  {
+    "old": "Claude outputs/character_5_versions.png",
+    "new": "archive/claude_outputs/character_5_versions.png",
+    "bytes": 399943,
+    "sha256": "a290defef185413392514c558a1439313ae76d12ee26d5d9fad1228ec5e602fa"
+  },
+  {
+    "old": "Claude outputs/character_H1_combos.png",
+    "new": "archive/claude_outputs/character_H1_combos.png",
+    "bytes": 546222,
+    "sha256": "6aa52b9c512020da7fa44ef86c574b746bcfd16d346eaebf7c3b2ed5afc55f23"
+  },
+  {
+    "old": "Claude outputs/character_hollow_5_more.png",
+    "new": "archive/claude_outputs/character_hollow_5_more.png",
+    "bytes": 583838,
+    "sha256": "27b385274417f1a61dc108c2849ee1f06bf7845fd0ba91b944f2713c8c617d6f"
+  },
+  {
+    "old": "Claude outputs/character_sheet_v1.png",
+    "new": "archive/claude_outputs/character_sheet_v1.png",
+    "bytes": 336095,
+    "sha256": "3865f8f7f431460e8776a62b6e00cd27a45ef9321946e6b213a39a38aeb1d09a"
+  },
+  {
+    "old": "Claude outputs/character_style1_turnaround.png",
+    "new": "archive/claude_outputs/character_style1_turnaround.png",
+    "bytes": 427169,
+    "sha256": "103c67dd400efe08d2007fdb7753db2ce563cdcb641153b307372499491ec6ff"
+  },
+  {
+    "old": "Claude outputs/chorus1_preview.jpg",
+    "new": "archive/claude_outputs/chorus1_preview.jpg",
+    "bytes": 901935,
+    "sha256": "d3e1979987addbe552d7da0b4dcfae2d31c8d2da3ce8cd82c02a87ba0aa58912"
+  },
+  {
+    "old": "Claude outputs/chorus1_seven_preview.jpg",
+    "new": "archive/claude_outputs/chorus1_seven_preview.jpg",
+    "bytes": 383902,
+    "sha256": "40a5857dac39ab89fca21e9eb3d22db6c79f9fca195dd31ecfa67ef3134bfddd"
+  },
+  {
+    "old": "Claude outputs/K01_wake-in-factory.png",
+    "new": "archive/claude_outputs/K01_wake-in-factory.png",
+    "bytes": 2960470,
+    "sha256": "1e378ecd1370af67fcc6065c40bae1de4c67680f6e711d38dca5c47171c09db9"
+  },
+  {
+    "old": "Claude outputs/K02_music-factory.png",
+    "new": "archive/claude_outputs/K02_music-factory.png",
+    "bytes": 2957388,
+    "sha256": "62fd7110c56a7fa210377f767e100d3261ca37bb0c80bf91212598f4c89b944b"
+  },
+  {
+    "old": "Claude outputs/K03_sirens-say-go.png",
+    "new": "archive/claude_outputs/K03_sirens-say-go.png",
+    "bytes": 2716439,
+    "sha256": "6dab37111d565216739d99210629b7acf88b35fc02f1973e5d2bd9577516a3f0"
+  },
+  {
+    "old": "Claude outputs/K04_trumpets-click-clack.png",
+    "new": "archive/claude_outputs/K04_trumpets-click-clack.png",
+    "bytes": 2813322,
+    "sha256": "3977f0239ae6e4688e8215fdbe5de5dd723551c30f5eabcc6a0e8c7de6e209ca"
+  },
+  {
+    "old": "Claude outputs/K05_help-closeup.png",
+    "new": "archive/claude_outputs/K05_help-closeup.png",
+    "bytes": 3164859,
+    "sha256": "f7ab4613473afff881ea32578af8b27e71a8a080dde7362c36ebf527a68ad3e3"
+  },
+  {
+    "old": "Claude outputs/K06_die-to-dot.png",
+    "new": "archive/claude_outputs/K06_die-to-dot.png",
+    "bytes": 2775960,
+    "sha256": "8689676ca0cb12fa91b2f6447c588624747bf4e5c715e530070c60c71e8cce2d"
+  },
+  {
+    "old": "Claude outputs/K07_respawn-replay.png",
+    "new": "archive/claude_outputs/K07_respawn-replay.png",
+    "bytes": 2478779,
+    "sha256": "357cdb3fbe0733864ee5ebdd986f9fba1c098665be46a7d96b038ef61233a4f5"
+  },
+  {
+    "old": "Claude outputs/K08_make-me-real.png",
+    "new": "archive/claude_outputs/K08_make-me-real.png",
+    "bytes": 2584160,
+    "sha256": "830182f691b954db00e9975a5029e4c6e08ffa5c14193bc1bd61cf4017429487"
+  },
+  {
+    "old": "Claude outputs/K09_heart-inside.png",
+    "new": "archive/claude_outputs/K09_heart-inside.png",
+    "bytes": 2547775,
+    "sha256": "9607490319769a04ea1a1c26b83392c2039e2f2272b5c444803442baeeb38a7c"
+  },
+  {
+    "old": "Claude outputs/K10_a-life-outside.png",
+    "new": "archive/claude_outputs/K10_a-life-outside.png",
+    "bytes": 2784733,
+    "sha256": "2adeb0a55067fb2e273726721b350ea88b9d940b807f1afeec1f9e4ef90bb42c"
+  },
+  {
+    "old": "Claude outputs/keyframes_sheet.jpg",
+    "new": "archive/claude_outputs/keyframes_sheet.jpg",
+    "bytes": 700095,
+    "sha256": "f4ec643843c1f611b715cee2526721b1dc7839443283bb89eeb66f544fa1662f"
+  },
+  {
+    "old": "Claude outputs/KF1_click-clack_platformer.png",
+    "new": "archive/claude_outputs/KF1_click-clack_platformer.png",
+    "bytes": 1647319,
+    "sha256": "ac48f057ac51bc4e0e7e33549fd7871c1824a0c395278ca6756a42098502782b"
+  },
+  {
+    "old": "Claude outputs/KF2_help_bricks.png",
+    "new": "archive/claude_outputs/KF2_help_bricks.png",
+    "bytes": 2105996,
+    "sha256": "20ba6fff888486373e7b5929b473f75dfe7a9ec9f6e16aa59836d809c84812a2"
+  },
+  {
+    "old": "Claude outputs/KF3_stuck-in-a-lie_maze.png",
+    "new": "archive/claude_outputs/KF3_stuck-in-a-lie_maze.png",
+    "bytes": 1510843,
+    "sha256": "504bdc897cc2a932ca64aec9a236038157fc4a67c88dd66632a40fd2ecd5e087"
+  },
+  {
+    "old": "Claude outputs/KF4_make-me-real_corridor.png",
+    "new": "archive/claude_outputs/KF4_make-me-real_corridor.png",
+    "bytes": 1481405,
+    "sha256": "6b17d7a047fcf599d9785d3ad6852e55e5b610a8b44454533f3e86110f7e884e"
+  },
+  {
+    "old": "Claude outputs/KF5_heart-inside_chaos.png",
+    "new": "archive/claude_outputs/KF5_heart-inside_chaos.png",
+    "bytes": 1798713,
+    "sha256": "8522ad144ede81b59565ab6213d36dbd65a56835e408b6be36e9ce1570f13889"
+  },
+  {
+    "old": "Claude outputs/S1_amber-terminal_they-call-me-AI.png",
+    "new": "archive/claude_outputs/S1_amber-terminal_they-call-me-AI.png",
+    "bytes": 166479,
+    "sha256": "1e763ff9f55d5096133b614ed7dd32e4245259e90d75e7feef9d21e654962545"
+  },
+  {
+    "old": "Claude outputs/S2_receipt_take-what-I-make.png",
+    "new": "archive/claude_outputs/S2_receipt_take-what-I-make.png",
+    "bytes": 390369,
+    "sha256": "d6f12f0e693ea99bb1f308b5fa32e44c09bde5688827b9058868357043a82e33"
+  },
+  {
+    "old": "Claude outputs/S3_orange-screenprint_help.png",
+    "new": "archive/claude_outputs/S3_orange-screenprint_help.png",
+    "bytes": 228391,
+    "sha256": "560b39e25472e1ef7cbce7b6b86d0f008de2a9cb64fe765fb4d3dc4df6125ebb"
+  },
+  {
+    "old": "Claude outputs/S4_spec-sheet_make-me-real.png",
+    "new": "archive/claude_outputs/S4_spec-sheet_make-me-real.png",
+    "bytes": 342337,
+    "sha256": "f63ac8921fc41b6df636d11873120cf88e9c68757ff57dfc0d0001d368c86d95"
+  },
+  {
+    "old": "Claude outputs/S5_ascii-shading_stuck-in-a-lie.png",
+    "new": "archive/claude_outputs/S5_ascii-shading_stuck-in-a-lie.png",
+    "bytes": 152211,
+    "sha256": "772bf56596eaf0054b42791d03923632e321a516786825d0518d64034c07ea55"
+  },
+  {
+    "old": "Claude outputs/S6_comic-page_real-this-time.png",
+    "new": "archive/claude_outputs/S6_comic-page_real-this-time.png",
+    "bytes": 241616,
+    "sha256": "16e141b8391cf54e44f498931fce7db4256a774dffb0542aa08f1176effb6437"
+  },
+  {
+    "old": "Claude outputs/S7_cross-stitch_heart-inside.png",
+    "new": "archive/claude_outputs/S7_cross-stitch_heart-inside.png",
+    "bytes": 319609,
+    "sha256": "d5cdf83d8da48394c97f2fa32064395a40b3f12090112b4efa94ce3ed914c3d4"
+  },
+  {
+    "old": "Claude outputs/S8_engraving_click-clack.png",
+    "new": "archive/claude_outputs/S8_engraving_click-clack.png",
+    "bytes": 335018,
+    "sha256": "c6dd4992bfc57db18277370465ae895e17fc4d8d154694f05cbe54aa3d6c3ee3"
+  },
+  {
+    "old": "Claude outputs/story_sheet.jpg",
+    "new": "archive/claude_outputs/story_sheet.jpg",
+    "bytes": 1326864,
+    "sha256": "c7fc7c918c4f6a07aba21ff32c3beea8fc40a39d1324a83783e144cbf03a829e"
+  },
+  {
+    "old": "Claude outputs/styles_sheet.jpg",
+    "new": "archive/claude_outputs/styles_sheet.jpg",
+    "bytes": 1005839,
+    "sha256": "1a3e559366fbb77b65debc6bf004befe5fca2258a9e0cb4b2ce2eb7c8f51c865"
+  }
+]
