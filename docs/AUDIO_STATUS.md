@@ -18,6 +18,8 @@ The old root `lie-video-project.zip` also contained two MP3s. Its replacement hi
 
 Existing MP4 previews remain unchanged, including their embedded historical audio. They document earlier work; changing the master does not update them automatically.
 
+Unique early Codex source/delivery files were also imported under `archive/codex_early_outputs/`. Three imported ZIPs were sanitized to remove two historical FLAC excerpts and one preview MP3; every retained member was hash-verified. No loose old song audio was imported from the chat workspace.
+
 ## Timing data is historical
 
 | Material | Provenance | How to use now |

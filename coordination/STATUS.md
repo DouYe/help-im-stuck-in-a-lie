@@ -4,6 +4,7 @@ Updated: **2026-09-30 · Codex local organization/public GitHub handoff; Hon lik
 
 ## Current repository and audio
 - Shared checkout: https://github.com/DouYe/help-im-stuck-in-a-lie (public). Local tree mirrors the repository. Start at `README.md` and `docs/REPOSITORY_GUIDE.md`; Git LFS is required for full-size media.
+- Publication complete (T28). A separate GitHub clone retrieved all 601 media paths / 524 unique media objects and passed original SHA-256 checks. Source/text Git object hashes matched as well; see `REPOSITORY_VERIFICATION.json` and the refreshed manifest. The local main branch tracks origin/main.
 - Hon approved publishing existing content now and will supply a replacement song/lyrics in a later prompt. Canonical future master: `audio/current/song.mp3`; **currently absent**. Read `docs/AUDIO_STATUS.md` before any timing/audio work.
 - Eight old loose project MP3s and two MP3 entries inside the historical ZIP were removed at Hon's request. Existing videos retain their historical soundtracks; `data/` and earlier lyric timings are historical, not valid for the forthcoming replacement.
 - Hon: "首先这版很好，我觉得还是挺符合预期的" about T24. Keep the current fast six-world movement direction; final shots, whole-song timing, rapid-death montage and Claude combination proposal remain open.

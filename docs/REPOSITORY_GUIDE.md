@@ -15,6 +15,8 @@ git status --short
 
 Install Git LFS and fetch its content before reviewing media. If an image, movie or song file contains text beginning `version https://git-lfs.github.com/spec/v1`, you have a pointer rather than the media. Run `git lfs pull` in the clone. Preserve `.gitattributes` so subsequent binary additions use the same storage rules.
 
+The publication's tracked paths and original media hashes are in `coordination/REPOSITORY_MANIFEST.json`. Run `python wip/codex/repository_cleanup_v1/repository_manifest.py verify` after a fresh clone to check them. The dated publication check is recorded in `coordination/REPOSITORY_VERIFICATION.json`; regenerate the manifest deliberately when a later task adds or changes tracked files.
+
 The repository contains authored sources, documentation, media, selected references and preserved exploration packs. `.git`, `node_modules`, Python environments, bytecode and regenerated tool caches are local infrastructure rather than deliverables. Both local and GitHub project files use the same relative paths; there is no separate flattened upload layout.
 
 ## Understand before changing

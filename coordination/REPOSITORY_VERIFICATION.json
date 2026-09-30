@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-30",
+  "repository": "https://github.com/DouYe/help-im-stuck-in-a-lie",
+  "visibility": "public",
+  "branch": "main",
+  "initial_media_commit": "228074e4d5cfdc41bfcccf4556a408734be7fa1f",
+  "remote_initial_commit_matches_local": true,
+  "remote_initial_tree_files": 951,
+  "remote_tree_truncated": false,
+  "fresh_clone_from_github": true,
+  "fresh_clone_full_media_paths": 601,
+  "fresh_clone_unique_media_objects": 524,
+  "all_original_media_sha256_and_sizes_match": true,
+  "tracked_source_git_objects_match": true,
+  "portable_tooling_checks_passed": 14,
+  "portable_tooling_evidence": "../tools/verification.json",
+  "old_loose_project_mp3_removed": 8,
+  "historical_zip_audio_entries_removed": 5,
+  "all_retained_sanitized_zip_members_verified": true,
+  "new_master": "pending: Hon will supply in a later prompt",
+  "canonical_new_master_path": "audio/current/song.mp3",
+  "manifest_note": "The final handoff commit changes metadata only; original media remain the verified initial-media objects. The manifest includes this report but excludes its own file to avoid a self-hash cycle. Later changes require a deliberate manifest refresh."
+}

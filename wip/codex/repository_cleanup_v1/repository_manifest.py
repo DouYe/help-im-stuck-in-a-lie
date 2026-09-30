@@ -2,6 +2,7 @@
 from pathlib import Path
 import hashlib
 import json
+import re
 import subprocess
 import sys
 
@@ -22,6 +23,27 @@ def index():
         result[name.decode('utf-8')] = {'mode': mode, 'git_blob': blob}
     return result
 
+def media_pointers(tracked):
+    # Read the staged objects directly. Older LFS ls-files versions can omit some
+    # duplicate paths while the repository has an unborn HEAD.
+    extensions = {'.png', '.jpg', '.jpeg', '.mp4', '.webm', '.mp3', '.wav', '.flac', '.zip', '.npy', '.npz'}
+    selected = {name: info['git_blob'] for name, info in tracked.items() if Path(name).suffix.lower() in extensions}
+    ids = list(dict.fromkeys(selected.values()))
+    stream = subprocess.check_output(['git', 'cat-file', '--batch'],
+                                     input=('\n'.join(ids) + '\n').encode(), cwd=root)
+    position, objects = 0, {}
+    for oid in ids:
+        end = stream.index(b'\n', position)
+        found, kind, size = stream[position:end].decode().split()
+        assert found == oid and kind == 'blob'
+        position = end + 1
+        content = stream[position:position + int(size)]
+        position += int(size) + 1
+        pointer = re.fullmatch(rb'version https://git-lfs.github.com/spec/v1\noid sha256:([0-9a-f]{64})\nsize ([0-9]+)\n', content)
+        assert pointer, f'Media object is not an LFS pointer: {oid}'
+        objects[oid] = {'oid': pointer[1].decode(), 'size': int(pointer[2])}
+    return {name: objects[oid] for name, oid in selected.items()}
+
 tracked = index()
 if len(sys.argv) > 1 and sys.argv[1] == 'verify':
     data = json.loads((root / manifest_name).read_text(encoding='utf-8'))
@@ -40,7 +62,7 @@ if len(sys.argv) > 1 and sys.argv[1] == 'verify':
                       'lfs_media_verified': sum(r['storage'] == 'lfs' for r in data['files']),
                       'result': 'passed'}))
 else:
-    lfs = {r['name']: r for r in json.loads(git('lfs', 'ls-files', '--json'))['files']}
+    lfs = media_pointers(tracked)
     files = []
     for name, info in sorted(tracked.items()):
         if name == manifest_name:

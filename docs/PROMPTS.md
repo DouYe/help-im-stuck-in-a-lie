@@ -14,7 +14,7 @@ you act on it. The other models only know what Hon said if it is written here.
 > Old locked audio clarification (close the song in NetEase): OK完成了。
 
 EN: Publish the current project now. Hon will supply the replacement song and lyrics in a later prompt. Hon closed the player holding the last old MP3; deletion then succeeded.
-Result: existing work is being organized and published; new audio is explicitly pending and is not a gate for this upload.
+Result: current work organized and published at `https://github.com/DouYe/help-im-stuck-in-a-lie`; separate fresh clone/media-hash verification passed. New audio is explicitly pending as T29 and was not a gate for this upload.
 
 ### 2026-09-30 · to Codex · local cleanup then a public GitHub repository for AI collaboration
 > 首先这版很好，我觉得还是挺符合预期的。然后呢，我希望你把我们目前有的一切都上传到 GitHub，最终目标是由另外一个 AI 接管的时候，它通过这个 GitHub 就能有所有的信息了，并且那个 AI 也会进行对这个 GitHub 进行更新，然后我们会来回 reiterate。然后那个别忘了我们的歌曲也要上传。然后把 local 的文件整理一下，应该是先把 local 文件整理一下再上传吧。最好是和 GitHub 维持一对一的比例。然后 local 的歌其实那个歌词也会变，所以目前的 MP3 文件都可以先删掉。然后我会把那个新的先放进去一会儿。所以说你先把 local 的整理一下。
@@ -22,7 +22,7 @@ Result: existing work is being organized and published; new audio is explicitly 
 > GitHub destination clarification: 新建公开仓库
 
 EN: Hon likes the current motion revision and says it meets expectations. First organize the local project, preserving its work; the existing project MP3 files may be deleted because a replacement song and lyrics are coming. Then upload the complete organized source, designs, videos, documentation and new song to a new PUBLIC GitHub repository so another AI can take over and update it. Keep local/repository paths aligned.
-Result: in progress; local cleanup and repository preparation claimed as T28. MP3 deletion is explicitly authorized for this project; new incoming audio must not be mistaken for the old snapshot.
+Result: T28 complete. Local files organized and mirrored to the new public repository; previous visual work/source retained, eight old MP3s deleted and historical ZIP audio sanitized. Portable takeover tools and current docs included. Hon's later clarification defers replacement song/lyrics to T29; no replacement audio is claimed.
 
 
 ### 2026-09-30 · to Codex · shared handoff document for the other music video agent
@@ -468,12 +468,16 @@ EN: I'm heading out, may be back late — just go ahead and make the video. Resu
 ```
 You're joining an ongoing project: a music video for my song "Help! I'm stuck in a LIE".
 Several AI models work on it; the shared memory is the project folder
-D:\Videos\Help! I'm stuck in a LIE\ (if you can't open it, I'll paste or upload the files you ask for).
+https://github.com/DouYe/help-im-stuck-in-a-lie . Clone it with Git LFS and run git lfs pull
+so you have the actual media. On my PC the checkout is D:\Videos\Help! I'm stuck in a LIE\;
+on another computer use your clone root. See docs/REPOSITORY_GUIDE.md.
 1. Before anything else read AGENTS.md, README.md, coordination/STATUS.md and docs/DECISIONS.md.
-2. Tell me in five lines where the project stands and what you'd do next.
+2. Read docs/AUDIO_STATUS.md and the newest three WORKLOG entries. New audio/lyrics are pending;
+   old timings and old render soundtracks are historical. Tell me in five lines where it stands.
 3. Follow AGENTS.md: claim a task in coordination/TASKS.md, copy my instructions verbatim into
    docs/PROMPTS.md, never change anything marked LOCKED without asking me, and before you finish write a
-   WORKLOG entry and update STATUS.md (if you can't write files, give me the text to paste).
+   WORKLOG entry and update STATUS.md. Return completed changes through a Git branch/commit and
+   push when this task authorizes updating the repository; do not rewrite shared history.
 Today I want you to: <task>
 ```
 
@@ -494,7 +498,7 @@ Any text on screen is English, bold monospace. Busy, dense, a little chaotic, bu
 
 ### Scene / keyframe brief (fill in before building a scene)
 ```
-Scene: <name>   Lyric: "<line>"   Time: <start–end s, Edit master>   Level type: <2D / top-down / 3D / chaos / …>
+Scene: <name>   Lyric: "<line>"   Time: <start–end s on named approved master>   Level type: <2D / top-down / 3D / chaos / …>
 She: <pose, action, where on screen, size in px>
 The words become: <which word is what object>
 Beat events: <what happens on kicks / snares / downbeats>

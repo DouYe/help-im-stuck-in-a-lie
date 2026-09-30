@@ -2406,21 +2406,27 @@
       "storage": "git"
     },
     {
+      "path": "coordination/REPOSITORY_VERIFICATION.json",
+      "mode": "100644",
+      "git_blob": "363990be85d840b01a7f7a809bd93f9590eb91a9",
+      "storage": "git"
+    },
+    {
       "path": "coordination/STATUS.md",
       "mode": "100644",
-      "git_blob": "1a02eb5c9f47dce627e0f01b5e63a577c44af011",
+      "git_blob": "ff07dfab819ea9c94c231c0f00d8c9c3161392ab",
       "storage": "git"
     },
     {
       "path": "coordination/TASKS.md",
       "mode": "100644",
-      "git_blob": "33123dd63cdbb837491eee42738898ae3f128362",
+      "git_blob": "1fab833f6b7154d6d8a9e660898f85f336461113",
       "storage": "git"
     },
     {
       "path": "coordination/WORKLOG.md",
       "mode": "100644",
-      "git_blob": "21e79b7aa9b8b8e3dd2d8b31f1c893b45f3be0e5",
+      "git_blob": "4f1b1933b96ba220a948739bc97abbe22833b863",
       "storage": "git"
     },
     {
@@ -3530,7 +3536,7 @@
     {
       "path": "docs/AUDIO_STATUS.md",
       "mode": "100644",
-      "git_blob": "b36978a49388aaff3ff50223004ef8474cea64a7",
+      "git_blob": "4586561d5c79e3bbc8981393ae4e9f48e1dbc630",
       "storage": "git"
     },
     {
@@ -3584,13 +3590,13 @@
     {
       "path": "docs/PROMPTS.md",
       "mode": "100644",
-      "git_blob": "cbd83149e3aea91f437e279697249723247d317d",
+      "git_blob": "48e197877b784a0a18e6eea6454308fdf474eb20",
       "storage": "git"
     },
     {
       "path": "docs/REPOSITORY_GUIDE.md",
       "mode": "100644",
-      "git_blob": "193129c5d27aa162e496f2d4e938a18ba54052af",
+      "git_blob": "e118a4305f8f8b8a71087cf28e53d182ee9f2b8e",
       "storage": "git"
     },
     {
@@ -3849,7 +3855,9 @@
       "path": "wip/codex/game_worlds_v2/cavern/KF06_HELP_cavern_game.png",
       "mode": "100644",
       "git_blob": "8a1eb2a666b99313fb7e135eb4ce260074ed7309",
-      "storage": "git"
+      "storage": "lfs",
+      "sha256": "9eccb8ded69b33025b28257e9c62fcd8555ffc76bccb49af2d647f68701b391c",
+      "bytes": 1331684
     },
     {
       "path": "wip/codex/game_worlds_v2/cavern/SHOT_NOTES.md",
@@ -3875,13 +3883,17 @@
       "path": "wip/codex/game_worlds_v2/chamber/KF12_HEART_ascii_chamber.png",
       "mode": "100644",
       "git_blob": "470a8463c5554c7f95597a755a1d6bd802d618fb",
-      "storage": "git"
+      "storage": "lfs",
+      "sha256": "78f972497234a841877504a6b8474ea99eeddbdf13da83f632c0ddc4fe8c742a",
+      "bytes": 537253
     },
     {
       "path": "wip/codex/game_worlds_v2/chamber/KF12_HEART_painted_chamber.png",
       "mode": "100644",
       "git_blob": "0605e29166ebd905dac965ad33b5bc06096b75b2",
-      "storage": "git"
+      "storage": "lfs",
+      "sha256": "da8a0a2b0b85a6fb017a8143d0405daf183e1886ae0e5c72333c28ab39a43715",
+      "bytes": 1358391
     },
     {
       "path": "wip/codex/game_worlds_v2/chamber/SHOT_NOTES.md",
@@ -3965,7 +3977,9 @@
       "path": "wip/codex/game_worlds_v2/heart_close/KF13_heart_inside_ascii_vault.png",
       "mode": "100644",
       "git_blob": "271e6131d753ea6d576b326182b7cad7d8f21889",
-      "storage": "git"
+      "storage": "lfs",
+      "sha256": "6812e9cac0a8f6071d4c1378ec8db9363fa0e20332fadb2bce0cb8e82e50ed6a",
+      "bytes": 682072
     },
     {
       "path": "wip/codex/game_worlds_v2/heart_close/NOTES.md",
@@ -4011,7 +4025,9 @@
       "path": "wip/codex/game_worlds_v2/paper/KF_55p15_stuck_paper_gravity_ASCII.png",
       "mode": "100644",
       "git_blob": "4bfd5952c960aca7bdd18c5aa6f02ba2df13f755",
-      "storage": "git"
+      "storage": "lfs",
+      "sha256": "a34c03f70942044d1d413d8fae1d8ad9aaebe4b96e9001e197d3350763a45027",
+      "bytes": 276166
     },
     {
       "path": "wip/codex/game_worlds_v2/paper/compose_paper_ascii.py",
@@ -4043,7 +4059,9 @@
       "path": "wip/codex/game_worlds_v2/syntax_lock/KF10_real_this_time_syntax_lock.png",
       "mode": "100644",
       "git_blob": "77639f544a4b140b37aaa36325bc133aa0837ac9",
-      "storage": "git"
+      "storage": "lfs",
+      "sha256": "a167b95f0a0928cdc8c283f0d33a3b8663cc4be8612d6db7774a7c6a95ad8bcf",
+      "bytes": 970830
     },
     {
       "path": "wip/codex/game_worlds_v2/syntax_lock/SHOT_NOTES.md",
@@ -4073,13 +4091,17 @@
       "path": "wip/codex/game_worlds_v2/tactical/tactical_false_routes_46_858.png",
       "mode": "100644",
       "git_blob": "bc3dc3a046ca167afbdd9552d6ec0dc1ef661a1e",
-      "storage": "git"
+      "storage": "lfs",
+      "sha256": "bb56d08adb365c77127152d7b249fa1ff49ed013ac567d06fb002cae2bf28ac2",
+      "bytes": 659818
     },
     {
       "path": "wip/codex/music_factory_lab_v1/brass_press_lyric_attack_v1.png",
       "mode": "100644",
       "git_blob": "2caf3627b791242e6567a5615d07dde593e6a228",
-      "storage": "git"
+      "storage": "lfs",
+      "sha256": "800339bda5cd861a07046d1b67c60f931b45bea6d083896924525b8c85b2b5b2",
+      "bytes": 149528
     },
     {
       "path": "wip/codex/music_factory_lab_v1/build_brass_boss.py",
@@ -4125,7 +4147,9 @@
       "path": "wip/codex/music_factory_lab_v1/factory_line_identical_ai_v1.png",
       "mode": "100644",
       "git_blob": "7502d48aba57836fae48d08c04acc7bb89c86b86",
-      "storage": "git"
+      "storage": "lfs",
+      "sha256": "0a8b754b6b23caa3f2d2095fa7afca660590d79c9f0f1f90733ddd302ad582ab",
+      "bytes": 285800
     },
     {
       "path": "wip/codex/music_factory_lab_v1/package_factory.py",
@@ -4143,7 +4167,9 @@
       "path": "wip/codex/music_factory_lab_v1/perspective_variant/F04_perspective_escape_corridor.png",
       "mode": "100644",
       "git_blob": "150e4e050f7ccb772ba6b678df7e3b12300f6dd8",
-      "storage": "git"
+      "storage": "lfs",
+      "sha256": "71cfc6a4cb9e114693c0693f92a933185458888542957fa8578a362f7f0186f2",
+      "bytes": 338465
     },
     {
       "path": "wip/codex/music_factory_lab_v1/perspective_variant/build_perspective.py",
@@ -4155,7 +4181,9 @@
       "path": "wip/codex/music_factory_lab_v1/respawn_line_zero_v1.png",
       "mode": "100644",
       "git_blob": "515e77ad0e17815509e955c3f7bf090d5ff644d0",
-      "storage": "git"
+      "storage": "lfs",
+      "sha256": "8816330b6d739150e71557c2f0efc2d55be077ebc1f732c363137ae954a9a362",
+      "bytes": 237285
     },
     {
       "path": "wip/codex/music_factory_lab_v1/verify_frames.py",
@@ -4451,13 +4479,17 @@
       "path": "wip/codex/platformer_motion_v2/qa/frame_1.5.png",
       "mode": "100644",
       "git_blob": "f545f629d94e2d57e529ff41aa104b4ab6a6cda2",
-      "storage": "git"
+      "storage": "lfs",
+      "sha256": "ff94a6f21cf909364a51823bbd3fa38f7f2a3cea65893ed83ef439c66f9d29e0",
+      "bytes": 270537
     },
     {
       "path": "wip/codex/platformer_motion_v2/qa/frame_11.5.png",
       "mode": "100644",
       "git_blob": "4d7516cba4fe495fd4c75bd8d19a0b7d6c01b4a9",
-      "storage": "git"
+      "storage": "lfs",
+      "sha256": "599017f991e6a1a871019fe004929a2e6ecdd1a426f920566834c28e9da2f471",
+      "bytes": 363271
     },
     {
       "path": "wip/codex/platformer_motion_v2/qa/frame_13.1.png",
@@ -4479,7 +4511,9 @@
       "path": "wip/codex/platformer_motion_v2/qa/frame_15.2.png",
       "mode": "100644",
       "git_blob": "308f2472a77f7585ec0c666626367f48205361ea",
-      "storage": "git"
+      "storage": "lfs",
+      "sha256": "3c1eb2c7c80abed11670fccab141b850994af8da61f6b6be810bd3ca703aa937",
+      "bytes": 312469
     },
     {
       "path": "wip/codex/platformer_motion_v2/qa/frame_15.5.png",
@@ -4509,7 +4543,9 @@
       "path": "wip/codex/platformer_motion_v2/qa/frame_18.5.png",
       "mode": "100644",
       "git_blob": "e86e06e388d85662d9aa296f75f731c32a5b39ce",
-      "storage": "git"
+      "storage": "lfs",
+      "sha256": "6938d4be46fea2b3e346f5151902ab19c15cee50883d466a2907cf7abdb66ca7",
+      "bytes": 322630
     },
     {
       "path": "wip/codex/platformer_motion_v2/qa/frame_19.5.png",
@@ -4547,7 +4583,9 @@
       "path": "wip/codex/platformer_motion_v2/qa/frame_4.8.png",
       "mode": "100644",
       "git_blob": "7aa8039d0c39a560faa14f55d81e7eacf2205568",
-      "storage": "git"
+      "storage": "lfs",
+      "sha256": "7bca265ed6f0553562c1363ba4a0b809ee59ee68b23aad9a20a4e9299cadc0b4",
+      "bytes": 321738
     },
     {
       "path": "wip/codex/platformer_motion_v2/qa/frame_5.5.png",
@@ -4577,7 +4615,9 @@
       "path": "wip/codex/platformer_motion_v2/qa/frame_8.0.png",
       "mode": "100644",
       "git_blob": "1aeb104d65edace3c3f2699b046b30cbb005a98b",
-      "storage": "git"
+      "storage": "lfs",
+      "sha256": "82e5e4f3602b6d4c6772576cc530ad8adf7f4986aea235d4ddcdd35774bc293c",
+      "bytes": 245200
     },
     {
       "path": "wip/codex/platformer_motion_v2/qa/frame_9.1.png",
@@ -4653,7 +4693,9 @@
       "path": "wip/codex/platformer_motion_v2/six_worlds_motion_v1.mp4",
       "mode": "100644",
       "git_blob": "df018c83443b6e610a56ee221cc749ae4fe550b2",
-      "storage": "git"
+      "storage": "lfs",
+      "sha256": "477a597bfb801f0047d0c4a1f81366465badf1c2e04be83d50d0fe6acb1cdd6a",
+      "bytes": 40344641
     },
     {
       "path": "wip/codex/platformer_motion_v2/topdown-notes.md",
@@ -4683,6 +4725,12 @@
       "path": "wip/codex/project_docs/chorus1_42-62_camera_edit_plan.md",
       "mode": "100644",
       "git_blob": "adc303a88215da6efdd4e8c7290988b841a087be",
+      "storage": "git"
+    },
+    {
+      "path": "wip/codex/repository_cleanup_v1/README.md",
+      "mode": "100644",
+      "git_blob": "2d7b1ca194cdd6248d981dd457358dfc945fede3",
       "storage": "git"
     },
     {
@@ -4742,7 +4790,7 @@
     {
       "path": "wip/codex/repository_cleanup_v1/repository_manifest.py",
       "mode": "100644",
-      "git_blob": "99f64f7e7157e4ca616f3ec44a5338cc5b274863",
+      "git_blob": "e698e63218b4c2d9383c914b61d39581ccef619a",
       "storage": "git"
     },
     {
@@ -4761,7 +4809,9 @@
       "path": "wip/codex/root/50_53_real_threshold.png",
       "mode": "100644",
       "git_blob": "17706671adb7ca236456badbcf0dab78afc8298e",
-      "storage": "git"
+      "storage": "lfs",
+      "sha256": "fa82e7f0fa4bf618128a612e6f9aa71114c1690f9f8cfb681f67c6085f57564f",
+      "bytes": 374654
     },
     {
       "path": "wip/codex/root/make_closeup.py",
@@ -4779,7 +4829,9 @@
       "path": "wip/codex/root/selection_sheet.png",
       "mode": "100644",
       "git_blob": "1303d6fa85d736d90ea54a162b0093a35b1d4ba9",
-      "storage": "git"
+      "storage": "lfs",
+      "sha256": "1f5ae1332261514f4ef67e4f465925d52f169ce25b999f564dc67ff08a631d01",
+      "bytes": 1499023
     },
     {
       "path": "wip/codex/selected_references_v1/package_selected.py",
@@ -4791,13 +4843,17 @@
       "path": "wip/codex/tech_audit/01_stuck_side_chute.png",
       "mode": "100644",
       "git_blob": "bcda07280152c1b02bb2e18a52b265bf1ed45c95",
-      "storage": "git"
+      "storage": "lfs",
+      "sha256": "952177e667116c724caeecbee1cef6b5eca8cb90e9e5730130fc8db96976592c",
+      "bytes": 441127
     },
     {
       "path": "wip/codex/tech_audit/02_make_me_real_deep_maze.png",
       "mode": "100644",
       "git_blob": "1d4aee796088ab7e8b83f435ae39d66a35679fb2",
-      "storage": "git"
+      "storage": "lfs",
+      "sha256": "d9422925e261323f838c6b2cd57a3f661835f940bc8255cff0d28418e394a735",
+      "bytes": 659953
     },
     {
       "path": "wip/codex/tech_audit/NOTES.md",
@@ -4815,13 +4871,17 @@
       "path": "wip/codex/visual_audit/KF_A_prompt_factory.png",
       "mode": "100644",
       "git_blob": "2f7f0c070c1fc26a958ff31a71b01aee10ffb51a",
-      "storage": "git"
+      "storage": "lfs",
+      "sha256": "70aa92a88ee795a4696ee87bf898beb4a8f9ec5137ad2ecd933ad9c0a4e21b8d",
+      "bytes": 332159
     },
     {
       "path": "wip/codex/visual_audit/KF_B_heart_interior.png",
       "mode": "100644",
       "git_blob": "e18a6662aeb55e97f3753ec7b9fe0bfa4022b9bf",
-      "storage": "git"
+      "storage": "lfs",
+      "sha256": "3366f6038ded989fa71673bbfd71ea53289255c277b225bc975556a9453bc6a4",
+      "bytes": 287632
     },
     {
       "path": "wip/codex/visual_audit/README.txt",
