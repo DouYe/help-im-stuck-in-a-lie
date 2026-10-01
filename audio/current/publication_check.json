@@ -1,0 +1,15 @@
+{
+  "verified_date": "2026-09-30",
+  "date_timezone": "America/Los_Angeles",
+  "repository": "https://github.com/DouYe/help-im-stuck-in-a-lie",
+  "verified_receipt_commit": "979ffd8a77677bbf98be551ef85ad2d5704b7b62",
+  "independent_github_download": true,
+  "original_mp3_sha256_match": true,
+  "exact_plain_lyrics_sha256_match": true,
+  "markdown_lyrics_body_matches_plain_text": true,
+  "receipt_audio_sha256": "c715a2db8b6e6b8ca62433240151b560ce0ff93951acbfa336e64aa892b9b951",
+  "verified_receipt_tree_files": 958,
+  "verified_receipt_tree_media_paths": 602,
+  "full_manifest_passed": true,
+  "completion_commit_note": "Subsequent metadata-only commit records task completion and refreshes the manifest; audio and lyric objects are unchanged."
+}

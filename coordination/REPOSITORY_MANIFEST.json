@@ -2412,6 +2412,12 @@
       "storage": "git"
     },
     {
+      "path": "audio/current/publication_check.json",
+      "mode": "100644",
+      "git_blob": "6eac2af007586a98b356c8d7f8aba06b91dc1fcd",
+      "storage": "git"
+    },
+    {
       "path": "audio/current/receipt.json",
       "mode": "100644",
       "git_blob": "4e7238fdbee7e72d72dad05bfda5c3ce2928aab0",
@@ -2434,19 +2440,19 @@
     {
       "path": "coordination/STATUS.md",
       "mode": "100644",
-      "git_blob": "7e707550892ae9bf3acd9c979805d3fab40807af",
+      "git_blob": "04d48d45ebd397e67042998ea59ea9c5a42e76f5",
       "storage": "git"
     },
     {
       "path": "coordination/TASKS.md",
       "mode": "100644",
-      "git_blob": "2bdd7b2820631c065eab428a936b333a850ae687",
+      "git_blob": "8443e6507856e319ac4d756dfa80df4bc471058d",
       "storage": "git"
     },
     {
       "path": "coordination/WORKLOG.md",
       "mode": "100644",
-      "git_blob": "ce0bed033601833741e31af3fe9ce486437e080c",
+      "git_blob": "212122e2607c7f5cf81b5bf4a0a671a863a498dd",
       "storage": "git"
     },
     {
@@ -3616,7 +3622,7 @@
     {
       "path": "docs/PROMPTS.md",
       "mode": "100644",
-      "git_blob": "fce36ffb7dc81b500b6f6d04b754742b1abc1e78",
+      "git_blob": "e5d08ef1d3d024f886cb2fc3f89a42a79653219e",
       "storage": "git"
     },
     {

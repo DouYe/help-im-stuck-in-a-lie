@@ -96,7 +96,7 @@ you act on it. The other models only know what Hon said if it is written here.
 > 音乐也上传了，就叫Stuck in the Line，放到文档里面了。你那个和这个歌词记得都上传。
 
 EN: Hon supplied the full exact lyrics above and placed the replacement recording, titled Stuck in the Line, in the project. Upload both the music and these lyrics to the existing public GitHub repository.
-Result: claimed as T30; receive and publish the new audio/lyrics with provenance. New beat/word alignment is a separate next task; do not reuse historical timestamps.
+Result: T30 complete. Uploaded unchanged MP3 and both exact lyric copies, with filename/hash/duration receipt and current handoff docs. Independent GitHub clone retrieved the original song and exact lyrics with matching SHA-256; full project manifest passed. New beat/word alignment remains a separate task, T29/T4.
 
 ### 2026-09-30 · to Codex · publish existing content now; replacement audio later
 > 这个一会儿我会搞的，一会儿我再发个prompt给你，不过现在的话你就把现有的放上去。

@@ -5,7 +5,7 @@ before you stop. Statuses: `todo` · `doing` · `review` (waiting on Hon) · `bl
 
 | ID | Task | Status | Owner | Notes |
 |---|---|---|---|---|
-| T30 | Receive and upload Stuck in the Line MP3 and Hon's exact new lyrics | doing | Codex 2026-09-30 | User explicitly requested both uploads. Record original filename/hash/duration, preserve exact text and update active-master handoff; no timing-analysis or game changes in this task. |
+| T30 | Receive and upload Stuck in the Line MP3 and Hon's exact new lyrics | done | Codex 2026-09-30 | Master and exact plain/Markdown lyrics uploaded; independent GitHub clone passed audio/text hashes and full manifest. `audio/current/receipt.json` and `publication_check.json`; current docs updated. Timing analysis remains T29/T4. |
 | T29 | Regenerate beat/word timings for Stuck in the Line and exact new lyrics | todo | — | Receipt/upload handled by T30; master and text are present in `audio/current/`. Preserve old analyses/renders and generate new versions before migration. |
 | T28 | Organize local project, remove superseded MP3, and publish existing public GitHub repository for AI handoff | done | Codex 2026-09-30 | `DouYe/help-im-stuck-in-a-lie` public; local/repo paths aligned. Visuals/code/films/history retained; 8 old MP3s deleted, archived ZIP audio removed. Fresh clone verified 601 full media paths, all hashes. New song/lyrics deliberately deferred by Hon to T29. |
 | T27 | Shared Chinese handoff document for the other music-video agent | done | Codex 2026-09-30 | `docs/CODEX_AGENT_HANDOFF_V1.md`: current/old files, runtime and module APIs, validation, limits and coexistence with Claude story_v1. Fact-checked; README/STATUS/FILE_MAP indexed. Source and media unchanged. |
