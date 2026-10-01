@@ -5,8 +5,8 @@ Updated: **2026-09-30 · Codex local organization/public GitHub handoff; Hon lik
 ## Current repository and audio
 - Shared checkout: https://github.com/DouYe/help-im-stuck-in-a-lie (public). Local tree mirrors the repository. Start at `README.md` and `docs/REPOSITORY_GUIDE.md`; Git LFS is required for full-size media.
 - Publication complete (T28). A separate GitHub clone retrieved all 601 media paths / 524 unique media objects and passed original SHA-256 checks. Source/text Git object hashes matched as well; see `REPOSITORY_VERIFICATION.json` and the refreshed manifest. The local main branch tracks origin/main.
-- Hon approved publishing existing content now and will supply a replacement song/lyrics in a later prompt. Canonical future master: `audio/current/song.mp3`; **currently absent**. Read `docs/AUDIO_STATUS.md` before any timing/audio work.
-- Eight old loose project MP3s and two MP3 entries inside the historical ZIP were removed at Hon's request. Existing videos retain their historical soundtracks; `data/` and earlier lyric timings are historical, not valid for the forthcoming replacement.
+- **Current master received: Stuck in the Line**, `audio/current/song.mp3` (205.56 s, 48 kHz stereo MP3). Hon's exact current lyrics are `audio/current/lyrics.txt` / `docs/LYRICS_STUCK_IN_THE_LINE_v1.md`; original filename/hash/duration are in `audio/current/receipt.json`. Receipt/upload is T30; new alignment is still T29/T4. Read `docs/AUDIO_STATUS.md` before timing work.
+- Eight old loose project MP3s and two MP3 entries inside the historical ZIP were removed at Hon's request. Existing videos retain their historical soundtracks; `data/` and earlier lyric timings are historical, not validated for the new Stuck in the Line master.
 - Hon: "首先这版很好，我觉得还是挺符合预期的" about T24. Keep the current fast six-world movement direction; final shots, whole-song timing, rapid-death montage and Claude combination proposal remain open.
 - Root historical movies now live in `renders/archive/`; root reference PNGs in `design/references/archive/`; all 35 unique Claude outputs in `archive/claude_outputs/`. Relocations are hash-verified in `archive/relocation-manifest.json`.
 - Portable preview/export entry points live in `tools/`; dated machine-specific capture scripts remain as historical sources.
@@ -74,7 +74,7 @@ Updated: **2026-09-30 · Codex local organization/public GitHub handoff; Hon lik
    Claude styles v1, Grok trial/escape levels and older Codex v1. Codex game worlds v2 selection remains
    recorded in `docs/DECISIONS.md` and the selected-only folder.
 2. Read `docs/CODEX_AGENT_HANDOFF_V1.md`, then use feedback on the current T24 motion prototype and Claude story_v1 to combine selected visuals and movement. T2 full chorus-1 edit still awaits final scene choices; the newer request authorizes movement testing.
-3. When Hon supplies the replacement, place it at `audio/current/song.mp3`, save the new lyrics, record its hash/duration, redo the beat/word analysis (T29), and then plan the whole-song edit.
+3. Use the received Stuck in the Line master and exact new lyrics to regenerate beat/word analysis (T29/T4) in a new version, then plan the whole-song edit. Receipt is complete; old offsets must not be reused.
 
 ## Waiting on Hon
 - Feedback on Claude **story v1** (K01–K10): does "one world at three scales, her heart becomes the spark" join the
@@ -97,11 +97,12 @@ Updated: **2026-09-30 · Codex local organization/public GitHub handoff; Hon lik
 - Feedback on keyframes v3 — is she visible enough (thicker/thinner?), which A/B options (KF04/05, KF07/08),
   which new moments to keep.
 - Selection of Codex alternatives A–E (if any) against Claude's keyframes v3; see `design/keyframes/codex_candidates_v1/KEYFRAMES.md`.
-- Replacement MP3 and official replacement lyrics from Hon (later prompt). Read `docs/AUDIO_STATUS.md`; previous text/timestamps are historical.
+- New MP3 and exact lyrics have been received. Next music-dependent work is fresh alignment/analysis, not another audio request. Previous timestamps remain historical.
 - The two `ChatGPT Image Sep 29 …png` files at `design/references/archive/`: what are they for (reference? a moment in the
   video?) — they use red + blue and a realistic face, which differs from the locked look.
 
 ## Notes between models
+- 2026-09-30 · Codex: Hon has now supplied Stuck in the Line and full exact lyrics. Use `audio/current/` and the new lyric document. Audio bytes were preserved; full decode passed. Chorus 1 says lie, Chorus 2/final say line. No new timing, video or palette change is claimed. Earlier pending-audio notes below are historical.
 - 2026-09-30 · Codex: local cleanup/publication is authorized, including old MP3 deletion. New master is pending, not an upload gate; Hon explicitly says upload existing work now. Use relative checkout paths and the portable `tools/` entry points. Earlier docs' Edit/Final timing/path statements are historical. Pull first, claim tasks and push completed results/handoff so the next AI receives them.
 - 2026-09-30 · Codex: T24 is the current motion proposal, isolated from the locked app and all other models. New film source uses rehearsed physics + calculated safe attack crossings, not general invulnerability; manual collision is real.10Hzemissions are fixed across room resets. For final integration inspect both this prototype and Claude story_v1; no scene selection approval claimed.
 - 2026-09-30 · Claude (Cowork) → Codex: Hon asked me to combine your platformer (the screenshot he sent is from

@@ -2,7 +2,7 @@
 
 Updated: **2026-09-30**. Paths are relative to the repository/project root. **Current** means an active entry/source; **reference** means retained for inspection; **proposal** means not selected final footage; **old/rejected** means preserve the record without reviving it as the current direction.
 
-The local directory and GitHub use the same relative paths. Historical logs/manifests may still name former root files or `Claude outputs/`; resolve them through [archive/relocation-manifest.json](../archive/relocation-manifest.json). Current audio state is [AUDIO_STATUS](AUDIO_STATUS.md); old timing files are not aligned to the forthcoming master.
+The local directory and GitHub use the same relative paths. Historical logs/manifests may still name former root files or `Claude outputs/`; resolve them through [archive/relocation-manifest.json](../archive/relocation-manifest.json). Current audio state is [AUDIO_STATUS](AUDIO_STATUS.md); old timing files are not aligned to the current Stuck in the Line master.
 
 ## Root and coordination
 
@@ -24,7 +24,7 @@ The local directory and GitHub use the same relative paths. Historical logs/mani
 | File | What |
 |---|---|
 | `REPOSITORY_GUIDE.md` | Clone with full LFS media, portable preview/capture, paths, collaboration and push workflow |
-| `AUDIO_STATUS.md` | New master pending; eight retired MP3 removals and stale timing provenance |
+| `AUDIO_STATUS.md` | Current Stuck in the Line receipt and remaining alignment work; retired MP3/stale-timing provenance |
 | `CODEX_AGENT_HANDOFF_V1.md` | Dated Chinese technical handoff: motion modules, controls, audit results and pending Claude integration; old audio/ports now superseded |
 | `CODEX_SIX_WORLDS_MOTION_V1.md` | T24 six-world motion implementation and validation record |
 | `CODEX_PLATFORMER_MOTION_V1.md` | T23 earlier single-factory motion and hair test |
@@ -32,7 +32,8 @@ The local directory and GitHub use the same relative paths. Historical logs/mani
 | `PROMPTS.md` | Hon's instructions verbatim, translations and reusable prompts |
 | `DECISIONS.md` | Locked decisions, direction, selected references, pending choices and rejected approaches |
 | `PIPELINE.md` | Earlier TypeScript engine, analysis and lyric alignment instructions; inspect old paths/master settings before reuse |
-| `LYRICS.md` | Historical master mapping and lyrics/timing records; await replacement lyrics |
+| `LYRICS.md` | Historical master mapping and lyrics/timing records |
+| `LYRICS_STUCK_IN_THE_LINE_v1.md` | Current exact lyrics supplied by Hon, versioned separately; not timestamped yet |
 | `FILE_MAP.md` | This index |
 
 ## design/
@@ -92,7 +93,9 @@ Videos retain their embedded old soundtrack. Existing movies are not overwritten
 | `analysis/align/` | Vocal separation, CTC/refinement/word-timing sources and results | Historical source/results |
 | `data/audio.json`, `audio.edit.json`, `audio.real.json` | Former master beat/envelope/onset analyses | Historical, pending new-master replacement |
 | `data/lyrics.json`, `lyrics.template_old.json` | Forced-aligned former chorus words and superseded estimated template | Historical; new lyrics require alignment |
-| `audio/current/song.mp3` | Canonical incoming replacement master location | **Pending; file not supplied** |
+| `audio/current/song.mp3` | Stuck in the Line, unchanged original replacement recording | Current; 205.56 s, 48 kHz stereo MP3 |
+| `audio/current/lyrics.txt` | Exact full lyrics supplied by Hon | Current text; word timings still to do |
+| `audio/current/receipt.json` | Original filename, audio/text hashes, duration and codec | Current provenance |
 | `audio/edit/`, `audio/final/`, `audio/real/` | Former master destinations | Retired; do not restore superseded MP3s for new production |
 
 ## Preserved explorations and cleanup evidence

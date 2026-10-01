@@ -2,7 +2,7 @@
 
 Shared source, visual references, rendered previews and working records for Hon's music video. The aim is for another AI to clone this repository, understand the work, continue it and return updates through GitHub.
 
-**Updated: 2026-09-30.** The six-world motion prototype fits Hon's current expectations. It is a direction to build on; final shots, full-song editing and the rapid death montage are still open. **Replacement song and lyrics are pending.** Earlier MP3 masters are retired; see [audio status](docs/AUDIO_STATUS.md) before using any timing data. Hon requested publishing the existing work now and will supply the new song in a later prompt.
+**Updated: 2026-09-30.** The six-world motion prototype fits Hon's current expectations. It is a direction to build on; final shots, full-song editing and the rapid death montage are still open. **Current song: [Stuck in the Line](audio/current/song.mp3), received with [Hon's exact lyrics](docs/LYRICS_STUCK_IN_THE_LINE_v1.md) on 2026-09-30.** Earlier MP3 masters are retired; see [audio status](docs/AUDIO_STATUS.md) and [receipt](audio/current/receipt.json). New beat/word alignment remains to do; existing movie soundtracks and timing data are historical.
 
 ## Start here
 
@@ -45,7 +45,7 @@ git lfs pull
 
 Install Git LFS before cloning so images, movies and future song audio arrive as real media. A download containing only small text pointers is incomplete. Setup and run commands: [REPOSITORY_GUIDE](docs/REPOSITORY_GUIDE.md).
 
-To play the latest prototype with Node 20+, run `node tools/serve-motion.mjs --port 5190` from this root and open its printed URL. No npm install is needed for preview. It is silent while the replacement master is pending. Audit/capture commands are in [tools/README.md](tools/README.md).
+To play the latest prototype with Node 20+, run `node tools/serve-motion.mjs --port 5190` from this root and open its printed URL. No npm install is needed for preview. It now reads `audio/current/song.mp3` from time zero by default; the existing visual choreography has not been aligned to this new song. Audit/capture commands are in [tools/README.md](tools/README.md).
 
 ## Folder map
 
@@ -58,7 +58,7 @@ renders/             dated movies; earlier root movies now in renders/archive/
 app/                 original TypeScript/three.js video engine
 analysis/            historical beat and lyric analysis sources/results
 data/                retired-master timing data; pending regeneration for new song
-audio/current/       replacement master destination: song.mp3 (not supplied yet)
+audio/current/       current song.mp3, exact lyrics.txt and hash/duration receipt.json
 archive/             earlier Claude deliveries, audio-free snapshot, relocation map
 tools/               portable project entry commands
 ```

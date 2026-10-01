@@ -17,7 +17,7 @@
   "old_loose_project_mp3_removed": 8,
   "historical_zip_audio_entries_removed": 5,
   "all_retained_sanitized_zip_members_verified": true,
-  "new_master": "pending: Hon will supply in a later prompt",
+  "new_master": "Pending at this initial media verification; subsequently received as Stuck in the Line under T30. Current receipt: audio/current/receipt.json",
   "canonical_new_master_path": "audio/current/song.mp3",
   "manifest_note": "The final handoff commit changes metadata only; original media remain the verified initial-media objects. The manifest includes this report but excludes its own file to avoid a self-hash cycle. Later changes require a deliberate manifest refresh."
 }

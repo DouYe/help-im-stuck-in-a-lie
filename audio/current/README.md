@@ -1,7 +1,5 @@
-# Replacement song — pending
+# Stuck in the Line — current song
 
-Hon will provide the new MP3 and lyrics in a later prompt. Put the master at `song.mp3` in this directory, and the supplied lyric text at `lyrics.txt`. Do not restore the removed Edit/Final masters or reinterpret historical timestamps as current.
+Received from Hon on 2026-09-30. `song.mp3` is the unchanged original `Stuck in the Line.mp3`; `lyrics.txt` is Hon's exact lyric message. See `receipt.json` for hashes/duration and `../../docs/AUDIO_STATUS.md` for current timing status.
 
-When the replacement arrives, record its SHA-256 and duration in `../../docs/AUDIO_STATUS.md`, regenerate beat/word timing into a new version, and commit/push the actual audio with Git LFS. See task T29 and the root repository guide.
-
-Current preview runs silently until a master is present. Archived MP4s contain their original historical soundtracks.
+Beat/word alignment remains to do (T29/T4). Old movies keep historical soundtracks and must not be assumed to match this master. The portable preview reads this master from time zero by default. Audio uses Git LFS; run `git lfs pull` after cloning.

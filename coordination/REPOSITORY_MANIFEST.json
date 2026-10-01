@@ -18,7 +18,7 @@
     {
       "path": "AGENTS.md",
       "mode": "100644",
-      "git_blob": "6681cc91be00cde1504b2cab3e4fbd3b11c5efe5",
+      "git_blob": "06c97ddbea311c548e4554e0e605de883ec67547",
       "storage": "git"
     },
     {
@@ -48,7 +48,7 @@
     {
       "path": "README.md",
       "mode": "100644",
-      "git_blob": "f5e71cbaacf34554d2da411bd44b0dcdb830c149",
+      "git_blob": "f5fac98553f4b339f255b1294cde1b7d3052a31c",
       "storage": "git"
     },
     {
@@ -2402,31 +2402,51 @@
     {
       "path": "audio/current/README.md",
       "mode": "100644",
-      "git_blob": "36b8803d2f00c5eb5acbce166b7e87fdd63e43b3",
+      "git_blob": "29b33b4983da98aee0ce13be06f14c7aea0dbc6d",
       "storage": "git"
+    },
+    {
+      "path": "audio/current/lyrics.txt",
+      "mode": "100644",
+      "git_blob": "4d2492d32f0db8265d7cfe6249280b835233b392",
+      "storage": "git"
+    },
+    {
+      "path": "audio/current/receipt.json",
+      "mode": "100644",
+      "git_blob": "4e7238fdbee7e72d72dad05bfda5c3ce2928aab0",
+      "storage": "git"
+    },
+    {
+      "path": "audio/current/song.mp3",
+      "mode": "100644",
+      "git_blob": "2aae677d3cf6c096d099eb5f66c871aeca77bcef",
+      "storage": "lfs",
+      "sha256": "c715a2db8b6e6b8ca62433240151b560ce0ff93951acbfa336e64aa892b9b951",
+      "bytes": 4671453
     },
     {
       "path": "coordination/REPOSITORY_VERIFICATION.json",
       "mode": "100644",
-      "git_blob": "363990be85d840b01a7f7a809bd93f9590eb91a9",
+      "git_blob": "01af56b3db7334b3f6198c39fe5825bfc2635d37",
       "storage": "git"
     },
     {
       "path": "coordination/STATUS.md",
       "mode": "100644",
-      "git_blob": "ff07dfab819ea9c94c231c0f00d8c9c3161392ab",
+      "git_blob": "7e707550892ae9bf3acd9c979805d3fab40807af",
       "storage": "git"
     },
     {
       "path": "coordination/TASKS.md",
       "mode": "100644",
-      "git_blob": "1fab833f6b7154d6d8a9e660898f85f336461113",
+      "git_blob": "2bdd7b2820631c065eab428a936b333a850ae687",
       "storage": "git"
     },
     {
       "path": "coordination/WORKLOG.md",
       "mode": "100644",
-      "git_blob": "4f1b1933b96ba220a948739bc97abbe22833b863",
+      "git_blob": "ce0bed033601833741e31af3fe9ce486437e080c",
       "storage": "git"
     },
     {
@@ -3536,7 +3556,7 @@
     {
       "path": "docs/AUDIO_STATUS.md",
       "mode": "100644",
-      "git_blob": "4586561d5c79e3bbc8981393ae4e9f48e1dbc630",
+      "git_blob": "df4dd620d774a0528595351dac3f7ba07a5aac6d",
       "storage": "git"
     },
     {
@@ -3560,19 +3580,25 @@
     {
       "path": "docs/DECISIONS.md",
       "mode": "100644",
-      "git_blob": "058e20820b24c44eaa2cadc664ced7dcdfe2d8bc",
+      "git_blob": "f2a1589a3451da0572edc29f91d19dac904fa369",
       "storage": "git"
     },
     {
       "path": "docs/FILE_MAP.md",
       "mode": "100644",
-      "git_blob": "95153e3d309054424f14d5fca5abafe4d621c4a5",
+      "git_blob": "fb54d00c3d35f79c3a885ecf56492142b50b9f48",
       "storage": "git"
     },
     {
       "path": "docs/LYRICS.md",
       "mode": "100644",
       "git_blob": "a49f6c4b9c3c1ff1c32ff1ae094a0fda02474117",
+      "storage": "git"
+    },
+    {
+      "path": "docs/LYRICS_STUCK_IN_THE_LINE_v1.md",
+      "mode": "100644",
+      "git_blob": "b972109dbba9e92cdad2ba919f55e8a28262e5f1",
       "storage": "git"
     },
     {
@@ -3590,13 +3616,13 @@
     {
       "path": "docs/PROMPTS.md",
       "mode": "100644",
-      "git_blob": "48e197877b784a0a18e6eea6454308fdf474eb20",
+      "git_blob": "fce36ffb7dc81b500b6f6d04b754742b1abc1e78",
       "storage": "git"
     },
     {
       "path": "docs/REPOSITORY_GUIDE.md",
       "mode": "100644",
-      "git_blob": "e118a4305f8f8b8a71087cf28e53d182ee9f2b8e",
+      "git_blob": "7ab9d2e702f3d31e0100b6b09199e4b49a7bd93b",
       "storage": "git"
     },
     {
@@ -4837,6 +4863,12 @@
       "path": "wip/codex/selected_references_v1/package_selected.py",
       "mode": "100644",
       "git_blob": "6f53156514cff1c16c6e7ebde0b7e96c306795df",
+      "storage": "git"
+    },
+    {
+      "path": "wip/codex/stuck_in_the_line_receipt_v1/receive_song.py",
+      "mode": "100644",
+      "git_blob": "a3d0d3b62c99c2496cf63f265166fbcdc78d298d",
       "storage": "git"
     },
     {
@@ -6914,7 +6946,7 @@
     {
       "path": "使用说明.md",
       "mode": "100644",
-      "git_blob": "c39cfe26e4c7ea8417fca450a6a682b198dee5f8",
+      "git_blob": "d0b4e40d21bac4e7b92306622cb968f3b69e1928",
       "storage": "git"
     }
   ]

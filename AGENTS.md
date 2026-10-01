@@ -34,7 +34,7 @@ Order of authority: **Hon's words > this folder > your own memory or assumptions
   result is identical in style (note it in the log).
 - **Where things go:** work in progress → `wip/<your-model-name>/`; finished frames → `design/keyframes/`;
   styles → `design/…` (+ an entry in `design/STYLE_BIBLE.md`); videos → `renders/`; notes → `docs/`.
-- **Song time.** Read `docs/AUDIO_STATUS.md` first. On 2026-09-30 Hon explicitly requested deletion of the old project MP3 files and will supply a replacement later. New canonical master: `audio/current/song.mp3` (currently absent). Old `data/`, lyric timestamps, render soundtracks and Edit/Final offset notes are historical; reanalyze and realign after the replacement arrives. Do not treat the old MP3 paths as current inputs.
+- **Song time.** Read `docs/AUDIO_STATUS.md` first. Hon supplied **Stuck in the Line** and exact replacement lyrics on 2026-09-30. Current master: `audio/current/song.mp3` (205.56 s); current text: `audio/current/lyrics.txt` / `docs/LYRICS_STUCK_IN_THE_LINE_v1.md`; hash/provenance: `audio/current/receipt.json`. Old `data/`, lyric timestamps, render soundtracks and Edit/Final offset notes are historical. New beat/word alignment is still required; do not reuse old timestamps for this master.
 - **The girl exists twice** — `design/character/src/vgirl.py` (sheets) and `app/src/game/girl.ts` (video);
   same for `glyphs.py` ⟷ `glyph.ts`. Change one → change the other in the same session.
 - **On-screen rules** (locked): English only; everything built from symbols; ink / bone + one orange (the

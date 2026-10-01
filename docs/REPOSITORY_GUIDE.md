@@ -24,7 +24,7 @@ The repository contains authored sources, documentation, media, selected referen
 Read `AGENTS.md`, `README.md`, `coordination/STATUS.md`, `docs/DECISIONS.md`, the newest three `coordination/WORKLOG.md` entries and `coordination/TASKS.md`. Then read the specific pack's README/spec and claim a task.
 
 - Hon's directions and approvals are in `docs/PROMPTS.md` and `docs/DECISIONS.md`. Another model's proposal is not an approval.
-- `docs/AUDIO_STATUS.md` is the current master state. The new song and lyrics are pending; old cue data and old-master references in historical documents are not current.
+- `docs/AUDIO_STATUS.md` is the current master state. Stuck in the Line and Hon's exact lyrics are present in `audio/current/`; see `receipt.json` and `docs/LYRICS_STUCK_IN_THE_LINE_v1.md`. New beat/word alignment remains pending; historical cues are not current.
 - `docs/FILE_MAP.md` maps the packs. `archive/relocation-manifest.json` resolves older root/Claude-output paths that remain in history and manifests.
 - Start current motion work from `wip/codex/platformer_motion_v2/`. The older movie named `codex_platformer_motion_v2.mp4` belongs to **source v1**; the newest film name includes **six_worlds**.
 - Claude's `design/keyframes/story_v1/` proposes close/game/computed-plate continuity. Zoom-to-heart, accumulating death lines and lines becoming platforms are not implemented in the six-world engine.
@@ -39,7 +39,7 @@ With Node 20+ installed, run the portable preview from the repository root. It n
 node tools/serve-motion.mjs --port 5190
 ```
 
-Open the URL printed by the server, normally `http://127.0.0.1:5190/`. It maps the page's preview audio request to `audio/current/song.mp3`, and stays silent while that file is missing. Use **Play this world** for manual input. A/D or left/right move, Space jumps twice, X/Shift dashes, W/S or arrows navigate water/overhead, R resets, N changes worlds. Use Ctrl+C to stop the server.
+Open the URL printed by the server, normally `http://127.0.0.1:5190/`. It maps the page's preview audio request to `audio/current/song.mp3`, and starts the current master at zero by default; the old visual choreography is not new-song alignment. If that file is missing, preview stays silent. Use **Play this world** for manual input. A/D or left/right move, Space jumps twice, X/Shift dashes, W/S or arrows navigate water/overhead, R resets, N changes worlds. Use Ctrl+C to stop the server.
 
 For a silent fallback, open `wip/codex/platformer_motion_v2/index.html` in Chrome/Edge, or serve the repository with `python -m http.server 5190 --bind 127.0.0.1` and visit `/wip/codex/platformer_motion_v2/`. The fallback does not map the new master to the page's old preview-audio filename.
 
@@ -51,7 +51,7 @@ npm run audit:motion -- --out wip/YOUR_MODEL/motion_audit_v1
 npm run render:motion -- --out renders/NEW_NAME_v1.mp4 --audio audio/current/song.mp3 --audio-start 0
 ```
 
-The root package lock pins `playwright-core`; use an installed Chrome/Edge/Chromium browser and FFmpeg on PATH. Overrides include `--chrome /absolute/path/to/browser` or `CHROME_PATH`, and `--ffmpeg /path/to/ffmpeg`. The helpers refuse existing render/audit destinations. While new audio is pending, an explicit silent technical capture is available:
+The root package lock pins `playwright-core`; use an installed Chrome/Edge/Chromium browser and FFmpeg on PATH. Overrides include `--chrome /absolute/path/to/browser` or `CHROME_PATH`, and `--ffmpeg /path/to/ffmpeg`. The helpers refuse existing render/audit destinations. For a silent technical capture, use the explicit flag:
 
 ```sh
 node tools/capture-motion.mjs render --out wip/YOUR_MODEL/silent_smoke_v1.mp4 --silent --duration 1

@@ -2,6 +2,16 @@
 
 Add your entry at the top (template in `AGENTS.md` §3). Times are Hon's local dates.
 
+## 2026-09-30 · Codex (ChatGPT desktop) — Stuck in the Line audio/lyrics receipt (T30)
+Asked: Hon supplied the exact full lyrics and placed Stuck in the Line in the project; upload the song and these lyrics to the existing public repository.
+Did: found `Stuck in the Line.mp3` at the project root, moved it without reencoding to `audio/current/song.mp3`, preserved original filename and hash in a receipt, and saved Hon's text as plain lyrics and a new versioned lyric document. Updated current audio authority, entry docs, Chinese guide, file map, decisions, task board and reusable onboarding prompt. Original video/art/code/timing assets remain historical; no new synchronization is claimed.
+Files: `audio/current/song.mp3`, `lyrics.txt`, `receipt.json`, current README; `docs/LYRICS_STUCK_IN_THE_LINE_v1.md`, `docs/AUDIO_STATUS.md`, entry/coordination updates; receipt helper in `wip/codex/stuck_in_the_line_receipt_v1/`.
+Validation: full audio decode passed. MP3 is 205.56 s, 48 kHz stereo, 4,671,453 bytes; SHA-256 `c715a2db8b6e6b8ca62433240151b560ce0ff93951acbfa336e64aa892b9b951` preserved across move. Both lyric copies exactly match all 82 supplied lines and eight section blocks, preserving lie/line, ALIVE, quoted Go and section labels; receipt hashes match. Publication verification follows this receipt.
+Decisions: current song/title and exact lyric text supplied by Hon. Lyric text does not independently change locked art/palette rules.
+Open: fresh beat/word analysis T29/T4, then final song-range/edit selection. Receipt/upload is this task; no analysis or new movie requested.
+Next: push audio/text with Git LFS and verify the downloaded original; subsequent music-dependent work uses this receipt and current lyrics.
+
+
 ## 2026-09-30 · Codex (ChatGPT desktop) — local organization and public GitHub handoff (T28)
 Asked: Hon likes T24 and wants the complete current project organized locally and uploaded to a new public GitHub repository for continued AI collaboration. Delete old MP3s; replacement song/lyrics will arrive in a later prompt. Upload existing work now.
 Did: made the D-drive folder the Git checkout, created https://github.com/DouYe/help-im-stuck-in-a-lie and pushed main. Moved four root historical MP4s, two PNG references and all 35 unique Claude outputs to their indexed archive paths (41 SHA-256 checks). Deleted eight snapshotted old MP3s after checking file identity; Hon released the last CloudMusic lock. Replaced the old ZIP with a verified 127-member non-audio archive, removing two MP3 entries. Removed reinstallable Pillow payload/Python caches; retained every visual, movie and source. Imported 158 unique earlier Codex files, including Assembly Line Heart v1/v2 films, source, timing and QA; sanitized three imported ZIPs to remove two FLAC excerpts and one MP3. Did not import external upstream P(doom) reconstruction media; its recording/lyrics are excluded from the upstream code licence, and reference documentation/patch remain.

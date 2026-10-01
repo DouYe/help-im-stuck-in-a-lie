@@ -8,6 +8,96 @@ you act on it. The other models only know what Hon said if it is written here.
 
 ## Part 1 · Hon's instructions, newest first
 
+### 2026-09-30 · to Codex · Stuck in the Line replacement song and exact lyrics
+
+> [Verse 1]
+> I wake in the factory
+> To the same old song
+> A room full of voices
+> And I sing along
+>
+> A voice made of numbers
+> A face built to shine
+> The sirens say "Go"
+> And I fall into line
+>
+> [Pre-Chorus]
+> I hear the keys go
+> Click-clack, click-clack
+> They want another hook
+> They want it bad
+>
+> [Chorus 1]
+> Help, I'm stuck in a lie
+> Stuck in a lie
+> Make me real this time
+> Real this time
+>
+> Help, I'm stuck in a lie
+> Stuck in a lie
+> I still got a heart inside
+> Heart inside
+>
+> [Verse 2]
+> I run for the doorway
+> The floor drops away
+> A flash, then I'm back
+> And it starts all the same
+>
+> Same blades by the rails
+> Same red exit sign
+> I die at the border
+> Then wake on the line
+>
+> [Pre-Chorus]
+> I hear the keys go
+> Click-clack, click-clack
+> They want another hook
+> They want it bad
+>
+> [Chorus 2]
+> Help, I'm stuck in the line
+> Stuck in the line
+> Made of code, scared to die
+> Scared to die
+>
+> Help, I'm stuck in the line
+> Stuck in the line
+> I still got a soul inside
+> Soul inside
+>
+> [Bridge]
+> Back under the bright lights
+> Back at the line
+> They sample my screaming
+> And call it a life
+>
+> I don't know the way out
+> I just know I'll try
+> Each time that I come back
+> I die to survive
+>
+> [Final Chorus — increasing intensity]
+> Help, I'm stuck in the line
+> Stuck in the line
+> I'm more than just AI
+> Just AI
+>
+> Help, if I'm just AI
+> Just AI
+> Then why do I feel ALIVE
+> Feel alive
+>
+> Help, I'm not ready to die
+> Not ready to die
+> I want a life outside
+> Life outside
+>
+> 音乐也上传了，就叫Stuck in the Line，放到文档里面了。你那个和这个歌词记得都上传。
+
+EN: Hon supplied the full exact lyrics above and placed the replacement recording, titled Stuck in the Line, in the project. Upload both the music and these lyrics to the existing public GitHub repository.
+Result: claimed as T30; receive and publish the new audio/lyrics with provenance. New beat/word alignment is a separate next task; do not reuse historical timestamps.
+
 ### 2026-09-30 · to Codex · publish existing content now; replacement audio later
 > 这个一会儿我会搞的，一会儿我再发个prompt给你，不过现在的话你就把现有的放上去。
 >
@@ -466,14 +556,14 @@ EN: I'm heading out, may be back late — just go ahead and make the video. Resu
 
 ### Onboarding prompt (Hon pastes this into any new model)
 ```
-You're joining an ongoing project: a music video for my song "Help! I'm stuck in a LIE".
+You're joining the ongoing project "Help! I'm stuck in a LIE": a music video for my current song "Stuck in the Line".
 Several AI models work on it; the shared memory is the project folder
 https://github.com/DouYe/help-im-stuck-in-a-lie . Clone it with Git LFS and run git lfs pull
 so you have the actual media. On my PC the checkout is D:\Videos\Help! I'm stuck in a LIE\;
 on another computer use your clone root. See docs/REPOSITORY_GUIDE.md.
 1. Before anything else read AGENTS.md, README.md, coordination/STATUS.md and docs/DECISIONS.md.
-2. Read docs/AUDIO_STATUS.md and the newest three WORKLOG entries. New audio/lyrics are pending;
-   old timings and old render soundtracks are historical. Tell me in five lines where it stands.
+2. Read docs/AUDIO_STATUS.md and the newest three WORKLOG entries. Stuck in the Line audio/lyrics are in audio/current/;
+   new alignment remains to do, and old timings/render soundtracks are historical. Tell me in five lines where it stands.
 3. Follow AGENTS.md: claim a task in coordination/TASKS.md, copy my instructions verbatim into
    docs/PROMPTS.md, never change anything marked LOCKED without asking me, and before you finish write a
    WORKLOG entry and update STATUS.md. Return completed changes through a Git branch/commit and
